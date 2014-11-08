@@ -1,0 +1,335 @@
+C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/nor_gate_n.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/nor_gate_n.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3a Compiler 2014.04 Apr 14 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity nor_gate_n
+-- Compiling architecture dataflow of nor_gate_n
+
+} {} {}} C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/or_gate_32.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/or_gate_32.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3a Compiler 2014.04 Apr 14 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity or_gate_32
+-- Compiling architecture dataflow of or_gate_32
+
+} {} {}} C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/not_gate_32.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/not_gate_32.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3a Compiler 2014.04 Apr 14 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity not_gate_32
+-- Compiling architecture dataflow of not_gate_32
+
+} {} {}} C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/cmp_n.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/cmp_n.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3a Compiler 2014.04 Apr 14 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity cmp_n
+-- Compiling architecture behavioral of cmp_n
+
+} {} {}} C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/or_gate_n.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/or_gate_n.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3a Compiler 2014.04 Apr 14 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity or_gate_n
+-- Compiling architecture dataflow of or_gate_n
+
+} {} {}} C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/not_gate_n.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/not_gate_n.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3a Compiler 2014.04 Apr 14 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity not_gate_n
+-- Compiling architecture dataflow of not_gate_n
+
+} {} {}} C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/mux_32.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/mux_32.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3a Compiler 2014.04 Apr 14 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Loading package eecs361
+-- Compiling entity mux_32
+-- Compiling architecture structural of mux_32
+
+} {} {}} C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/xnor_gate.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/xnor_gate.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3a Compiler 2014.04 Apr 14 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity xnor_gate
+-- Compiling architecture dataflow of xnor_gate
+
+} {} {}} C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/register1.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/register1.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3a Compiler 2014.04 Apr 14 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Loading package eecs361
+-- Compiling entity register1
+-- Compiling architecture struct of register1
+
+} {} {}} C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/register32_demo.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/register32_demo.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3a Compiler 2014.04 Apr 14 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity register32_demo
+-- Compiling architecture struct of register32_demo
+
+} {} {}} C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/dff.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/dff.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3a Compiler 2014.04 Apr 14 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity dff
+-- Compiling architecture behavioral of dff
+
+} {} {}} C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/xor_gate.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/xor_gate.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3a Compiler 2014.04 Apr 14 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity xor_gate
+-- Compiling architecture dataflow of xor_gate
+
+} {} {}} C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/nand_gate.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/nand_gate.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3a Compiler 2014.04 Apr 14 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity nand_gate
+-- Compiling architecture dataflow of nand_gate
+
+} {} {}} C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/mux.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/mux.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3a Compiler 2014.04 Apr 14 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Loading package eecs361
+-- Compiling entity mux
+-- Compiling architecture structural of mux
+
+} {} {}} C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/dffr.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/dffr.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3a Compiler 2014.04 Apr 14 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity dffr
+-- Compiling architecture behavioral of dffr
+
+} {} {}} C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/xnor_gate_32.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/xnor_gate_32.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3a Compiler 2014.04 Apr 14 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity xnor_gate_32
+-- Compiling architecture dataflow of xnor_gate_32
+
+} {} {}} C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/sram.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/sram.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3a Compiler 2014.04 Apr 14 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package std_logic_textio
+-- Loading package NUMERIC_STD
+-- Compiling entity sram
+-- Compiling architecture behavioral of sram
+
+} {} {}} C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/and_gate.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/and_gate.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3a Compiler 2014.04 Apr 14 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity and_gate
+-- Compiling architecture dataflow of and_gate
+
+} {} {}} C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/register32.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/register32.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3a Compiler 2014.04 Apr 14 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Loading package eecs361
+-- Compiling entity register32
+-- Compiling architecture struct of register32
+
+} {} {}} C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/xnor_gate_n.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/xnor_gate_n.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3a Compiler 2014.04 Apr 14 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity xnor_gate_n
+-- Compiling architecture dataflow of xnor_gate_n
+
+} {} {}} C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/xor_gate_32.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/xor_gate_32.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3a Compiler 2014.04 Apr 14 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity xor_gate_32
+-- Compiling architecture dataflow of xor_gate_32
+
+} {} {}} C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/syncram.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/syncram.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3a Compiler 2014.04 Apr 14 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package std_logic_textio
+-- Loading package NUMERIC_STD
+-- Compiling entity syncram
+-- Compiling architecture behavioral of syncram
+
+} {} {}} C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/nand_gate_32.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/nand_gate_32.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3a Compiler 2014.04 Apr 14 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity nand_gate_32
+-- Compiling architecture dataflow of nand_gate_32
+
+} {} {}} C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/eecs361_gates.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/eecs361_gates.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3a Compiler 2014.04 Apr 14 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling package eecs361_gates
+
+} {} {}} C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/xor_gate_n.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/xor_gate_n.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3a Compiler 2014.04 Apr 14 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity xor_gate_n
+-- Compiling architecture dataflow of xor_gate_n
+
+} {} {}} C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/nand_gate_n.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/nand_gate_n.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3a Compiler 2014.04 Apr 14 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity nand_gate_n
+-- Compiling architecture dataflow of nand_gate_n
+
+} {} {}} C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/csram.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/csram.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3a Compiler 2014.04 Apr 14 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package std_logic_textio
+-- Loading package NUMERIC_STD
+-- Compiling entity csram
+-- Compiling architecture behavioral of csram
+
+} {} {}} C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/nor_gate.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/nor_gate.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3a Compiler 2014.04 Apr 14 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity nor_gate
+-- Compiling architecture dataflow of nor_gate
+
+} {} {}} C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/mux_n.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/mux_n.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3a Compiler 2014.04 Apr 14 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux_n
+-- Compiling architecture behavioral of mux_n
+
+} {} {}} C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/fulladder_32.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/fulladder_32.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3a Compiler 2014.04 Apr 14 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity fulladder_32
+-- Compiling architecture behavioral of fulladder_32
+
+} {} {}} C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/and_gate_32.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/and_gate_32.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3a Compiler 2014.04 Apr 14 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity and_gate_32
+-- Compiling architecture dataflow of and_gate_32
+
+} {} {}} C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/fulladder_n.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/fulladder_n.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3a Compiler 2014.04 Apr 14 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity fulladder_n
+-- Compiling architecture behavioral of fulladder_n
+
+} {} {}} C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/and_gate_n.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/and_gate_n.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3a Compiler 2014.04 Apr 14 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity and_gate_n
+-- Compiling architecture dataflow of and_gate_n
+
+} {} {}} C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/or_gate.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/or_gate.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3a Compiler 2014.04 Apr 14 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity or_gate
+-- Compiling architecture dataflow of or_gate
+
+} {} {}} C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/not_gate.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/not_gate.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3a Compiler 2014.04 Apr 14 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity not_gate
+-- Compiling architecture dataflow of not_gate
+
+} {} {}} C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/dec_n.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/dec_n.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3a Compiler 2014.04 Apr 14 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity dec_n
+-- Compiling architecture behavioral of dec_n
+
+} {} {}} C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/dffr_a.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/dffr_a.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3a Compiler 2014.04 Apr 14 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity dffr_a
+-- Compiling architecture behavioral of dffr_a
+
+} {} {}} C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/eecs361.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/eecs361.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3a Compiler 2014.04 Apr 14 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Compiling package eecs361
+
+} {} {}} C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/nor_gate_32.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/nor_gate_32.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3a Compiler 2014.04 Apr 14 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity nor_gate_32
+-- Compiling architecture dataflow of nor_gate_32
+
+} {} {}}

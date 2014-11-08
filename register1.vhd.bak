@@ -12,6 +12,9 @@ ENTITY register1 IS
 END register1;
 
 ARCHITECTURE struct OF register1 IS
+	--Using component dff
+
+
 	SIGNAL keepOut : std_logic :='0';
 	SIGNAL outMux : std_logic;
 	BEGIN

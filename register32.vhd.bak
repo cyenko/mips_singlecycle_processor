@@ -20,7 +20,7 @@ ARCHITECTURE struct OF register32 IS
 		writeEnable: in std_logic;
 		outData : out std_logic
 		);
-	END COMPONENT register1;
+	END register1;
 
 	SIGNAL keepOut : std_logic_vector(31 downto 0);
 

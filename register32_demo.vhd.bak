@@ -62,5 +62,5 @@ BEGIN
 		clk_tb <= '0';
         wait;
    END PROCESS;
-  END ARCHITECTURE struct;
+  END ARCHITECTURE structural;
     
