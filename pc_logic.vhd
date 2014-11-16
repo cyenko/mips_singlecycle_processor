@@ -12,7 +12,7 @@ ENTITY pc_logic is
 	);
 END pc_logic;
 
-ARCHITECTURE struct OF pc IS
+ARCHITECTURE struct OF pc_logic IS
 	COMPONENT register32 IS
 		PORT(
 			inData : in std_logic_vector(31 downto 0);
