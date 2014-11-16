@@ -1,7 +1,7 @@
  library IEEE;
  use IEEE.std_logic_1164.all;
  use work.eecs361_gates.all;
- 
+ --32-1 32bit MUX
  entity mux_32_1 is
 	PORT (
 		--inputs 
