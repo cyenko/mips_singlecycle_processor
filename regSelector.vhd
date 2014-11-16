@@ -1,4 +1,7 @@
+library ieee;
 use work.eecs361_gates.all;
+USE ieee.std_logic_1164.all;
+
 
 ENTITY regSelector IS
 	PORT(
@@ -13,19 +16,22 @@ ARCHITECTURE struct of regSelector IS
 	SIGNAL decOut : std_logic_vector(31 downto 0);
 
 	COMPONENT dec_n IS
+		generic (
+		    n	: integer
+		);
 		PORT(
 			src : in std_logic_vector(n-1 downto 0);
-			z   : out std_logic_vector((2**n) - 1 downto 0);
-		)
-	END dec_n;
+			z   : out std_logic_vector((2**n) - 1 downto 0)
+		);
+	END COMPONENT dec_n;
 
 BEGIN
 	dec1: dec_n
 		generic map (n => 5)
 		port map (
 			src => destSelect,
-			z => decOut;
-		)
+			z => decOut
+		);
 	genAnd: FOR i in 0 to 31 GENERATE
 			and1: and_gate PORT MAP (
 					x => decOut(i),

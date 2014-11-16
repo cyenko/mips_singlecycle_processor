@@ -1,29 +1,5 @@
-C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/nor_gate_n.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/nor_gate_n.vhd
-Model Technology ModelSim PE Student Edition vcom 10.3a Compiler 2014.04 Apr 14 2014
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity nor_gate_n
--- Compiling architecture dataflow of nor_gate_n
-
-} {} {}} C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/or_gate_32.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/or_gate_32.vhd
-Model Technology ModelSim PE Student Edition vcom 10.3a Compiler 2014.04 Apr 14 2014
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity or_gate_32
--- Compiling architecture dataflow of or_gate_32
-
-} {} {}} C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/not_gate_32.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/not_gate_32.vhd
-Model Technology ModelSim PE Student Edition vcom 10.3a Compiler 2014.04 Apr 14 2014
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity not_gate_32
--- Compiling architecture dataflow of not_gate_32
-
-} {} {}} C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/cmp_n.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/cmp_n.vhd
-Model Technology ModelSim PE Student Edition vcom 10.3a Compiler 2014.04 Apr 14 2014
+C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/cmp_n.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/cmp_n.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3d Compiler 2014.10 Oct  7 2014
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
@@ -31,42 +7,26 @@ Model Technology ModelSim PE Student Edition vcom 10.3a Compiler 2014.04 Apr 14 
 -- Compiling entity cmp_n
 -- Compiling architecture behavioral of cmp_n
 
-} {} {}} C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/or_gate_n.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/or_gate_n.vhd
-Model Technology ModelSim PE Student Edition vcom 10.3a Compiler 2014.04 Apr 14 2014
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity or_gate_n
--- Compiling architecture dataflow of or_gate_n
-
-} {} {}} C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/not_gate_n.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/not_gate_n.vhd
-Model Technology ModelSim PE Student Edition vcom 10.3a Compiler 2014.04 Apr 14 2014
+} {} {}} C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/not_gate_n.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/not_gate_n.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3d Compiler 2014.10 Oct  7 2014
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
 -- Compiling entity not_gate_n
 -- Compiling architecture dataflow of not_gate_n
 
-} {} {}} C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/mux_32.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/mux_32.vhd
-Model Technology ModelSim PE Student Edition vcom 10.3a Compiler 2014.04 Apr 14 2014
+} {} {}} C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/mux_32_1.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/mux_32_1.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3d Compiler 2014.10 Oct  7 2014
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
 -- Loading package eecs361_gates
 -- Loading package eecs361
--- Compiling entity mux_32
--- Compiling architecture structural of mux_32
+-- Compiling entity mux_32_1
+-- Compiling architecture struct of mux_32_1
 
-} {} {}} C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/xnor_gate.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/xnor_gate.vhd
-Model Technology ModelSim PE Student Edition vcom 10.3a Compiler 2014.04 Apr 14 2014
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity xnor_gate
--- Compiling architecture dataflow of xnor_gate
-
-} {} {}} C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/register1.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/register1.vhd
-Model Technology ModelSim PE Student Edition vcom 10.3a Compiler 2014.04 Apr 14 2014
+} {} {}} C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/register1.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/register1.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3d Compiler 2014.10 Oct  7 2014
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
@@ -75,112 +35,28 @@ Model Technology ModelSim PE Student Edition vcom 10.3a Compiler 2014.04 Apr 14 
 -- Compiling entity register1
 -- Compiling architecture struct of register1
 
-} {} {}} C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/register32_demo.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/register32_demo.vhd
-Model Technology ModelSim PE Student Edition vcom 10.3a Compiler 2014.04 Apr 14 2014
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity register32_demo
--- Compiling architecture struct of register32_demo
-
-} {} {}} C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/dff.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/dff.vhd
-Model Technology ModelSim PE Student Edition vcom 10.3a Compiler 2014.04 Apr 14 2014
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity dff
--- Compiling architecture behavioral of dff
-
-} {} {}} C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/xor_gate.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/xor_gate.vhd
-Model Technology ModelSim PE Student Edition vcom 10.3a Compiler 2014.04 Apr 14 2014
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity xor_gate
--- Compiling architecture dataflow of xor_gate
-
-} {} {}} C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/nand_gate.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/nand_gate.vhd
-Model Technology ModelSim PE Student Edition vcom 10.3a Compiler 2014.04 Apr 14 2014
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity nand_gate
--- Compiling architecture dataflow of nand_gate
-
-} {} {}} C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/mux.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/mux.vhd
-Model Technology ModelSim PE Student Edition vcom 10.3a Compiler 2014.04 Apr 14 2014
+} {} {}} C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/slt_32.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/slt_32.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3d Compiler 2014.10 Oct  7 2014
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
 -- Loading package eecs361_gates
--- Loading package eecs361
--- Compiling entity mux
--- Compiling architecture structural of mux
+-- Compiling entity slt_32
+-- Compiling architecture struct of slt_32
 
-} {} {}} C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/dffr.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/dffr.vhd
-Model Technology ModelSim PE Student Edition vcom 10.3a Compiler 2014.04 Apr 14 2014
+} {} {}} C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/cache_test.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/cache_test.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3d Compiler 2014.10 Oct  7 2014
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity dffr
--- Compiling architecture behavioral of dffr
-
-} {} {}} C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/xnor_gate_32.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/xnor_gate_32.vhd
-Model Technology ModelSim PE Student Edition vcom 10.3a Compiler 2014.04 Apr 14 2014
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity xnor_gate_32
--- Compiling architecture dataflow of xnor_gate_32
-
-} {} {}} C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/sram.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/sram.vhd
-Model Technology ModelSim PE Student Edition vcom 10.3a Compiler 2014.04 Apr 14 2014
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package std_logic_arith
--- Loading package STD_LOGIC_UNSIGNED
--- Loading package std_logic_textio
 -- Loading package NUMERIC_STD
--- Compiling entity sram
--- Compiling architecture behavioral of sram
-
-} {} {}} C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/and_gate.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/and_gate.vhd
-Model Technology ModelSim PE Student Edition vcom 10.3a Compiler 2014.04 Apr 14 2014
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity and_gate
--- Compiling architecture dataflow of and_gate
-
-} {} {}} C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/register32.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/register32.vhd
-Model Technology ModelSim PE Student Edition vcom 10.3a Compiler 2014.04 Apr 14 2014
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
 -- Loading package eecs361_gates
 -- Loading package eecs361
--- Compiling entity register32
--- Compiling architecture struct of register32
+-- Compiling entity cache_test
+-- Compiling architecture mix of cache_test
 
-} {} {}} C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/xnor_gate_n.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/xnor_gate_n.vhd
-Model Technology ModelSim PE Student Edition vcom 10.3a Compiler 2014.04 Apr 14 2014
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity xnor_gate_n
--- Compiling architecture dataflow of xnor_gate_n
-
-} {} {}} C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/xor_gate_32.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/xor_gate_32.vhd
-Model Technology ModelSim PE Student Edition vcom 10.3a Compiler 2014.04 Apr 14 2014
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity xor_gate_32
--- Compiling architecture dataflow of xor_gate_32
-
-} {} {}} C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/syncram.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/syncram.vhd
-Model Technology ModelSim PE Student Edition vcom 10.3a Compiler 2014.04 Apr 14 2014
+} {} {}} C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/syncram.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/syncram.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3d Compiler 2014.10 Oct  7 2014
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
@@ -191,39 +67,395 @@ Model Technology ModelSim PE Student Edition vcom 10.3a Compiler 2014.04 Apr 14 
 -- Compiling entity syncram
 -- Compiling architecture behavioral of syncram
 
-} {} {}} C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/nand_gate_32.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/nand_gate_32.vhd
-Model Technology ModelSim PE Student Edition vcom 10.3a Compiler 2014.04 Apr 14 2014
+} {} {}} C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/fulladder_n.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/fulladder_n.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3d Compiler 2014.10 Oct  7 2014
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity nand_gate_32
--- Compiling architecture dataflow of nand_gate_32
+-- Loading package NUMERIC_STD
+-- Compiling entity fulladder_n
+-- Compiling architecture behavioral of fulladder_n
 
-} {} {}} C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/eecs361_gates.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/eecs361_gates.vhd
-Model Technology ModelSim PE Student Edition vcom 10.3a Compiler 2014.04 Apr 14 2014
+} {} {}} C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/bitAdder_1.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/bitAdder_1.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3d Compiler 2014.10 Oct  7 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Compiling entity bitAdder_1
+-- Compiling architecture struct of bitAdder_1
+
+} {} {}} C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/not_gate.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/not_gate.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3d Compiler 2014.10 Oct  7 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity not_gate
+-- Compiling architecture dataflow of not_gate
+
+} {} {}} C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/dffr_a.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/dffr_a.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3d Compiler 2014.10 Oct  7 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity dffr_a
+-- Compiling architecture behavioral of dffr_a
+
+} {} {}} C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/nor_gate_32.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/nor_gate_32.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3d Compiler 2014.10 Oct  7 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity nor_gate_32
+-- Compiling architecture dataflow of nor_gate_32
+
+} {} {}} C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/mux_8by32_1.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/mux_8by32_1.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3d Compiler 2014.10 Oct  7 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Loading package eecs361
+-- Compiling entity mux_8by32_1
+-- Compiling architecture struct of mux_8by32_1
+
+} {} {}} C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/nor_gate_n.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/nor_gate_n.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3d Compiler 2014.10 Oct  7 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity nor_gate_n
+-- Compiling architecture dataflow of nor_gate_n
+
+} {} {}} C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/alu.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/alu.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3d Compiler 2014.10 Oct  7 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Compiling entity alu
+-- Compiling architecture struct of alu
+
+} {} {}} C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/not_gate_32.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/not_gate_32.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3d Compiler 2014.10 Oct  7 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity not_gate_32
+-- Compiling architecture dataflow of not_gate_32
+
+} {} {}} C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/or_gate_n.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/or_gate_n.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3d Compiler 2014.10 Oct  7 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity or_gate_n
+-- Compiling architecture dataflow of or_gate_n
+
+} {} {}} C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/bitSubtractor_32.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/bitSubtractor_32.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3d Compiler 2014.10 Oct  7 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Compiling entity bitSubtractor_32
+-- Compiling architecture struct of bitSubtractor_32
+
+} {} {}} C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/xnor_gate.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/xnor_gate.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3d Compiler 2014.10 Oct  7 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity xnor_gate
+-- Compiling architecture dataflow of xnor_gate
+
+} {} {}} C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/sll_32_alt.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/sll_32_alt.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3d Compiler 2014.10 Oct  7 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Loading package eecs361
+-- Compiling entity sll_32_alt
+-- Compiling architecture struct of sll_32_alt
+
+} {} {}} C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/mux.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/mux.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3d Compiler 2014.10 Oct  7 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Loading package eecs361
+-- Compiling entity mux
+-- Compiling architecture structural of mux
+
+} {} {}} C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/mux_8_1.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/mux_8_1.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3d Compiler 2014.10 Oct  7 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Loading package eecs361
+-- Compiling entity mux_8_1
+-- Compiling architecture struct of mux_8_1
+
+} {} {}} C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/sltu_32.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/sltu_32.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3d Compiler 2014.10 Oct  7 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Compiling entity sltu_32
+-- Compiling architecture struct of sltu_32
+
+} {} {}} C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/alu_segment.vhd {0 {vcom -work work -2002 -explicit -stats=none C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/alu_segment.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3d Compiler 2014.10 Oct  7 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+** Error: (vcom-11) Could not find work.mips_singlecycle.
+
+** Error: C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/alu_segment.vhd(4): (vcom-1195) Cannot find expanded name "work.mips_singlecycle".
+
+** Error: C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/alu_segment.vhd(4): Unknown expanded name.
+** Error: C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/alu_segment.vhd(6): VHDL Compiler exiting
+
+} {7.0 8.0 9.0 10.0 11.0 13.0} {}} C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/mux_n.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/mux_n.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3d Compiler 2014.10 Oct  7 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux_n
+-- Compiling architecture behavioral of mux_n
+
+} {} {}} C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/and_gate_32.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/and_gate_32.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3d Compiler 2014.10 Oct  7 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity and_gate_32
+-- Compiling architecture dataflow of and_gate_32
+
+} {} {}} C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/regSelector.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\Chris\Dropbox\2014_2015_FALL\EECS361\PROJECT2\mips_singlecycle_processor\regSelector.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.3d Compiler 2014.10 Oct  7 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Compiling entity regSelector
+-- Compiling architecture struct of regSelector
+
+} {} {}} C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/or_gate.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/or_gate.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3d Compiler 2014.10 Oct  7 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity or_gate
+-- Compiling architecture dataflow of or_gate
+
+} {} {}} C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/extender.vhd {0 {vcom -work work -2002 -explicit -stats=none C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/extender.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3d Compiler 2014.10 Oct  7 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Compiling entity extender
+-- Compiling architecture struct of extender
+** Error: C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/extender.vhd(23): (vcom-1023) Positional association (signal "sign") found after named association.
+
+** Error: C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/extender.vhd(23): VHDL Compiler exiting
+
+} {9.0 10.0 11.0 12.0} {}} C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/or_gate_32.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/or_gate_32.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3d Compiler 2014.10 Oct  7 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity or_gate_32
+-- Compiling architecture dataflow of or_gate_32
+
+} {} {}} C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/register32_demo.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/register32_demo.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3d Compiler 2014.10 Oct  7 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity register32_demo
+-- Compiling architecture struct of register32_demo
+
+} {} {}} C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/dff.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/dff.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3d Compiler 2014.10 Oct  7 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity dff
+-- Compiling architecture behavioral of dff
+
+} {} {}} C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/sram.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/sram.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3d Compiler 2014.10 Oct  7 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package std_logic_textio
+-- Loading package NUMERIC_STD
+-- Compiling entity sram
+-- Compiling architecture behavioral of sram
+
+} {} {}} C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/xnor_gate_32.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/xnor_gate_32.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3d Compiler 2014.10 Oct  7 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity xnor_gate_32
+-- Compiling architecture dataflow of xnor_gate_32
+
+} {} {}} C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/and_gate.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/and_gate.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3d Compiler 2014.10 Oct  7 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity and_gate
+-- Compiling architecture dataflow of and_gate
+
+} {} {}} C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/shift_32.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/shift_32.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3d Compiler 2014.10 Oct  7 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Loading package eecs361
+-- Compiling entity shift_32
+-- Compiling architecture struct of shift_32
+
+} {} {}} C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/registerfile32.vhd {0 {vcom -work work -2002 -explicit -stats=none C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/registerfile32.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3d Compiler 2014.10 Oct  7 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Compiling entity registerfile32
+-- Compiling architecture struct of registerfile32
+** Error: C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/registerfile32.vhd(97): Cannot resolve indexed name (type ieee.std_logic_1164.STD_LOGIC_VECTOR) as type ieee.std_logic_1164.STD_LOGIC.
+** Error: C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/registerfile32.vhd(98): Cannot resolve indexed name (type ieee.std_logic_1164.STD_LOGIC_VECTOR) as type ieee.std_logic_1164.STD_LOGIC.
+** Error: C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/registerfile32.vhd(99): Cannot resolve indexed name (type ieee.std_logic_1164.STD_LOGIC_VECTOR) as type ieee.std_logic_1164.STD_LOGIC.
+** Error: C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/registerfile32.vhd(100): Cannot resolve indexed name (type ieee.std_logic_1164.STD_LOGIC_VECTOR) as type ieee.std_logic_1164.STD_LOGIC.
+** Error: C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/registerfile32.vhd(101): Cannot resolve indexed name (type ieee.std_logic_1164.STD_LOGIC_VECTOR) as type ieee.std_logic_1164.STD_LOGIC.
+** Error: C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/registerfile32.vhd(102): Cannot resolve indexed name (type ieee.std_logic_1164.STD_LOGIC_VECTOR) as type ieee.std_logic_1164.STD_LOGIC.
+** Error: C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/registerfile32.vhd(103): Cannot resolve indexed name (type ieee.std_logic_1164.STD_LOGIC_VECTOR) as type ieee.std_logic_1164.STD_LOGIC.
+** Error: C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/registerfile32.vhd(104): Cannot resolve indexed name (type ieee.std_logic_1164.STD_LOGIC_VECTOR) as type ieee.std_logic_1164.STD_LOGIC.
+** Error: C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/registerfile32.vhd(105): Cannot resolve indexed name (type ieee.std_logic_1164.STD_LOGIC_VECTOR) as type ieee.std_logic_1164.STD_LOGIC.
+** Error: C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/registerfile32.vhd(106): Cannot resolve indexed name (type ieee.std_logic_1164.STD_LOGIC_VECTOR) as type ieee.std_logic_1164.STD_LOGIC.
+** Error: C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/registerfile32.vhd(107): Cannot resolve indexed name (type ieee.std_logic_1164.STD_LOGIC_VECTOR) as type ieee.std_logic_1164.STD_LOGIC.
+** Error: C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/registerfile32.vhd(108): Cannot resolve indexed name (type ieee.std_logic_1164.STD_LOGIC_VECTOR) as type ieee.std_logic_1164.STD_LOGIC.
+** Error: C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/registerfile32.vhd(109): Cannot resolve indexed name (type ieee.std_logic_1164.STD_LOGIC_VECTOR) as type ieee.std_logic_1164.STD_LOGIC.
+** Error: C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/registerfile32.vhd(110): Cannot resolve indexed name (type ieee.std_logic_1164.STD_LOGIC_VECTOR) as type ieee.std_logic_1164.STD_LOGIC.
+** Error: C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/registerfile32.vhd(111): Cannot resolve indexed name (type ieee.std_logic_1164.STD_LOGIC_VECTOR) as type ieee.std_logic_1164.STD_LOGIC.
+** Error: C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/registerfile32.vhd(112): Cannot resolve indexed name (type ieee.std_logic_1164.STD_LOGIC_VECTOR) as type ieee.std_logic_1164.STD_LOGIC.
+** Error: C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/registerfile32.vhd(113): Cannot resolve indexed name (type ieee.std_logic_1164.STD_LOGIC_VECTOR) as type ieee.std_logic_1164.STD_LOGIC.
+** Error: C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/registerfile32.vhd(114): Cannot resolve indexed name (type ieee.std_logic_1164.STD_LOGIC_VECTOR) as type ieee.std_logic_1164.STD_LOGIC.
+** Error: C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/registerfile32.vhd(115): Cannot resolve indexed name (type ieee.std_logic_1164.STD_LOGIC_VECTOR) as type ieee.std_logic_1164.STD_LOGIC.
+** Error: C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/registerfile32.vhd(116): Cannot resolve indexed name (type ieee.std_logic_1164.STD_LOGIC_VECTOR) as type ieee.std_logic_1164.STD_LOGIC.
+** Error: C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/registerfile32.vhd(117): Cannot resolve indexed name (type ieee.std_logic_1164.STD_LOGIC_VECTOR) as type ieee.std_logic_1164.STD_LOGIC.
+** Error: C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/registerfile32.vhd(118): Cannot resolve indexed name (type ieee.std_logic_1164.STD_LOGIC_VECTOR) as type ieee.std_logic_1164.STD_LOGIC.
+** Error: C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/registerfile32.vhd(119): Cannot resolve indexed name (type ieee.std_logic_1164.STD_LOGIC_VECTOR) as type ieee.std_logic_1164.STD_LOGIC.
+** Error: C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/registerfile32.vhd(120): Cannot resolve indexed name (type ieee.std_logic_1164.STD_LOGIC_VECTOR) as type ieee.std_logic_1164.STD_LOGIC.
+** Error: C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/registerfile32.vhd(121): Cannot resolve indexed name (type ieee.std_logic_1164.STD_LOGIC_VECTOR) as type ieee.std_logic_1164.STD_LOGIC.
+** Error: C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/registerfile32.vhd(122): Cannot resolve indexed name (type ieee.std_logic_1164.STD_LOGIC_VECTOR) as type ieee.std_logic_1164.STD_LOGIC.
+** Error: C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/registerfile32.vhd(123): Cannot resolve indexed name (type ieee.std_logic_1164.STD_LOGIC_VECTOR) as type ieee.std_logic_1164.STD_LOGIC.
+** Error: C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/registerfile32.vhd(124): Cannot resolve indexed name (type ieee.std_logic_1164.STD_LOGIC_VECTOR) as type ieee.std_logic_1164.STD_LOGIC.
+** Error: C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/registerfile32.vhd(125): Cannot resolve indexed name (type ieee.std_logic_1164.STD_LOGIC_VECTOR) as type ieee.std_logic_1164.STD_LOGIC.
+** Error: C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/registerfile32.vhd(126): Cannot resolve indexed name (type ieee.std_logic_1164.STD_LOGIC_VECTOR) as type ieee.std_logic_1164.STD_LOGIC.
+** Error: C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/registerfile32.vhd(127): Cannot resolve indexed name (type ieee.std_logic_1164.STD_LOGIC_VECTOR) as type ieee.std_logic_1164.STD_LOGIC.
+** Error: C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/registerfile32.vhd(128): Cannot resolve indexed name (type ieee.std_logic_1164.STD_LOGIC_VECTOR) as type ieee.std_logic_1164.STD_LOGIC.
+** Error: C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/registerfile32.vhd(129): Signal "busA" is type ieee.std_logic_1164.STD_LOGIC_VECTOR; expecting type ieee.std_logic_1164.STD_LOGIC.
+** Error: C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/registerfile32.vhd(134): Cannot resolve indexed name (type ieee.std_logic_1164.STD_LOGIC_VECTOR) as type ieee.std_logic_1164.STD_LOGIC.
+** Error: C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/registerfile32.vhd(135): Cannot resolve indexed name (type ieee.std_logic_1164.STD_LOGIC_VECTOR) as type ieee.std_logic_1164.STD_LOGIC.
+** Error: C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/registerfile32.vhd(136): Cannot resolve indexed name (type ieee.std_logic_1164.STD_LOGIC_VECTOR) as type ieee.std_logic_1164.STD_LOGIC.
+** Error: C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/registerfile32.vhd(137): Cannot resolve indexed name (type ieee.std_logic_1164.STD_LOGIC_VECTOR) as type ieee.std_logic_1164.STD_LOGIC.
+** Error: C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/registerfile32.vhd(138): Cannot resolve indexed name (type ieee.std_logic_1164.STD_LOGIC_VECTOR) as type ieee.std_logic_1164.STD_LOGIC.
+** Error: C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/registerfile32.vhd(139): Cannot resolve indexed name (type ieee.std_logic_1164.STD_LOGIC_VECTOR) as type ieee.std_logic_1164.STD_LOGIC.
+** Error: C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/registerfile32.vhd(140): Cannot resolve indexed name (type ieee.std_logic_1164.STD_LOGIC_VECTOR) as type ieee.std_logic_1164.STD_LOGIC.
+** Error: C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/registerfile32.vhd(141): Cannot resolve indexed name (type ieee.std_logic_1164.STD_LOGIC_VECTOR) as type ieee.std_logic_1164.STD_LOGIC.
+** Error: C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/registerfile32.vhd(142): Cannot resolve indexed name (type ieee.std_logic_1164.STD_LOGIC_VECTOR) as type ieee.std_logic_1164.STD_LOGIC.
+** Error: C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/registerfile32.vhd(143): Cannot resolve indexed name (type ieee.std_logic_1164.STD_LOGIC_VECTOR) as type ieee.std_logic_1164.STD_LOGIC.
+** Error: C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/registerfile32.vhd(144): Cannot resolve indexed name (type ieee.std_logic_1164.STD_LOGIC_VECTOR) as type ieee.std_logic_1164.STD_LOGIC.
+** Error: C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/registerfile32.vhd(145): Cannot resolve indexed name (type ieee.std_logic_1164.STD_LOGIC_VECTOR) as type ieee.std_logic_1164.STD_LOGIC.
+** Error: C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/registerfile32.vhd(146): Cannot resolve indexed name (type ieee.std_logic_1164.STD_LOGIC_VECTOR) as type ieee.std_logic_1164.STD_LOGIC.
+** Error: C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/registerfile32.vhd(147): Cannot resolve indexed name (type ieee.std_logic_1164.STD_LOGIC_VECTOR) as type ieee.std_logic_1164.STD_LOGIC.
+** Error: C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/registerfile32.vhd(148): Cannot resolve indexed name (type ieee.std_logic_1164.STD_LOGIC_VECTOR) as type ieee.std_logic_1164.STD_LOGIC.
+** Error: C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/registerfile32.vhd(149): Cannot resolve indexed name (type ieee.std_logic_1164.STD_LOGIC_VECTOR) as type ieee.std_logic_1164.STD_LOGIC.
+** Error: C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/registerfile32.vhd(150): Cannot resolve indexed name (type ieee.std_logic_1164.STD_LOGIC_VECTOR) as type ieee.std_logic_1164.STD_LOGIC.
+** Error: C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/registerfile32.vhd(151): Cannot resolve indexed name (type ieee.std_logic_1164.STD_LOGIC_VECTOR) as type ieee.std_logic_1164.STD_LOGIC.
+** Error: C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/registerfile32.vhd(152): Cannot resolve indexed name (type ieee.std_logic_1164.STD_LOGIC_VECTOR) as type ieee.std_logic_1164.STD_LOGIC.
+** Error: C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/registerfile32.vhd(153): Cannot resolve indexed name (type ieee.std_logic_1164.STD_LOGIC_VECTOR) as type ieee.std_logic_1164.STD_LOGIC.
+** Error: C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/registerfile32.vhd(154): Cannot resolve indexed name (type ieee.std_logic_1164.STD_LOGIC_VECTOR) as type ieee.std_logic_1164.STD_LOGIC.
+** Error: C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/registerfile32.vhd(155): Cannot resolve indexed name (type ieee.std_logic_1164.STD_LOGIC_VECTOR) as type ieee.std_logic_1164.STD_LOGIC.
+** Error: C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/registerfile32.vhd(156): Cannot resolve indexed name (type ieee.std_logic_1164.STD_LOGIC_VECTOR) as type ieee.std_logic_1164.STD_LOGIC.
+** Error: C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/registerfile32.vhd(157): Cannot resolve indexed name (type ieee.std_logic_1164.STD_LOGIC_VECTOR) as type ieee.std_logic_1164.STD_LOGIC.
+** Error: C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/registerfile32.vhd(158): Cannot resolve indexed name (type ieee.std_logic_1164.STD_LOGIC_VECTOR) as type ieee.std_logic_1164.STD_LOGIC.
+** Error: C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/registerfile32.vhd(159): Cannot resolve indexed name (type ieee.std_logic_1164.STD_LOGIC_VECTOR) as type ieee.std_logic_1164.STD_LOGIC.
+** Error: C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/registerfile32.vhd(160): Cannot resolve indexed name (type ieee.std_logic_1164.STD_LOGIC_VECTOR) as type ieee.std_logic_1164.STD_LOGIC.
+** Error: C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/registerfile32.vhd(161): Cannot resolve indexed name (type ieee.std_logic_1164.STD_LOGIC_VECTOR) as type ieee.std_logic_1164.STD_LOGIC.
+** Error: C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/registerfile32.vhd(162): Cannot resolve indexed name (type ieee.std_logic_1164.STD_LOGIC_VECTOR) as type ieee.std_logic_1164.STD_LOGIC.
+** Error: C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/registerfile32.vhd(163): Cannot resolve indexed name (type ieee.std_logic_1164.STD_LOGIC_VECTOR) as type ieee.std_logic_1164.STD_LOGIC.
+** Error: C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/registerfile32.vhd(164): Cannot resolve indexed name (type ieee.std_logic_1164.STD_LOGIC_VECTOR) as type ieee.std_logic_1164.STD_LOGIC.
+** Error: C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/registerfile32.vhd(165): Cannot resolve indexed name (type ieee.std_logic_1164.STD_LOGIC_VECTOR) as type ieee.std_logic_1164.STD_LOGIC.
+** Error: C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/registerfile32.vhd(166): Signal "busB" is type ieee.std_logic_1164.STD_LOGIC_VECTOR; expecting type ieee.std_logic_1164.STD_LOGIC.
+** Error: C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/registerfile32.vhd(171): VHDL Compiler exiting
+
+} {9.0 76.0} {}} C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/register32.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/register32.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3d Compiler 2014.10 Oct  7 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Loading package eecs361
+-- Compiling entity register32
+-- Compiling architecture struct of register32
+
+} {} {}} C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/xnor_gate_n.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/xnor_gate_n.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3d Compiler 2014.10 Oct  7 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity xnor_gate_n
+-- Compiling architecture dataflow of xnor_gate_n
+
+} {} {}} C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/nor_32.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/nor_32.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3d Compiler 2014.10 Oct  7 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Compiling entity nor_32
+-- Compiling architecture struct of nor_32
+
+} {} {}} C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/eecs361_gates.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/eecs361_gates.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3d Compiler 2014.10 Oct  7 2014
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
 -- Compiling package eecs361_gates
 
-} {} {}} C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/xor_gate_n.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/xor_gate_n.vhd
-Model Technology ModelSim PE Student Edition vcom 10.3a Compiler 2014.04 Apr 14 2014
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity xor_gate_n
--- Compiling architecture dataflow of xor_gate_n
-
-} {} {}} C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/nand_gate_n.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/nand_gate_n.vhd
-Model Technology ModelSim PE Student Edition vcom 10.3a Compiler 2014.04 Apr 14 2014
+} {} {}} C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/nand_gate_n.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/nand_gate_n.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3d Compiler 2014.10 Oct  7 2014
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
 -- Compiling entity nand_gate_n
 -- Compiling architecture dataflow of nand_gate_n
 
-} {} {}} C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/csram.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/csram.vhd
-Model Technology ModelSim PE Student Edition vcom 10.3a Compiler 2014.04 Apr 14 2014
+} {} {}} C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/xor_gate_n.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/xor_gate_n.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3d Compiler 2014.10 Oct  7 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity xor_gate_n
+-- Compiling architecture dataflow of xor_gate_n
+
+} {} {}} C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/csram.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/csram.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3d Compiler 2014.10 Oct  7 2014
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
@@ -234,73 +466,98 @@ Model Technology ModelSim PE Student Edition vcom 10.3a Compiler 2014.04 Apr 14 
 -- Compiling entity csram
 -- Compiling architecture behavioral of csram
 
-} {} {}} C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/nor_gate.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/nor_gate.vhd
-Model Technology ModelSim PE Student Edition vcom 10.3a Compiler 2014.04 Apr 14 2014
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity nor_gate
--- Compiling architecture dataflow of nor_gate
-
-} {} {}} C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/mux_n.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/mux_n.vhd
-Model Technology ModelSim PE Student Edition vcom 10.3a Compiler 2014.04 Apr 14 2014
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity mux_n
--- Compiling architecture behavioral of mux_n
-
-} {} {}} C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/fulladder_32.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/fulladder_32.vhd
-Model Technology ModelSim PE Student Edition vcom 10.3a Compiler 2014.04 Apr 14 2014
+} {} {}} C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/fulladder_32.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/fulladder_32.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3d Compiler 2014.10 Oct  7 2014
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
 -- Compiling entity fulladder_32
 -- Compiling architecture behavioral of fulladder_32
 
-} {} {}} C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/and_gate_32.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/and_gate_32.vhd
-Model Technology ModelSim PE Student Edition vcom 10.3a Compiler 2014.04 Apr 14 2014
+} {} {}} C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/mux_32.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/mux_32.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3d Compiler 2014.10 Oct  7 2014
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity and_gate_32
--- Compiling architecture dataflow of and_gate_32
+-- Loading package eecs361_gates
+-- Loading package eecs361
+-- Compiling entity mux_32
+-- Compiling architecture structural of mux_32
 
-} {} {}} C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/fulladder_n.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/fulladder_n.vhd
-Model Technology ModelSim PE Student Edition vcom 10.3a Compiler 2014.04 Apr 14 2014
+} {} {}} C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361_singecycle.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361_singecycle.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3d Compiler 2014.10 Oct  7 2014
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Compiling entity fulladder_n
--- Compiling architecture behavioral of fulladder_n
+-- Compiling package eecs361_bruno
 
-} {} {}} C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/and_gate_n.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/and_gate_n.vhd
-Model Technology ModelSim PE Student Edition vcom 10.3a Compiler 2014.04 Apr 14 2014
+} {} {}} C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/xor_gate.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/xor_gate.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3d Compiler 2014.10 Oct  7 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity xor_gate
+-- Compiling architecture dataflow of xor_gate
+
+} {} {}} C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/nand_gate.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/nand_gate.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3d Compiler 2014.10 Oct  7 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity nand_gate
+-- Compiling architecture dataflow of nand_gate
+
+} {} {}} C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/dffr.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/dffr.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3d Compiler 2014.10 Oct  7 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity dffr
+-- Compiling architecture behavioral of dffr
+
+} {} {}} C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/bitAdder_32.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/bitAdder_32.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3d Compiler 2014.10 Oct  7 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Compiling entity bitAdder_32
+-- Compiling architecture struct of bitAdder_32
+
+} {} {}} C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/xor_gate_32.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/xor_gate_32.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3d Compiler 2014.10 Oct  7 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity xor_gate_32
+-- Compiling architecture dataflow of xor_gate_32
+
+} {} {}} C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/nand_gate_32.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/nand_gate_32.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3d Compiler 2014.10 Oct  7 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity nand_gate_32
+-- Compiling architecture dataflow of nand_gate_32
+
+} {} {}} C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/nor_gate.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/nor_gate.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3d Compiler 2014.10 Oct  7 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity nor_gate
+-- Compiling architecture dataflow of nor_gate
+
+} {} {}} C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/and_gate_n.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/and_gate_n.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3d Compiler 2014.10 Oct  7 2014
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
 -- Compiling entity and_gate_n
 -- Compiling architecture dataflow of and_gate_n
 
-} {} {}} C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/or_gate.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/or_gate.vhd
-Model Technology ModelSim PE Student Edition vcom 10.3a Compiler 2014.04 Apr 14 2014
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity or_gate
--- Compiling architecture dataflow of or_gate
-
-} {} {}} C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/not_gate.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/not_gate.vhd
-Model Technology ModelSim PE Student Edition vcom 10.3a Compiler 2014.04 Apr 14 2014
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity not_gate
--- Compiling architecture dataflow of not_gate
-
-} {} {}} C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/dec_n.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/dec_n.vhd
-Model Technology ModelSim PE Student Edition vcom 10.3a Compiler 2014.04 Apr 14 2014
+} {} {}} C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/dec_n.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/dec_n.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3d Compiler 2014.10 Oct  7 2014
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
@@ -308,28 +565,22 @@ Model Technology ModelSim PE Student Edition vcom 10.3a Compiler 2014.04 Apr 14 
 -- Compiling entity dec_n
 -- Compiling architecture behavioral of dec_n
 
-} {} {}} C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/dffr_a.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/dffr_a.vhd
-Model Technology ModelSim PE Student Edition vcom 10.3a Compiler 2014.04 Apr 14 2014
+} {} {}} C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/sll_32.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/sll_32.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3d Compiler 2014.10 Oct  7 2014
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity dffr_a
--- Compiling architecture behavioral of dffr_a
+-- Loading package eecs361_gates
+-- Loading package eecs361
+-- Compiling entity sll_32
+-- Compiling architecture struct of sll_32
 
-} {} {}} C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/eecs361.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/eecs361.vhd
-Model Technology ModelSim PE Student Edition vcom 10.3a Compiler 2014.04 Apr 14 2014
+} {} {}} C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/eecs361.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/eecs361.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3d Compiler 2014.10 Oct  7 2014
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
 -- Loading package eecs361_gates
 -- Compiling package eecs361
-
-} {} {}} C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/nor_gate_32.vhd {1 {vcom -stats=none -work work -2002 -explicit C:/Users/Jacob/Documents/GitHub/mips_singlecycle_processor/eecs361lib/lib/nor_gate_32.vhd
-Model Technology ModelSim PE Student Edition vcom 10.3a Compiler 2014.04 Apr 14 2014
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity nor_gate_32
--- Compiling architecture dataflow of nor_gate_32
 
 } {} {}}
