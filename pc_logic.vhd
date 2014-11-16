@@ -5,7 +5,6 @@ use work.eecs361.all;
 
 ENTITY pc_logic is
 	PORT (
-		inpc : in std_logic_vector(31 downto 0);
 		imm16 : in std_logic_vector(15 downto 0);
 		clk : in std_logic;
 		nPC_sel : in std_logic;
@@ -43,6 +42,7 @@ ARCHITECTURE struct OF pc IS
 	SIGNAL no_branch_pc : std_logic_vector(31 downto 0);
 	SIGNAL imm_extend : std_logic_vector(31 downto 0);
 	SIGNAL branch_pc : std_logic_vector(31 downto 0);
+	SIGNAL pcresult : std_logic_vector(31 downto 0);
 	
 	BEGIN
 		extendImm: extender PORT MAP (
@@ -52,7 +52,7 @@ ARCHITECTURE struct OF pc IS
 		);
 		getNoBranchPC: bitAdder_32 PORT MAP (
 			x => x"00000004",
-			y => inpc,
+			y => pcresult,
 			carry => '0',
 			resultVector => no_branch_pc
 		);
@@ -72,6 +72,8 @@ ARCHITECTURE struct OF pc IS
 			inData => pc_new,
 			clk => clk,
 			writeEnable => 1,
-			outData => outpc
+			outData => pcresult
 		);
+		outpc <= pcresult;
+		
 END struct;
