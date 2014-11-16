@@ -37,18 +37,31 @@ ARCHITECTURE struct OF pc IS
 			R	 :	out std_logic_vector(31 downto 0)
 		);
 	END extender;
+	COMPONENT sll_32 IS
+		PORT(
+			A:	in std_logic_vector(31 downto 0); --number to shift
+			B:	in std_logic_vector(31 downto 0); --shift amount
+			Z:	out std_logic_vector(31 downto 0) --output
+		);
+	END sll_32;
 	SIGNAL pc_data : std_logic_vector(31 downto 0);
 	SIGNAL pc_new : std_logic_vector(31 downto 0);
 	SIGNAL no_branch_pc : std_logic_vector(31 downto 0);
 	SIGNAL imm_extend : std_logic_vector(31 downto 0);
 	SIGNAL branch_pc : std_logic_vector(31 downto 0);
 	SIGNAL pcresult : std_logic_vector(31 downto 0);
+	SIGNAL extend_shifted : std_logic_vector(31 downto 0);
 	
 	BEGIN
 		extendImm: extender PORT MAP (
 			imm16 => imm16,
 			ExtOp => '1',
 			R => imm_extend
+		);
+		multiplyby4: sll_32 PORT MAP (
+			A => imm_extend,
+			B => x"00000004",
+			Z => extend_shifted
 		);
 		getNoBranchPC: bitAdder_32 PORT MAP (
 			x => x"00000004",
