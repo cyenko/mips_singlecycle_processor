@@ -10,7 +10,7 @@ ENTITY pc_logic is
 		nPC_sel : in std_logic;
 		outpc : out std_logic_vector(31 downto 0)
 	);
-END pc;
+END pc_logic;
 
 ARCHITECTURE struct OF pc IS
 	COMPONENT register32 IS
