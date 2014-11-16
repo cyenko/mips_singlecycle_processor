@@ -9,4 +9,7 @@ ENTITY alu_control is
 		func   : in std_logic_vector(5 downto 0);
 		ALUctr : out std_logic_vector(3 downto 0)
 	);
-END pc_logic;
+END alu_control;
+
+ARCHITECTURE struct OF alu_control IS
+	
