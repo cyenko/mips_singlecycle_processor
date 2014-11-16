@@ -68,4 +68,10 @@ ARCHITECTURE struct OF pc IS
 			src1 => branch_pc,
 			z => pc_new
 		);
+		pcreg: register32 PORT MAP (
+			inData => pc_new,
+			clk => clk,
+			writeEnable => 1,
+			outData => outpc
+		);
 END struct;
