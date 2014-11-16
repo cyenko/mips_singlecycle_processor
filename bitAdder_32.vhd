@@ -1,0 +1,34 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use work.eecs361_gates.all;
+
+entity bitAdder_32 is
+  port (
+    x,y   : in  std_logic_vector(31 downto 0);
+    carry : in std_logic;
+    resultVector   : out std_logic_vector(31 downto 0);
+    overflow : out std_logic;
+    cout: out std_logic
+  );
+end bitAdder_32;
+
+architecture struct of bitAdder_32 is
+
+COMPONENT bitAdder_1 IS
+   PORT (
+      a,b,cin : in std_logic;
+      result, cout : out std_logic
+    );
+END COMPONENT bitAdder_1;
+
+SIGNAL cout_32 : std_logic_vector(31 downto 0);
+BEGIN
+    firstAddition: bitAdder_1 port map (a=>x(0), b=>y(0), cin=>carry, result => resultVector(0), cout => cout_32(0));
+    --We do first addition because we can't generate from zero
+    generateRemaining: for i in 1 to 31 GENERATE
+      buildAdders: bitAdder_1 port map ( x(i), y(i), cout_32(i-1), resultVector(i), cout_32(i) );
+    END GENERATE;
+
+    calcOf: xor_gate port map(x=>cout_32(31),y=>cout_32(30),z=>overflow); 
+    cout <= cout_32(31);
+END struct;

@@ -1,0 +1,60 @@
+--This mux selects a single 'bundle' of 32 signals out of 8 choices
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+USE work.eecs361_gates.all;
+
+ENTITY nor_32 IS
+	PORT(
+		A: in std_logic_vector(31 downto 0);
+		result: out std_logic
+		);
+END nor_32;
+
+--OPERATIONS MAPPING: 0000 ADD, 0001 SUB, 0010 AND, 0011 OR
+--					  0100 SLL, 0101 SLT, 0110 SLTU
+ARCHITECTURE struct OF nor_32 IS
+SIGNAL f0,f1,f2,f3,f4,f5,f6,f7,f8,f9,f10,f11,f12,f13,f14,f15 : std_logic;
+SIGNAL g0,g1,g2,g3,g4,g5,g6,g7 : std_logic;
+SIGNAL h0,h1,h2,h3 : std_logic;
+SIGNAL i0,i1 : std_logic;
+SIGNAL finalOrProduct : std_logic;
+	BEGIN
+	--This determines the first filter of selection
+    or1:or_gate port map (A(0),A(1), f0);
+    or2:or_gate port map (A(2),A(3), f1);
+    or3:or_gate port map (A(4),A(5), f2);
+    or4:or_gate port map (A(6),A(7), f3);
+    or5:or_gate port map (A(8),A(9), f4);
+    or6:or_gate port map (A(10),A(11), f5);
+    or7:or_gate port map (A(12),A(13), f6);
+    or8:or_gate port map (A(14),A(15), f7);
+    or9:or_gate port map (A(16),A(17), f8);
+    or10:or_gate port map (A(18),A(19), f9);
+    or11:or_gate port map (A(20),A(21), f10);
+    or12:or_gate port map (A(22),A(23), f11);
+    or13:or_gate port map (A(24),A(25), f12);
+    or14:or_gate port map (A(26),A(27), f13);
+    or15:or_gate port map (A(28),A(29), f14);
+    or16:or_gate port map (A(30),A(31), f15);  
+
+    or21:or_gate port map (f0,f1, g0);
+    or22:or_gate port map (f2,f3, g1);
+    or23:or_gate port map (f4,f5, g2);
+    or24:or_gate port map (f6,f7, g3);
+    or25:or_gate port map (f8,f9, g4);
+    or26:or_gate port map (f10,f11, g5);
+    or27:or_gate port map (f12,f13, g6);
+    or28:or_gate port map (f14,f15, g7);
+
+    or31:or_gate port map (g0,g1, h0);
+    or32:or_gate port map (g2,g3, h1);
+    or33:or_gate port map (g4,g5, h2);
+    or34:or_gate port map (g6,g7, h3);
+
+    or31:or_gate port map (h0,h1, i0);
+    or32:or_gate port map (h2,h3, i1);
+
+    finalOr: or_gate port map(i0,i1,finalOrProduct);
+
+    finalNot: not_gate port map (finalOrProduct,result);
+END struct;
