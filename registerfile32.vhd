@@ -27,42 +27,43 @@ ARCHITECTURE struct OF registerfile32 IS
 		);
 	END COMPONENT register32;
 	COMPONENT mux_32_1 IS
-		PORT(
-			selection: IN std_logic_vector(4 downto 0);
-			c0: IN std_logic; 
-			c1: IN std_logic;
-			c2: IN std_logic;
-			c3: IN std_logic;
-			c4: IN std_logic;
-			c5: IN std_logic;
-			c6: IN std_logic;
-			c7: IN std_logic;
-			c8: IN std_logic;
-			c9: IN std_logic;
-			c10: IN std_logic;
-			c11: IN std_logic;
-			c12: IN std_logic;
-			c13: IN std_logic;
-			c14: IN std_logic;
-			c15: IN std_logic;
-			c16: IN std_logic;
-			c17: IN std_logic;
-			c18: IN std_logic;
-			c19: IN std_logic;
-			c20: IN std_logic;
-			c21: IN std_logic;
-			c22: IN std_logic;
-			c23: IN std_logic;
-			c24: IN std_logic;
-			c25: IN std_logic;
-			c26: IN std_logic;
-			c27: IN std_logic;
-			c28: IN std_logic;
-			c29: IN std_logic;
-			c30: IN std_logic;
-			c31: IN std_logic;
-			result: OUT std_logic
-			);
+	PORT (
+		--inputs 
+		ctrl:	in std_logic_vector(4 downto 0);
+		R_0:	in std_logic_vector(31 downto 0);
+		R_1:	in std_logic_vector(31 downto 0);
+		R_2:	in std_logic_vector(31 downto 0);
+		R_3:	in std_logic_vector(31 downto 0);
+		R_4:	in std_logic_vector(31 downto 0);
+		R_5:	in std_logic_vector(31 downto 0);
+		R_6: 	in std_logic_vector(31 downto 0);
+		R_7:	in std_logic_vector(31 downto 0);
+		R_8:	in std_logic_vector(31 downto 0);
+		R_9:	in std_logic_vector(31 downto 0);
+		R_10:	in std_logic_vector(31 downto 0);
+		R_11:	in std_logic_vector(31 downto 0);
+		R_12:	in std_logic_vector(31 downto 0);
+		R_13:	in std_logic_vector(31 downto 0);
+		R_14:	in std_logic_vector(31 downto 0);
+		R_15:	in std_logic_vector(31 downto 0);
+		R_16:	in std_logic_vector(31 downto 0);
+		R_17:	in std_logic_vector(31 downto 0);
+		R_18:	in std_logic_vector(31 downto 0);
+		R_19:	in std_logic_vector(31 downto 0);
+		R_20:	in std_logic_vector(31 downto 0);
+		R_21:	in std_logic_vector(31 downto 0);
+		R_22:	in std_logic_vector(31 downto 0);
+		R_23:	in std_logic_vector(31 downto 0);
+		R_24:	in std_logic_vector(31 downto 0);
+		R_25:	in std_logic_vector(31 downto 0);
+		R_26:	in std_logic_vector(31 downto 0);
+		R_27:	in std_logic_vector(31 downto 0);
+		R_28:	in std_logic_vector(31 downto 0);
+		R_29:	in std_logic_vector(31 downto 0);
+		R_30:	in std_logic_vector(31 downto 0);
+		R_31:	in std_logic_vector(31 downto 0);	
+		R	: 	out std_logic_vector(31 downto 0)
+	);
 	END COMPONENT mux_32_1;
 	COMPONENT regSelector IS
 		PORT(
