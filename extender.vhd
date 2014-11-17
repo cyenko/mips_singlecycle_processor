@@ -20,7 +20,7 @@ BEGIN
 	--if ExtOp=0, keep at 0
 	--if ExtOp=1, extend the 15th bit of the imm16
 	
-	sign_map: or_gate PORT MAP (x=>imm16(15),y=>'0',sign);
+	sign_map: or_gate PORT MAP (x=>imm16(15),y=>'0',z=>sign);
 	loop_map: FOR i in 0 to 15 generate
 		mapsign: signExt(i) <= sign;
 	END GENERATE;
