@@ -52,17 +52,18 @@ ARCHITECTURE structural of mux_32_1 IS
 	  );
 	 END COMPONENT mux_32;
 	 COMPONENT mux_8_1 is
-	PORT(
-		selection: IN std_logic_vector(2 downto 0);
-		choice0: IN std_logic_vector(31 downto 0); --000 ADD
-		choice1: IN std_logic_vector(31 downto 0); --100 SLL
-		choice2: IN std_logic_vector(31 downto 0); --010 AND
-		choice3: IN std_logic_vector(31 downto 0); --110 SLTU
-		choice4: IN std_logic_vector(31 downto 0); --001 SUB
-		choice5: IN std_logic_vector(31 downto 0); --101 SLT
-		choice6: IN std_logic_vector(31 downto 0); --011 OR
-		choice7: IN std_logic_vector(31 downto 0); --111 NONE
-		result: OUT std_logic_vector(31 downto 0)
+		PORT (
+			--inputs 
+			ctrl:	in std_logic_vector(2 downto 0);
+			R_0:	in std_logic_vector(31 downto 0);
+			R_1:	in std_logic_vector(31 downto 0);
+			R_2:	in std_logic_vector(31 downto 0);
+			R_3:	in std_logic_vector(31 downto 0);
+			R_4:	in std_logic_vector(31 downto 0);
+			R_5:	in std_logic_vector(31 downto 0);
+			R_6: 	in std_logic_vector(31 downto 0);
+			R_7:	in std_logic_vector(31 downto 0);
+			R	: 	out std_logic_vector(31 downto 0)
 		);
 	 end COMPONENT mux_8_1;
 	 signal RR_0	: std_logic_vector(31 downto 0);
