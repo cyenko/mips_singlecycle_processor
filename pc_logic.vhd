@@ -4,11 +4,14 @@ use work.eecs361_gates.all;
 use work.eecs361.all;
 
 ENTITY pc_logic is
+	generic (
+		mem_file : string
+	);
 	PORT (
 		imm16 : in std_logic_vector(15 downto 0);
 		clk : in std_logic;
 		nPC_sel : in std_logic;
-		outpc : out std_logic_vector(31 downto 0)
+		Instruction : out std_logic_vector(31 downto 0)
 	);
 END pc_logic;
 
@@ -44,6 +47,22 @@ ARCHITECTURE struct OF pc_logic IS
 			Z:	out std_logic_vector(31 downto 0) --output
 		);
 	END sll_32;
+	COMPONENT syncram IS
+		GENERIC (
+		mem_file : string
+		);
+		PORT (
+		clk   : in  std_logic;
+		cs	  : in	std_logic;
+		oe	  :	in	std_logic;
+		we	  :	in	std_logic;
+		addr  : in	std_logic_vector(31 downto 0);
+		din	  :	in	std_logic_vector(31 downto 0);
+		dout  :	out std_logic_vector(31 downto 0)
+		);
+	END syncram;
+	
+	SIGNAL outpc: std_logic_vector(31 downto 0);
 	SIGNAL pc_data : std_logic_vector(31 downto 0);
 	SIGNAL pc_new : std_logic_vector(31 downto 0);
 	SIGNAL no_branch_pc : std_logic_vector(31 downto 0);
@@ -87,6 +106,15 @@ ARCHITECTURE struct OF pc_logic IS
 			writeEnable => 1,
 			outData => pcresult
 		);
+		get_instruction: syncram GENERIC MAP (
+			mem_file => mem_file) PORT MAP (
+			clk=>clk,
+			cs=>'1',
+			oe=>'1',
+			we=>'0',
+			addr=>pcresult,
+			dout => Instruction
+		);	
 		outpc <= pcresult;
 		
 END struct;
