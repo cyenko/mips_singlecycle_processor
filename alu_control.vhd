@@ -141,3 +141,5 @@ ARCHITECTURE struct OF alu_control IS
 			z => ALUCtrl(0)
 		);
 		ALUCtrl(3) <= '0';
+
+END ARCHITECTURE struct;

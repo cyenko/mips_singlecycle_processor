@@ -88,6 +88,8 @@ ARCHITECTURE struct OF control_unit IS
 			x => twonorfive,
 			y => RegWrIntermediate,
 			z => RegWr
+		);
+		
 		GetALUSrc: or_gate PORT MAP(
 			x => opCode(3),
 			y => opCode(5),
@@ -106,3 +108,5 @@ ARCHITECTURE struct OF control_unit IS
 		);
 		MemtoReg <= opCode(5);
 		ExtOp <= '1';
+	
+END ARCHITECTURE struct;

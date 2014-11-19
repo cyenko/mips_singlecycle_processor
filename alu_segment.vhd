@@ -1,6 +1,11 @@
 library IEEE;
 use IEEE.std_logic_1164.all;
 use work.eecs361_gates.all;
+use ieee.std_logic_unsigned.all;
+use std.textio.all;
+use ieee.std_logic_textio.all;
+use ieee.numeric_std.all;
+
 --use work.mips_singlecycle.all;
 
 ENTITY alu_segment IS
@@ -40,13 +45,13 @@ ARCHITECTURE struct OF alu_segment IS
 	SIGNAL busA:	std_logic_vector(31 downto 0);	--bus A out of register file
 	SIGNAL busB:	std_logic_vector(31 downto 0);	--bus B out of register file
 	SIGNAL busW_in:	std_logic_vector(31 downto 0);
-	
-	COMPONENT syncram is
+	--COMPONENT syncram IS
+	COMPONENT sram is
 	  generic (
 		mem_file : string
 	  );
 	  port (
-		clk   : in  std_logic;
+		--clk   : in  std_logic;
 		cs	  : in	std_logic;
 		oe	  :	in	std_logic;
 		we	  :	in	std_logic;
@@ -54,7 +59,8 @@ ARCHITECTURE struct OF alu_segment IS
 		din	  :	in	std_logic_vector(31 downto 0);
 		dout  :	out std_logic_vector(31 downto 0)
 	  );
-	end COMPONENT syncram;
+	end COMPONENT sram;
+	-- END COMPONENT syncram;
 	
 	COMPONENT alu is
 		PORT(
@@ -115,14 +121,57 @@ ARCHITECTURE struct OF alu_segment IS
 	
 	BEGIN 
 	
-	rsrt_map: mux_n GENERIC MAP (n => 5) PORT MAP (sel=>RegDst, src0=>Rt, src1=>Rd, z=>Rw);
-	regfile_map: registerfile32 PORT MAP (rd=>Rw, rs=>Rs, rt=>Rt,busW=>busW_in, clk=>clk, writeEnable=>RegWr,busA=>busA, busB=>busB);
-	alu_map: 	alu PORT MAP (A=>busA, B=>busB, ctrl=>ALUctr, R=>ALU_R, ze=>Equal);
-	sextender: extender PORT MAP (imm16=>Imm16,ExtOp=>ExtOp,outExt=>signExtend);
-	mux1_map: mux_32 PORT MAP (sel=>ALUSrc,src0=>busB,src1=>signExtend,z=>ALU_B);
-	memory_map: syncram 
+	rsrt_map: mux_n GENERIC MAP (n => 5) PORT MAP (
+		sel=>RegDst,
+		src0=>Rt,
+		src1=>Rd,
+		z=>Rw
+	);
+		
+	regfile_map: registerfile32 PORT MAP (
+		rd=>Rw,
+		rs=>Rs,
+		rt=>Rt,
+		busW=>busW_in, 
+		clk=>clk, 
+		writeEnable=>RegWr,
+		busA=>busA, 
+		busB=>busB
+	);
+	
+	alu_map: alu PORT MAP (
+		A=>busA, 
+		B=>busB, 
+		ctrl=>ALUctr,
+		R=>ALU_R, 
+		ze=>Equal
+	);
+	
+	sextender: extender PORT MAP (
+		imm16=>Imm16,
+		ExtOp=>ExtOp,
+		outExt=>signExtend
+	);
+	
+	mux1_map: mux_32 PORT MAP (
+		sel=>ALUSrc,
+		src0=>busB,
+		src1=>signExtend,
+		z=>ALU_B
+	);
+	
+	memory_map: sram
+	--memory_map: syncram 
 		GENERIC MAP (mem_file => mem_file)
-		PORT MAP (clk=>clk, cs => '1', oe=>'1', we=>MemWr, addr=>ALU_R, din=>busB, dout=>data_out);
+		PORT MAP (
+			--clk=>clk,
+			cs => '1',
+			oe=>'1',
+			we=>MemWr,
+			addr=>ALU_R, 
+			din=>busB, 
+			dout=>data_out
+		);
 	
 	mux2_map: mux_32 PORT MAP (sel=>MemtoReg,src0=>ALU_R,src1=>data_out,z=>busW_in);
 	

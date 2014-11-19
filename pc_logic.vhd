@@ -1,8 +1,10 @@
-library ieee;
-use ieee.std_logic_1164.all;
+library IEEE;
+use IEEE.std_logic_1164.all;
 use work.eecs361_gates.all;
-use work.eecs361.all;
-
+use ieee.std_logic_unsigned.all;
+use std.textio.all;
+use ieee.std_logic_textio.all;
+use ieee.numeric_std.all;
 ENTITY pc_logic is
 	generic (
 		mem_file : string
@@ -13,17 +15,27 @@ ENTITY pc_logic is
 		nPC_sel : in std_logic;
 		Instruction : out std_logic_vector(31 downto 0)
 	);
-END pc_logic;
+END ENTITY pc_logic;
 
 ARCHITECTURE struct OF pc_logic IS
-	COMPONENT register32 IS
+	COMPONENT mux_32 IS
+	  PORT (
+		sel   : in  std_logic;
+		src0  : in  std_logic_vector(31 downto 0);
+		src1  : in  std_logic_vector(31 downto 0);
+		z	    : out std_logic_vector(31 downto 0)
+	  );
+	END COMPONENT mux_32;
+	
+	COMPONENT register32 IS 
 		PORT(
 			inData : in std_logic_vector(31 downto 0);
 			clk: in std_logic;
 			writeEnable: in std_logic;
 			outData : out std_logic_vector(31 downto 0)
 		);
-	END register32;
+	END COMPONENT register32;
+	
 	COMPONENT bitAdder_32 IS
 		PORT(
 			x,y   : in  std_logic_vector(31 downto 0);
@@ -32,35 +44,40 @@ ARCHITECTURE struct OF pc_logic IS
 			overflow : out std_logic;
 			cout: out std_logic
 		);
-	END bitAdder_32;
-	COMPONENT extender IS
+	END COMPONENT bitAdder_32;
+	
+	COMPONENT extender IS 
 		PORT(
 			imm16:	in std_logic_vector(15 downto 0);
 			ExtOp:	in std_logic;
 			R	 :	out std_logic_vector(31 downto 0)
 		);
-	END extender;
+	END COMPONENT extender;
+
 	COMPONENT sll_32 IS
 		PORT(
 			A:	in std_logic_vector(31 downto 0); --number to shift
 			B:	in std_logic_vector(31 downto 0); --shift amount
 			Z:	out std_logic_vector(31 downto 0) --output
 		);
-	END sll_32;
-	COMPONENT syncram IS
+	END COMPONENT sll_32;
+	
+	COMPONENT sram IS
+	--COMPONENT syncram IS
 		GENERIC (
-		mem_file : string
+				mem_file : string
 		);
 		PORT (
-		clk   : in  std_logic;
-		cs	  : in	std_logic;
-		oe	  :	in	std_logic;
-		we	  :	in	std_logic;
-		addr  : in	std_logic_vector(31 downto 0);
-		din	  :	in	std_logic_vector(31 downto 0);
-		dout  :	out std_logic_vector(31 downto 0)
+			--clk   : in  std_logic;
+			cs	  : in	std_logic;
+			oe	  :	in	std_logic;
+			we	  :	in	std_logic;
+			addr  : in	std_logic_vector(31 downto 0);
+			din	  :	in	std_logic_vector(31 downto 0);
+			dout  :	out std_logic_vector(31 downto 0)
 		);
-	END syncram;
+	END COMPONENT sram;
+	--END COMPONENT syncram;
 	
 	SIGNAL outpc: std_logic_vector(31 downto 0);
 	SIGNAL pc_data : std_logic_vector(31 downto 0);
@@ -103,18 +120,20 @@ ARCHITECTURE struct OF pc_logic IS
 		pcreg: register32 PORT MAP (
 			inData => pc_new,
 			clk => clk,
-			writeEnable => 1,
+			writeEnable => '1',
 			outData => pcresult
 		);
-		get_instruction: syncram GENERIC MAP (
+		get_instruction: sram GENERIC MAP (
+		--get_instruction: syncram GENERIC MAP (
 			mem_file => mem_file) PORT MAP (
-			clk=>clk,
+			--clk=>clk,
 			cs=>'1',
 			oe=>'1',
 			we=>'0',
+			din => pcresult,
 			addr=>pcresult,
 			dout => Instruction
 		);	
 		outpc <= pcresult;
 		
-END struct;
+END ARCHITECTURE struct;
