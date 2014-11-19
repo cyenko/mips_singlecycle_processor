@@ -109,6 +109,7 @@ ARCHITECTURE struct OF mips_single_cycle IS
 	
 	BEGIN 
 	busWout <= busW;
+	pcOut <= Instruction;
 	opcode <= Instruction (31 downto 26);
 	Rs <= Instruction (25 downto 21);
 	Rt <= Instruction (20 downto 16);
