@@ -25,6 +25,9 @@ ARCHITECTURE struct OF control_unit IS
 	SIGNAL not3 : std_logic;
 	SIGNAL not5 : std_logic;
 	SIGNAL ALUOp0Intermediate : std_logic;
+	SIGNAL RegWrIntermediate : std_logic;
+	SIGNAL twonorfive : std_logic;
+	SIGNAL threenorfour : std_logic;
 	BEGIN
 		Invert0: not_gate PORT MAP(
 			x => opCode(0),
@@ -66,6 +69,25 @@ ARCHITECTURE struct OF control_unit IS
 			y => opCode(0),
 			z => RegDst
 		);
+		Get2nor5: nor_gate PORT MAP(
+			x => opCode(2),
+			y => opCode(5),
+			z => twonorfive
+		);
+		Get3nor4: nor_gate PORT MAP(
+			x => opCode(3),
+			y => opCode(4),
+			z => threenorfour
+		);
+		GetRegWrIntermediate: and_gate PORT MAP(
+			x => opCode(5),
+			y => threenorfour,
+			z => RegWrIntermediate
+		);
+		GetRegWr: or_gate PORT MAP(
+			x => twonorfive,
+			y => RegWrIntermediate,
+			z => RegWr
 		GetALUSrc: or_gate PORT MAP(
 			x => opCode(3),
 			y => opCode(5),
@@ -83,3 +105,4 @@ ARCHITECTURE struct OF control_unit IS
 			z => MemWr
 		);
 		MemtoReg <= opCode(5);
+		ExtOp <= '1';
