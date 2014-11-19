@@ -10,7 +10,7 @@ entity alu is
     cout  : out std_logic;  -- ‘1’ -> carry out
     ovf    : out std_logic;  -- ‘1’ -> overflow
     ze    : out std_logic;  -- ‘1’ -> is zero
-    R     : out std_logic_vector(31 downto 0) -- result
+    R     : out std_logic_vector(31 downto 0) -- 	result
   );
 end alu;
 
