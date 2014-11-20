@@ -249,6 +249,19 @@ Model Technology ModelSim PE Student Edition vcom 10.3d Compiler 2014.10 Oct  7 
 -- Compiling entity alu_control
 -- Compiling architecture struct of alu_control
 
+} {} {}} C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/alu_segment.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/alu_segment.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3d Compiler 2014.10 Oct  7 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package std_logic_textio
+-- Loading package NUMERIC_STD
+-- Compiling entity alu_segment
+-- Compiling architecture struct of alu_segment
+
 } {} {}} C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/sltu_32.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/sltu_32.vhd
 Model Technology ModelSim PE Student Edition vcom 10.3d Compiler 2014.10 Oct  7 2014
 -- Loading package STANDARD
@@ -479,6 +492,14 @@ Model Technology ModelSim PE Student Edition vcom 10.3d Compiler 2014.10 Oct  7 
 -- Compiling entity mux_32
 -- Compiling architecture structural of mux_32
 
+} {} {}} C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/alu_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/alu_tb.vhd
+Model Technology ModelSim PE Student Edition vcom 10.3d Compiler 2014.10 Oct  7 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity alu_tb
+-- Compiling architecture tb_architecture of alu_tb
+
 } {} {}} C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/nand_gate.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/nand_gate.vhd
 Model Technology ModelSim PE Student Edition vcom 10.3d Compiler 2014.10 Oct  7 2014
 -- Loading package STANDARD
@@ -579,14 +600,6 @@ Model Technology ModelSim PE Student Edition vcom 10.3d Compiler 2014.10 Oct  7 
 -- Loading package std_logic_1164
 -- Compiling entity and_gate_n
 -- Compiling architecture dataflow of and_gate_n
-
-} {} {}} C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/mips_singlecycle_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/mips_singlecycle_tb.vhd
-Model Technology ModelSim PE Student Edition vcom 10.3d Compiler 2014.10 Oct  7 2014
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity mips_singlecycle_tb
--- Compiling architecture struct of mips_singlecycle_tb
 
 } {} {}} C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/alu_control_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/alu_control_tb.vhd
 Model Technology ModelSim PE Student Edition vcom 10.3d Compiler 2014.10 Oct  7 2014

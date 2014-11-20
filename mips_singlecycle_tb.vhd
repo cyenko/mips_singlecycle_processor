@@ -13,7 +13,7 @@ ARCHITECTURE struct OF mips_singlecycle_tb IS
 	PORT(
 		clk: 	in std_logic;
 		reset:	in std_logic;
-		pcOut:	out std_logic_vector(31 downto 0);
+		pcOut:	out std_logic_vector(31 downto 0);	
 		busWout:	out std_logic_vector(31 downto 0)
 	);
 	END COMPONENT mips_single_cycle;
@@ -36,10 +36,13 @@ BEGIN
     BEGIN
     	--Trigger the reset
     	reset_tb <= '0';
-    	wait for 5 ns;
+
+    	wait for 50 ns;
     	reset_tb <= '1';
-    	wait for 5 ns;
+    	clk_tb <= '1';
+    	wait for 50 ns;
     	reset_tb <= '0';
+    	clk_tb <= '0';
     	--Start the processor
     	for i in 1 to 200 loop
     		clk_tb <= not clk_tb;
