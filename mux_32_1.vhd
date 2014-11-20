@@ -89,7 +89,8 @@ ARCHITECTURE structural of mux_32_1 IS
 	 BEGIN 
  
 	 --first level of mux decoding
-	R0_map: 	mux_8by32_1	PORT MAP (ctrl(3 downto 0),R_0,R_1,R_2,R_3,R_4,R_5,R_6,R_7,RR_0);
+	R0_map: 	mux_8by32_1	PORT MAP (selection=>ctrl(3 downto 0),choice0=>R_0,choice1=>R_1,choice2=>R_2,choice3=>R_3
+		,choice4=>R_4,choice5=>R_5,choice6=>R_6,choice7=>R_7,result=>RR_0);
 	R1_map:		mux_8by32_1 PORT MAP (ctrl(3 downto 0),R_8,R_9,R_10,R_11,R_12,R_13,R_14,R_15,RR_1);
 	R2_map:		mux_8by32_1	PORT MAP (ctrl(3 downto 0),R_16,R_17,R_18,R_19,R_20,R_21,R_22,R_23,RR_2);
 	R3_map:		mux_8by32_1 PORT MAP (ctrl(3 downto 0),R_24,R_25,R_26,R_27,R_28,R_29,R_30,R_31,RR_3);

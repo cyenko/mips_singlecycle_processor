@@ -45,6 +45,8 @@ ARCHITECTURE struct OF alu_segment IS
 	SIGNAL busA:	std_logic_vector(31 downto 0);	--bus A out of register file
 	SIGNAL busB:	std_logic_vector(31 downto 0);	--bus B out of register file
 	SIGNAL busW_in:	std_logic_vector(31 downto 0);
+	SIGNAL overflow: std_logic;
+	SIGNAL cout: std_logic;
 	--COMPONENT syncram IS
 	COMPONENT sram is
 	  generic (
@@ -144,7 +146,9 @@ ARCHITECTURE struct OF alu_segment IS
 		B=>busB, 
 		ctrl=>ALUctr,
 		R=>ALU_R, 
-		ze=>Equal
+		ze=>Equal,
+		cout => cout,
+		overflow =>overflow
 	);
 	
 	sextender: extender PORT MAP (
