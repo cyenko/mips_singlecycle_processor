@@ -23,7 +23,7 @@ signal busWout_tb : std_logic_vector(31 downto 0);
 
 BEGIN
 	processor_map: mips_singlecycle
-	generic map(mem_file => "sort_corrected_branch.dat")
+	generic map(mem_file => "unsigned_sum.dat")
 	port map (
 		clk => clk_tb,
 		pcOut => pcOut_tb,

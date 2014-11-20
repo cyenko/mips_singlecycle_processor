@@ -1,9 +1,9 @@
 library ieee;
 use ieee.std_logic_1164.all;
 
-entity extender_tb is
+entity alu_control_tb is
 	--Empty declaration for test bech
-END extender_tb;
+END alu_control_tb;
 
 ARCHITECTURE struct OF alu_control_tb IS
     COMPONENT alu_control IS
