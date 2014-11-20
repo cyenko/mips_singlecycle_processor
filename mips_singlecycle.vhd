@@ -13,6 +13,7 @@ ENTITY mips_single_cycle IS
 	  );
 	PORT(
 		clk: 	in std_logic;
+		reset:	in std_logic;
 		pcOut:	out std_logic_vector(31 downto 0);
 		busWout:	out std_logic_vector(31 downto 0)
 	);
@@ -76,7 +77,8 @@ ARCHITECTURE struct OF mips_single_cycle IS
 			imm16 : in std_logic_vector(15 downto 0);
 			clk : in std_logic;
 			nPC_sel : in std_logic;
-			Instruction : out std_logic_vector(31 downto 0)
+			Instruction : out std_logic_vector(31 downto 0);
+			override: in std_logic
 		);
 	END COMPONENT pc_logic;
 	
@@ -122,7 +124,8 @@ ARCHITECTURE struct OF mips_single_cycle IS
 		clk=>clk,
 		imm16=>Imm16,
 		Instruction=>Instruction,
-		nPC_sel=>nPC_sel
+		nPC_sel=>nPC_sel,
+		override => reset
 	);
 	
 	branch_map: and_gate PORT MAP (

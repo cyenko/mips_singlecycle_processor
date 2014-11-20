@@ -13,7 +13,8 @@ ENTITY pc_logic is
 		imm16 : in std_logic_vector(15 downto 0);
 		clk : in std_logic;
 		nPC_sel : in std_logic;
-		Instruction : out std_logic_vector(31 downto 0)
+		Instruction : out std_logic_vector(31 downto 0);
+		override: in std_logic
 	);
 END ENTITY pc_logic;
 
@@ -79,9 +80,11 @@ ARCHITECTURE struct OF pc_logic IS
 	END COMPONENT sram;
 	--END COMPONENT syncram;
 	
+	SIGNAL start: std_logic_vector(31 downto 0):=x"00400020";
 	SIGNAL outpc: std_logic_vector(31 downto 0);
 	SIGNAL pc_data : std_logic_vector(31 downto 0);
 	SIGNAL pc_new : std_logic_vector(31 downto 0);
+	SIGNAL pc_new1 : std_logic_vector(31 downto 0);
 	SIGNAL no_branch_pc : std_logic_vector(31 downto 0);
 	SIGNAL imm_extend : std_logic_vector(31 downto 0);
 	SIGNAL branch_pc : std_logic_vector(31 downto 0);
@@ -89,6 +92,12 @@ ARCHITECTURE struct OF pc_logic IS
 	SIGNAL extend_shifted : std_logic_vector(31 downto 0);
 	
 	BEGIN
+		startup: mux_32 PORT MAP (
+			sel => override,
+			src0 => pc_new,
+			src1 => start,
+			z => pc_new1
+		);
 		extendImm: extender PORT MAP (
 			imm16 => imm16,
 			ExtOp => '1',
@@ -118,7 +127,7 @@ ARCHITECTURE struct OF pc_logic IS
 			z => pc_new
 		);
 		pcreg: register32 PORT MAP (
-			inData => pc_new,
+			inData => pc_new1,
 			clk => clk,
 			writeEnable => '1',
 			outData => pcresult
