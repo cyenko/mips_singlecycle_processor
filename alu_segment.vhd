@@ -45,6 +45,8 @@ ARCHITECTURE struct OF alu_segment IS
 	SIGNAL busA:	std_logic_vector(31 downto 0);	--bus A out of register file
 	SIGNAL busB:	std_logic_vector(31 downto 0);	--bus B out of register file
 	SIGNAL busW_in:	std_logic_vector(31 downto 0);
+	SIGNAL bs_cout : std_logic;
+	SIGNAL bs_ovf : std_logic;
 	--COMPONENT syncram IS
 	COMPONENT sram is
 	  generic (
@@ -63,24 +65,22 @@ ARCHITECTURE struct OF alu_segment IS
 	-- END COMPONENT syncram;
 	
 	COMPONENT alu is
-		PORT(
-		-- Inputs
-		A:  in  std_logic_vector(31 downto 0);
-		B:  in  std_logic_vector(31 downto 0);
-		ctrl: in std_logic_vector(3 downto 0);
-		-- Outputs
-		cout: out std_logic;      --'1' if carry out
-		overflow: out std_logic;  --'1' if overflow
-		ze: out std_logic;        --'1' if zero
-		R:  out std_logic_vector(31 downto 0) -- result
-	);
+	  port (
+	    ctrl  : in std_logic_vector(3 downto 0);
+	    A     : in std_logic_vector(31 downto 0);
+	    B     : in std_logic_vector(31 downto 0);
+	    cout  : out std_logic;  -- ‘1’ -> carry out
+	    ovf    : out std_logic;  -- ‘1’ -> overflow
+	    ze    : out std_logic;  -- ‘1’ -> is zero
+	    R     : out std_logic_vector(31 downto 0) -- 	result
+	  );
 	END COMPONENT alu;
 	
 	COMPONENT extender IS
 		PORT(
 		imm16: in std_logic_vector(15 downto 0);
 		ExtOp: in std_logic;
-		outExt: out std_logic_vector(31 downto 0)
+		R: out std_logic_vector(31 downto 0)
 		);
 	END COMPONENT extender;
 	
@@ -144,13 +144,15 @@ ARCHITECTURE struct OF alu_segment IS
 		B=>busB, 
 		ctrl=>ALUctr,
 		R=>ALU_R, 
-		ze=>Equal
+		ze=>Equal,
+		cout=> bs_cout,
+		ovf => bs_ovf
 	);
 	
 	sextender: extender PORT MAP (
 		imm16=>Imm16,
 		ExtOp=>ExtOp,
-		outExt=>signExtend
+		R=>signExtend
 	);
 	
 	mux1_map: mux_32 PORT MAP (

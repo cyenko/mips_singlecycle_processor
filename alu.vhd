@@ -89,7 +89,7 @@ ARCHITECTURE struct OF alu IS
 		result: OUT std_logic_vector(31 downto 0)
 		);
 	END COMPONENT;
-	COMPONENT mux_8_1 
+	COMPONENT mux_8_1_single 
 	PORT(
 		selection: IN std_logic_vector(3 downto 0);
 		choice0: IN std_logic; --000 ADD
@@ -137,8 +137,8 @@ ARCHITECTURE struct OF alu IS
 
 	--Finally route through the mux
     routeOutput: mux_8by32_1 port map (ctrl, addS, subS, andS, orS, sllS, sltS, sltuS, none, R);
-    routeOverflowStuff: mux_8_1 port map(ctrl,overflowResult(0),overflowResult(1),'0','0','0',overflowResult(5),overflowResult(6),'0',ovf);
-    routeCoutStuff: mux_8_1 port map(ctrl,coutResult(0),coutResult(1),'0','0','0','0','0','0',cout);
+    routeOverflowStuff: mux_8_1_single port map(ctrl,overflowResult(0),overflowResult(1),'0','0','0',overflowResult(5),overflowResult(6),'0',ovf);
+    routeCoutStuff: mux_8_1_single port map(ctrl,coutResult(0),coutResult(1),'0','0','0','0','0','0',cout);
     getZeros: nor_32 PORT MAP(A,tempZeroOr1);
     getZeros2: nor_32 PORT MAP(B,tempZeroOr2);
     zeroBitSet: and_gate PORT MAP(tempZeroOr1,tempZeroOr2,ze);

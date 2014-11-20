@@ -13,7 +13,7 @@ entity sll_32_alt is
 END sll_32_alt;
 
 ARCHITECTURE struct OF sll_32_alt IS
-component mux_32_1 is
+component mux_32_1_single is
 	PORT(
 		selection: IN std_logic_vector(4 downto 0);
 		c0: IN std_logic; 
@@ -50,7 +50,7 @@ component mux_32_1 is
 		c31: IN std_logic;
 		result: OUT std_logic
 		);
-end component mux_32_1;
+end component mux_32_1_single;
 -- signals
 	SIGNAL na : std_logic := '0';
 	SIGNAL ctrl : std_logic_vector(4 downto 0);
@@ -61,36 +61,36 @@ end component mux_32_1;
 BEGIN 
 ctrl <= B(4 downto 0);
 	--have a generate function here 
-m1:mux_32_1 port map(ctrl,A(0),na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,Z(0));
-m2:mux_32_1 port map(ctrl,A(1),A(0),na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,Z(1));
-m3:mux_32_1 port map(ctrl,A(2),A(1),A(0),na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,Z(2));
-m4:mux_32_1 port map(ctrl,A(3),A(2),A(1),A(0),na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,Z(3));
-m5:mux_32_1 port map(ctrl,A(4),A(3),A(2),A(1),A(0),na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,result=>Z(4));
-m6:mux_32_1 port map(ctrl,A(5),A(4),A(3),A(2),A(1),A(0),na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,result=>Z(5));
-m7:mux_32_1 port map(ctrl,A(6),A(5),A(4),A(3),A(2),A(1),A(0),na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,result=>Z(6));
-m8:mux_32_1 port map(ctrl,A(7),A(6),A(5),A(4),A(3),A(2),A(1),A(0),na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,result=>Z(7));
-m9:mux_32_1 port map(ctrl,A(8),A(7),A(6),A(5),A(4),A(3),A(2),A(1),A(0),na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,result=>Z(8));
-m10:mux_32_1 port map(ctrl,A(9),A(8),A(7),A(6),A(5),A(4),A(3),A(2),A(1),A(0),na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,result=>Z(9));
-m11:mux_32_1 port map(ctrl,A(10),A(9),A(8),A(7),A(6),A(5),A(4),A(3),A(2),A(1),A(0),na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,result=>Z(10));
-m12:mux_32_1 port map(ctrl,A(11),A(10),A(9),A(8),A(7),A(6),A(5),A(4),A(3),A(2),A(1),A(0),na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,result=>Z(11));
-m13:mux_32_1 port map(ctrl,A(12),A(11),A(10),A(9),A(8),A(7),A(6),A(5),A(4),A(3),A(2),A(1),A(0),na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,result=>Z(12));
-m14:mux_32_1 port map(ctrl,A(13),A(12),A(11),A(10),A(9),A(8),A(7),A(6),A(5),A(4),A(3),A(2),A(1),A(0),na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,result=>Z(13));
-m15:mux_32_1 port map(ctrl,A(14),A(13),A(12),A(11),A(10),A(9),A(8),A(7),A(6),A(5),A(4),A(3),A(2),A(1),A(0),na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,result=>Z(14));
-m16:mux_32_1 port map(ctrl,A(15),A(14),A(13),A(12),A(11),A(10),A(9),A(8),A(7),A(6),A(5),A(4),A(3),A(2),A(1),A(0),na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,result=>Z(15));
-m17:mux_32_1 port map(ctrl,A(16),A(15),A(14),A(13),A(12),A(11),A(10),A(9),A(8),A(7),A(6),A(5),A(4),A(3),A(2),A(1),A(0),na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,result=>Z(16));
-m18:mux_32_1 port map(ctrl,A(17),A(16),A(15),A(14),A(13),A(12),A(11),A(10),A(9),A(8),A(7),A(6),A(5),A(4),A(3),A(2),A(1),A(0),na,na,na,na,na,na,na,na,na,na,na,na,na,na,result=>Z(17));
-m19:mux_32_1 port map(ctrl,A(18),A(17),A(16),A(15),A(14),A(13),A(12),A(11),A(10),A(9),A(8),A(7),A(6),A(5),A(4),A(3),A(2),A(1),A(0),na,na,na,na,na,na,na,na,na,na,na,na,na,result=>Z(18));
-m20:mux_32_1 port map(ctrl,A(19),A(18),A(17),A(16),A(15),A(14),A(13),A(12),A(11),A(10),A(9),A(8),A(7),A(6),A(5),A(4),A(3),A(2),A(1),A(0),na,na,na,na,na,na,na,na,na,na,na,na,result=>Z(19));
-m21:mux_32_1 port map(ctrl,A(20),A(19),A(18),A(17),A(16),A(15),A(14),A(13),A(12),A(11),A(10),A(9),A(8),A(7),A(6),A(5),A(4),A(3),A(2),A(1),A(0),na,na,na,na,na,na,na,na,na,na,na,result=>Z(20));
-m22:mux_32_1 port map(ctrl,A(21),A(20),A(19),A(18),A(17),A(16),A(15),A(14),A(13),A(12),A(11),A(10),A(9),A(8),A(7),A(6),A(5),A(4),A(3),A(2),A(1),A(0),na,na,na,na,na,na,na,na,na,na,result=>Z(21));
-m23:mux_32_1 port map(ctrl,A(22),A(21),A(20),A(19),A(18),A(17),A(16),A(15),A(14),A(13),A(12),A(11),A(10),A(9),A(8),A(7),A(6),A(5),A(4),A(3),A(2),A(1),A(0),na,na,na,na,na,na,na,na,na,result=>Z(22));
-m24:mux_32_1 port map(ctrl,A(23),A(22),A(21),A(20),A(19),A(18),A(17),A(16),A(15),A(14),A(13),A(12),A(11),A(10),A(9),A(8),A(7),A(6),A(5),A(4),A(3),A(2),A(1),A(0),na,na,na,na,na,na,na,na,result=>Z(23));
-m25:mux_32_1 port map(ctrl,A(24),A(23),A(22),A(21),A(20),A(19),A(18),A(17),A(16),A(15),A(14),A(13),A(12),A(11),A(10),A(9),A(8),A(7),A(6),A(5),A(4),A(3),A(2),A(1),A(0),na,na,na,na,na,na,na,result=>Z(24));
-m26:mux_32_1 port map(ctrl,A(25),A(24),A(23),A(22),A(21),A(20),A(19),A(18),A(17),A(16),A(15),A(14),A(13),A(12),A(11),A(10),A(9),A(8),A(7),A(6),A(5),A(4),A(3),A(2),A(1),A(0),na,na,na,na,na,na,result=>Z(25));
-m27:mux_32_1 port map(ctrl,A(26),A(25),A(24),A(23),A(22),A(21),A(20),A(19),A(18),A(17),A(16),A(15),A(14),A(13),A(12),A(11),A(10),A(9),A(8),A(7),A(6),A(5),A(4),A(3),A(2),A(1),A(0),na,na,na,na,na,result=>Z(26));
-m28:mux_32_1 port map(ctrl,A(27),A(26),A(25),A(24),A(23),A(22),A(21),A(20),A(19),A(18),A(17),A(16),A(15),A(14),A(13),A(12),A(11),A(10),A(9),A(8),A(7),A(6),A(5),A(4),A(3),A(2),A(1),A(0),na,na,na,na,result=>Z(27));
-m29:mux_32_1 port map(ctrl,A(28),A(27),A(26),A(25),A(24),A(23),A(22),A(21),A(20),A(19),A(18),A(17),A(16),A(15),A(14),A(13),A(12),A(11),A(10),A(9),A(8),A(7),A(6),A(5),A(4),A(3),A(2),A(1),A(0),na,na,na,result=>Z(28));
-m30:mux_32_1 port map(ctrl,A(29),A(28),A(27),A(26),A(25),A(24),A(23),A(22),A(21),A(20),A(19),A(18),A(17),A(16),A(15),A(14),A(13),A(12),A(11),A(10),A(9),A(8),A(7),A(6),A(5),A(4),A(3),A(2),A(1),A(0),na,na,result=>Z(29));
-m31:mux_32_1 port map(ctrl,A(30),A(29),A(28),A(27),A(26),A(25),A(24),A(23),A(22),A(21),A(20),A(19),A(18),A(17),A(14),A(15),A(14),A(13),A(12),A(11),A(10),A(9),A(8),A(7),A(6),A(5),A(4),A(3),A(2),A(1),A(0),na,result=>Z(30));
-m32:mux_32_1 port map(ctrl,A(31),A(30),A(29),A(28),A(27),A(26),A(25),A(24),A(23),A(22),A(21),A(20),A(19),A(18),A(13),A(16),A(15),A(14),A(13),A(12),A(11),A(10),A(9),A(8),A(7),A(6),A(5),A(4),A(3),A(2),A(1),A(0),result=>Z(31));
+m1:mux_32_1_single port map(ctrl,A(0),na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,Z(0));
+m2:mux_32_1_single port map(ctrl,A(1),A(0),na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,Z(1));
+m3:mux_32_1_single port map(ctrl,A(2),A(1),A(0),na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,Z(2));
+m4:mux_32_1_single port map(ctrl,A(3),A(2),A(1),A(0),na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,Z(3));
+m5:mux_32_1_single port map(ctrl,A(4),A(3),A(2),A(1),A(0),na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,result=>Z(4));
+m6:mux_32_1_single port map(ctrl,A(5),A(4),A(3),A(2),A(1),A(0),na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,result=>Z(5));
+m7:mux_32_1_single port map(ctrl,A(6),A(5),A(4),A(3),A(2),A(1),A(0),na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,result=>Z(6));
+m8:mux_32_1_single port map(ctrl,A(7),A(6),A(5),A(4),A(3),A(2),A(1),A(0),na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,result=>Z(7));
+m9:mux_32_1_single port map(ctrl,A(8),A(7),A(6),A(5),A(4),A(3),A(2),A(1),A(0),na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,result=>Z(8));
+m10:mux_32_1_single port map(ctrl,A(9),A(8),A(7),A(6),A(5),A(4),A(3),A(2),A(1),A(0),na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,result=>Z(9));
+m11:mux_32_1_single port map(ctrl,A(10),A(9),A(8),A(7),A(6),A(5),A(4),A(3),A(2),A(1),A(0),na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,result=>Z(10));
+m12:mux_32_1_single port map(ctrl,A(11),A(10),A(9),A(8),A(7),A(6),A(5),A(4),A(3),A(2),A(1),A(0),na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,result=>Z(11));
+m13:mux_32_1_single port map(ctrl,A(12),A(11),A(10),A(9),A(8),A(7),A(6),A(5),A(4),A(3),A(2),A(1),A(0),na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,result=>Z(12));
+m14:mux_32_1_single port map(ctrl,A(13),A(12),A(11),A(10),A(9),A(8),A(7),A(6),A(5),A(4),A(3),A(2),A(1),A(0),na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,result=>Z(13));
+m15:mux_32_1_single port map(ctrl,A(14),A(13),A(12),A(11),A(10),A(9),A(8),A(7),A(6),A(5),A(4),A(3),A(2),A(1),A(0),na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,result=>Z(14));
+m16:mux_32_1_single port map(ctrl,A(15),A(14),A(13),A(12),A(11),A(10),A(9),A(8),A(7),A(6),A(5),A(4),A(3),A(2),A(1),A(0),na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,result=>Z(15));
+m17:mux_32_1_single port map(ctrl,A(16),A(15),A(14),A(13),A(12),A(11),A(10),A(9),A(8),A(7),A(6),A(5),A(4),A(3),A(2),A(1),A(0),na,na,na,na,na,na,na,na,na,na,na,na,na,na,na,result=>Z(16));
+m18:mux_32_1_single port map(ctrl,A(17),A(16),A(15),A(14),A(13),A(12),A(11),A(10),A(9),A(8),A(7),A(6),A(5),A(4),A(3),A(2),A(1),A(0),na,na,na,na,na,na,na,na,na,na,na,na,na,na,result=>Z(17));
+m19:mux_32_1_single port map(ctrl,A(18),A(17),A(16),A(15),A(14),A(13),A(12),A(11),A(10),A(9),A(8),A(7),A(6),A(5),A(4),A(3),A(2),A(1),A(0),na,na,na,na,na,na,na,na,na,na,na,na,na,result=>Z(18));
+m20:mux_32_1_single port map(ctrl,A(19),A(18),A(17),A(16),A(15),A(14),A(13),A(12),A(11),A(10),A(9),A(8),A(7),A(6),A(5),A(4),A(3),A(2),A(1),A(0),na,na,na,na,na,na,na,na,na,na,na,na,result=>Z(19));
+m21:mux_32_1_single port map(ctrl,A(20),A(19),A(18),A(17),A(16),A(15),A(14),A(13),A(12),A(11),A(10),A(9),A(8),A(7),A(6),A(5),A(4),A(3),A(2),A(1),A(0),na,na,na,na,na,na,na,na,na,na,na,result=>Z(20));
+m22:mux_32_1_single port map(ctrl,A(21),A(20),A(19),A(18),A(17),A(16),A(15),A(14),A(13),A(12),A(11),A(10),A(9),A(8),A(7),A(6),A(5),A(4),A(3),A(2),A(1),A(0),na,na,na,na,na,na,na,na,na,na,result=>Z(21));
+m23:mux_32_1_single port map(ctrl,A(22),A(21),A(20),A(19),A(18),A(17),A(16),A(15),A(14),A(13),A(12),A(11),A(10),A(9),A(8),A(7),A(6),A(5),A(4),A(3),A(2),A(1),A(0),na,na,na,na,na,na,na,na,na,result=>Z(22));
+m24:mux_32_1_single port map(ctrl,A(23),A(22),A(21),A(20),A(19),A(18),A(17),A(16),A(15),A(14),A(13),A(12),A(11),A(10),A(9),A(8),A(7),A(6),A(5),A(4),A(3),A(2),A(1),A(0),na,na,na,na,na,na,na,na,result=>Z(23));
+m25:mux_32_1_single port map(ctrl,A(24),A(23),A(22),A(21),A(20),A(19),A(18),A(17),A(16),A(15),A(14),A(13),A(12),A(11),A(10),A(9),A(8),A(7),A(6),A(5),A(4),A(3),A(2),A(1),A(0),na,na,na,na,na,na,na,result=>Z(24));
+m26:mux_32_1_single port map(ctrl,A(25),A(24),A(23),A(22),A(21),A(20),A(19),A(18),A(17),A(16),A(15),A(14),A(13),A(12),A(11),A(10),A(9),A(8),A(7),A(6),A(5),A(4),A(3),A(2),A(1),A(0),na,na,na,na,na,na,result=>Z(25));
+m27:mux_32_1_single port map(ctrl,A(26),A(25),A(24),A(23),A(22),A(21),A(20),A(19),A(18),A(17),A(16),A(15),A(14),A(13),A(12),A(11),A(10),A(9),A(8),A(7),A(6),A(5),A(4),A(3),A(2),A(1),A(0),na,na,na,na,na,result=>Z(26));
+m28:mux_32_1_single port map(ctrl,A(27),A(26),A(25),A(24),A(23),A(22),A(21),A(20),A(19),A(18),A(17),A(16),A(15),A(14),A(13),A(12),A(11),A(10),A(9),A(8),A(7),A(6),A(5),A(4),A(3),A(2),A(1),A(0),na,na,na,na,result=>Z(27));
+m29:mux_32_1_single port map(ctrl,A(28),A(27),A(26),A(25),A(24),A(23),A(22),A(21),A(20),A(19),A(18),A(17),A(16),A(15),A(14),A(13),A(12),A(11),A(10),A(9),A(8),A(7),A(6),A(5),A(4),A(3),A(2),A(1),A(0),na,na,na,result=>Z(28));
+m30:mux_32_1_single port map(ctrl,A(29),A(28),A(27),A(26),A(25),A(24),A(23),A(22),A(21),A(20),A(19),A(18),A(17),A(16),A(15),A(14),A(13),A(12),A(11),A(10),A(9),A(8),A(7),A(6),A(5),A(4),A(3),A(2),A(1),A(0),na,na,result=>Z(29));
+m31:mux_32_1_single port map(ctrl,A(30),A(29),A(28),A(27),A(26),A(25),A(24),A(23),A(22),A(21),A(20),A(19),A(18),A(17),A(14),A(15),A(14),A(13),A(12),A(11),A(10),A(9),A(8),A(7),A(6),A(5),A(4),A(3),A(2),A(1),A(0),na,result=>Z(30));
+m32:mux_32_1_single port map(ctrl,A(31),A(30),A(29),A(28),A(27),A(26),A(25),A(24),A(23),A(22),A(21),A(20),A(19),A(18),A(13),A(16),A(15),A(14),A(13),A(12),A(11),A(10),A(9),A(8),A(7),A(6),A(5),A(4),A(3),A(2),A(1),A(0),result=>Z(31));
 END ARCHITECTURE struct;
