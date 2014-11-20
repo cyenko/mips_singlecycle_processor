@@ -55,13 +55,13 @@ ARCHITECTURE struct OF pc_logic IS
 		);
 	END COMPONENT extender;
 
-	COMPONENT sll_32 IS
+	COMPONENT sll_32_alt IS
 		PORT(
 			A:	in std_logic_vector(31 downto 0); --number to shift
 			B:	in std_logic_vector(31 downto 0); --shift amount
 			Z:	out std_logic_vector(31 downto 0) --output
 		);
-	END COMPONENT sll_32;
+	END COMPONENT sll_32_alt;
 	
 	COMPONENT sram IS
 	--COMPONENT syncram IS
@@ -103,7 +103,7 @@ ARCHITECTURE struct OF pc_logic IS
 			ExtOp => '1',
 			R => imm_extend
 		);
-		multiplyby4: sll_32 PORT MAP (
+		multiplyby4: sll_32_alt PORT MAP (
 			A => imm_extend,
 			B => x"00000004",
 			Z => extend_shifted
