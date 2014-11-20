@@ -66,7 +66,7 @@ BEGIN
 		wait for 5 ns;
 
     	--addi, aluop=11,regdst=0,regwr=1
-    	--alusrc=1,pcsrc=1,memread=0,memwr=0,memreg=X,extop=1
+    	--alusrc=1,pcsrc=0,memread=0,memwr=0,memreg=0,extop=1
         opcode_tb <= "001000";
 		wait for 5 ns;
 
@@ -75,7 +75,7 @@ BEGIN
         opcode_tb <= "100011";
 		wait for 5 ns;
 
-    	--sw, aluop=00,regdst=X,regwr=1
+    	--sw, aluop=00,regdst=X,regwr=0
     	--alusrc=1,pcsrc=0,memread=0,memwr=1,memreg=x,extop=1
         opcode_tb <= "101011";
 		wait for 5 ns;

@@ -66,6 +66,14 @@ Model Technology ModelSim PE Student Edition vcom 10.3d Compiler 2014.10 Oct  7 
 -- Compiling entity syncram
 -- Compiling architecture behavioral of syncram
 
+} {} {}} C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/pc_logic_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\Chris\Dropbox\2014_2015_FALL\EECS361\PROJECT2\mips_singlecycle_processor\pc_logic_tb.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.3d Compiler 2014.10 Oct  7 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity pc_logic_tb
+-- Compiling architecture struct of pc_logic_tb
+
 } {} {}} C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/fulladder_n.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/fulladder_n.vhd
 Model Technology ModelSim PE Student Edition vcom 10.3d Compiler 2014.10 Oct  7 2014
 -- Loading package STANDARD
