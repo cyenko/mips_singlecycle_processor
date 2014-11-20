@@ -103,13 +103,13 @@ ARCHITECTURE struct OF alu IS
 		result: OUT std_logic
 		);
 	END COMPONENT;
-	component sll_32_alt
-	port(
-		A:	in std_logic_vector(31 downto 0); --number to shift
-		B:	in std_logic_vector(31 downto 0); --shift amount
-		Z:	out std_logic_vector(31 downto 0) --output
-	);
-	end component;
+--	component sll_32_alt
+--	port(
+--		A:	in std_logic_vector(31 downto 0); --number to shift
+--		B:	in std_logic_vector(31 downto 0); --shift amount
+--		Z:	out std_logic_vector(31 downto 0) --output
+--	);
+--	end component;
 
 	component nor_32
 	PORT(
@@ -130,7 +130,7 @@ ARCHITECTURE struct OF alu IS
 	subMap: bitSubtractor_32 PORT MAP(A,B,subS,overflowResult(1),coutResult(1));
 	andMap: and_gate_32 PORT MAP(A,B,andS);
 	orMap: or_gate_32 PORT MAP(A,B,orS);
-	sllMap: sll_32_alt PORT MAP(A,B,sllS);
+	sllMap: sll_32 PORT MAP(A,B,sllS);
 	sltMap: slt_32 PORT MAP(A,B,sltS,overflowResult(5));
 	sltuMap: sltu_32 PORT MAP(A,B,sltuS,overflowResult(6));
 	--SLTU mapping goes here

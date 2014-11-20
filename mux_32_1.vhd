@@ -52,19 +52,33 @@ ARCHITECTURE structural of mux_32_1 IS
 	  );
 	 END COMPONENT mux_32;
 	 COMPONENT mux_8_1 is
-	PORT(
-		selection: IN std_logic_vector(2 downto 0);
-		choice0: IN std_logic_vector(31 downto 0); --000 ADD
-		choice1: IN std_logic_vector(31 downto 0); --100 SLL
-		choice2: IN std_logic_vector(31 downto 0); --010 AND
-		choice3: IN std_logic_vector(31 downto 0); --110 SLTU
-		choice4: IN std_logic_vector(31 downto 0); --001 SUB
-		choice5: IN std_logic_vector(31 downto 0); --101 SLT
-		choice6: IN std_logic_vector(31 downto 0); --011 OR
-		choice7: IN std_logic_vector(31 downto 0); --111 NONE
-		result: OUT std_logic_vector(31 downto 0)
+		PORT(
+		selection: IN std_logic_vector(3 downto 0);
+		choice0: IN std_logic; --000 ADD
+		choice1: IN std_logic; --100 SLL
+		choice2: IN std_logic; --010 AND
+		choice3: IN std_logic; --110 SLTU
+		choice4: IN std_logic; --001 SUB
+		choice5: IN std_logic; --101 SLT
+		choice6: IN std_logic; --011 OR
+		choice7: IN std_logic; --111 NONE
+		result: OUT std_logic
 		);
 	 end COMPONENT mux_8_1;
+	COMPONENT mux_8by32_1 IS
+		PORT(
+			selection: IN std_logic_vector(3 downto 0);
+			choice0: IN std_logic_vector(31 downto 0); --000 ADD
+			choice1: IN std_logic_vector(31 downto 0); --100 SLL
+			choice2: IN std_logic_vector(31 downto 0); --010 AND
+			choice3: IN std_logic_vector(31 downto 0); --110 SLTU
+			choice4: IN std_logic_vector(31 downto 0); --001 SUB
+			choice5: IN std_logic_vector(31 downto 0); --101 SLT
+			choice6: IN std_logic_vector(31 downto 0); --011 OR
+			choice7: IN std_logic_vector(31 downto 0); --111 NONE
+			result: OUT std_logic_vector(31 downto 0)
+			);
+	END COMPONENT mux_8by32_1;
 	 signal RR_0	: std_logic_vector(31 downto 0);
 	 signal RR_1	: std_logic_vector(31 downto 0);
 	 signal RR_2	: std_logic_vector(31 downto 0);
@@ -75,10 +89,10 @@ ARCHITECTURE structural of mux_32_1 IS
 	 BEGIN 
  
 	 --first level of mux decoding
-	R0_map: 	mux_8_1	PORT MAP (ctrl(2 downto 0),R_0,R_1,R_2,R_3,R_4,R_5,R_6,R_7,RR_0);
-	R1_map:		mux_8_1 PORT MAP (ctrl(2 downto 0),R_8,R_9,R_10,R_11,R_12,R_13,R_14,R_15,RR_1);
-	R2_map:		mux_8_1	PORT MAP (ctrl(2 downto 0),R_16,R_17,R_18,R_19,R_20,R_21,R_22,R_23,RR_2);
-	R3_map:		mux_8_1 PORT MAP (ctrl(2 downto 0),R_24,R_25,R_26,R_27,R_28,R_29,R_30,R_31,RR_3);
+	R0_map: 	mux_8by32_1	PORT MAP (ctrl(3 downto 0),R_0,R_1,R_2,R_3,R_4,R_5,R_6,R_7,RR_0);
+	R1_map:		mux_8by32_1 PORT MAP (ctrl(3 downto 0),R_8,R_9,R_10,R_11,R_12,R_13,R_14,R_15,RR_1);
+	R2_map:		mux_8by32_1	PORT MAP (ctrl(3 downto 0),R_16,R_17,R_18,R_19,R_20,R_21,R_22,R_23,RR_2);
+	R3_map:		mux_8by32_1 PORT MAP (ctrl(3 downto 0),R_24,R_25,R_26,R_27,R_28,R_29,R_30,R_31,RR_3);
 	 
 	 --second level
 	 R4_map	: mux_32 PORT MAP (ctrl(3),RR_0,RR_1,RR_4);
