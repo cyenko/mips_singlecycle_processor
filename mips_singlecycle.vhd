@@ -38,6 +38,7 @@ ARCHITECTURE struct OF mips_single_cycle IS
 			Rd : in std_logic_vector(4 downto 0);
 			Rt : in std_logic_vector(4 downto 0);
 			Imm16 : in std_logic_vector(15 downto 0);
+			shamt : in std_logic_vector(4 downto 0);
 			--control signals
 			RegDst:		in std_logic;
 			RegWr:		in std_logic;
@@ -110,6 +111,9 @@ ARCHITECTURE struct OF mips_single_cycle IS
 	SIGNAL funct:	std_logic_vector(5 downto 0);
 	SIGNAL shamt:	std_logic_vector(4 downto 0);
 	
+	--not equal
+	SIGNAL nEqual: std_logic;
+	
 	BEGIN 
 	busWout <= busW;
 	pcOut <= Instruction;
@@ -129,11 +133,21 @@ ARCHITECTURE struct OF mips_single_cycle IS
 		override => reset
 	);
 	
-	branch_map: and_gate PORT MAP (
+	branch_beq: and_gate PORT MAP (
 		x=>Equal,
 		y=>PCSrc,
-		z=> nPC_sel
+		z=> beq
 	);
+	
+	nEqual <= not Equal;
+	
+	branch_bne: and_gate PORT MAP (
+		x => nEqual,
+		y=> PCSrc,
+		z=>bne
+	);
+	
+	--branching mux or something like that
 	
 	control_map: control_unit PORT MAP (
 		opCode=>opcode,
@@ -159,6 +173,7 @@ ARCHITECTURE struct OF mips_single_cycle IS
 		Rd => Rd,
 		Rt => Rt,
 		Imm16 => Imm16,
+		shamt => shamt,
 		RegDst => RegDst,
 		RegWr => RegWr,
 		ALUctr => ALUCtrl,

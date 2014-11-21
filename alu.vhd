@@ -7,6 +7,7 @@ entity alu is
     ctrl  : in std_logic_vector(3 downto 0);
     A     : in std_logic_vector(31 downto 0);
     B     : in std_logic_vector(31 downto 0);
+	shamt : in std_logic_vector(4 downto 0);
     cout  : out std_logic;  -- ‘1’ -> carry out
     ovf    : out std_logic;  -- ‘1’ -> overflow
     ze    : out std_logic;  -- ‘1’ -> is zero
@@ -57,7 +58,8 @@ ARCHITECTURE struct OF alu IS
 	COMPONENT sll_32 
 	port(
 		A:	in std_logic_vector(31 downto 0); --number to shift
-		B:	in std_logic_vector(31 downto 0); --shift amount
+		shamt: in std_logic_vector(4 downto 0);
+		--B:	in std_logic_vector(31 downto 0); --shift amount
 		Z:	out std_logic_vector(31 downto 0) --output
 	);
 	END COMPONENT;
@@ -130,7 +132,8 @@ ARCHITECTURE struct OF alu IS
 	subMap: bitSubtractor_32 PORT MAP(A,B,subS,overflowResult(1),coutResult(1));
 	andMap: and_gate_32 PORT MAP(A,B,andS);
 	orMap: or_gate_32 PORT MAP(A,B,orS);
-	sllMap: sll_32_alt PORT MAP(A,B,sllS);
+	sllMap: sll_32 PORT MAP (A,shamt,sllS);
+	--sllMap: sll_32_alt PORT MAP(A,B,sllS);
 	sltMap: slt_32 PORT MAP(A,B,sltS,overflowResult(5));
 	sltuMap: sltu_32 PORT MAP(A,B,sltuS,overflowResult(6));
 	--SLTU mapping goes here

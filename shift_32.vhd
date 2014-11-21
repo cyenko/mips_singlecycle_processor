@@ -15,7 +15,7 @@ ENTITY shift_32 IS
 END shift_32;
 
 ARCHITECTURE struct OF shift_32 IS
-	SIGNAL zeros: std_logic_vector(((2**(n-1))-1) downto 0);
+	SIGNAL zeros: std_logic_vector(((2**(n-1))-1) downto 0):=(others=>'0');
 	SIGNAL newSignal: std_logic_vector(31 downto 0);
 
 BEGIN 

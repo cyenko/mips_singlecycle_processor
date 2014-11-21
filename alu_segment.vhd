@@ -18,6 +18,7 @@ ENTITY alu_segment IS
 		Rd : in std_logic_vector(4 downto 0);
 		Rt : in std_logic_vector(4 downto 0);
 		Imm16 : in std_logic_vector(15 downto 0);
+		shamt: in std_logic_vector(4 downto 0);
 		--control signals
 		RegDst:		in std_logic;
 		RegWr:		in std_logic;
@@ -71,6 +72,7 @@ ARCHITECTURE struct OF alu_segment IS
 	    ctrl  : in std_logic_vector(3 downto 0);
 	    A     : in std_logic_vector(31 downto 0);
 	    B     : in std_logic_vector(31 downto 0);
+		shamt : in std_logic_vector(4 downto 0);
 	    cout  : out std_logic;  -- ‘1’ -> carry out
 	    ovf    : out std_logic;  -- ‘1’ -> overflow
 	    ze    : out std_logic;  -- ‘1’ -> is zero
@@ -146,6 +148,7 @@ ARCHITECTURE struct OF alu_segment IS
 	alu_map: alu PORT MAP (
 		A=>busA, 
 		B=>ALU_B, 
+		shamt=>shamt,
 		ctrl=>ALUctr,
 		R=>ALU_R, 
 		ze=>Equal,
