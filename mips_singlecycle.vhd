@@ -148,19 +148,23 @@ ARCHITECTURE struct OF mips_single_cycle IS
 	
 	nEqual <= not Equal;
 	
-	branch_bne: and_gate PORT MAP (
+	branch_bne: and_gate PORT MAP ( 
 		x => nEqual,
 		y=> PCSrc,
 		z=>bne
 	);
 	
 	--branching or of previous 2 signals (bne and beq)
-	
-	branch_map: or_gate PORT MAP (
-		x=>beq,
-		y=>bne,
-		z=>nPC_sel
-	);
+	branch_map: mux PORT MAP (
+		sel=>opcode(0),
+		src0=>beq,
+		src1=>bne,
+		z=>nPC_sel);
+	--branch_map: or_gate PORT MAP (
+	--	x=>beq,
+	--	y=>bne,
+	--	z=>nPC_sel
+	--)-;
 	
 	control_map: control_unit PORT MAP (
 		opCode=>opcode,

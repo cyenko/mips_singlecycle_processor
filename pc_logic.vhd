@@ -28,6 +28,15 @@ ARCHITECTURE struct OF pc_logic IS
 	  );
 	END COMPONENT mux_32;
 	
+	COMPONENT sll_32 
+	port(
+		A:	in std_logic_vector(31 downto 0); --number to shift
+		shamt: in std_logic_vector(4 downto 0);
+		--B:	in std_logic_vector(31 downto 0); --shift amount
+		Z:	out std_logic_vector(31 downto 0) --output
+	);
+	END COMPONENT;
+	
 	COMPONENT register32 IS 
 		PORT(
 			inData : in std_logic_vector(31 downto 0);
@@ -104,9 +113,9 @@ ARCHITECTURE struct OF pc_logic IS
 			ExtOp => '1',
 			R => imm_extend
 		);
-		multiplyby4: sll_32_alt PORT MAP (
+		multiplyby4: sll_32 PORT MAP (
 			A => imm_extend,
-			B => x"00000004",
+			shamt => "00010",
 			Z => extend_shifted
 		);
 		getNoBranchPC: bitAdder_32 PORT MAP (
@@ -117,7 +126,7 @@ ARCHITECTURE struct OF pc_logic IS
 		);
 		getBranchPC: bitAdder_32 PORT MAP (
 			x => no_branch_pc,
-			y => imm_extend,
+			y => extend_shifted,
 			carry => '0',
 			resultVector => branch_pc
 		);
