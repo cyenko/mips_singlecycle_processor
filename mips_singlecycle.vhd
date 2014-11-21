@@ -106,10 +106,14 @@ ARCHITECTURE struct OF mips_single_cycle IS
 	SIGNAL Instruction:	std_logic_vector(31 downto 0);
 
 	SIGNAL nPC_sel:	std_logic;
+	SIGNAL beq: std_logic;
+	SIGNAL bne: std_logic;
 	
 	SIGNAL opcode : std_logic_vector(5 downto 0);
 	SIGNAL funct:	std_logic_vector(5 downto 0);
 	SIGNAL shamt:	std_logic_vector(4 downto 0);
+	
+	
 	
 	--not equal
 	SIGNAL nEqual: std_logic;
@@ -133,6 +137,9 @@ ARCHITECTURE struct OF mips_single_cycle IS
 		override => reset
 	);
 	
+	
+	--PCSrc has
+	
 	branch_beq: and_gate PORT MAP (
 		x=>Equal,
 		y=>PCSrc,
@@ -147,7 +154,13 @@ ARCHITECTURE struct OF mips_single_cycle IS
 		z=>bne
 	);
 	
-	--branching mux or something like that
+	--branching or of previous 2 signals (bne and beq)
+	
+	branch_map: or_gate PORT MAP (
+		x=>beq,
+		y=>bne,
+		z=>nPC_sel
+	);
 	
 	control_map: control_unit PORT MAP (
 		opCode=>opcode,
