@@ -24,7 +24,10 @@ ARCHITECTURE struct OF alu IS
 	SIGNAL tempZeroOr1,tempZeroOr2 : std_Logic;
 	SIGNAL none : std_logic_vector(31 downto 0) := x"00000000";
 
+	SIGNAL alu_result: std_logic_vector(31 downto 0);
+	
 	--Define the components we will be using
+	
 	COMPONENT and_gate_32
 	  port (
 	    x   : in  std_logic_vector(31 downto 0);
@@ -112,7 +115,12 @@ ARCHITECTURE struct OF alu IS
 		Z:	out std_logic_vector(31 downto 0) --output
 	);
 	end component;
-
+	COMPONENT my_zero_32 IS
+	PORT (
+		x:	in std_logic_vector(31 downto 0);
+		z:	out std_logic
+	);
+	END COMPONENT my_zero_32;
 	component nor_32
 	PORT(
 		A: in std_logic_vector(31 downto 0);
@@ -139,10 +147,12 @@ ARCHITECTURE struct OF alu IS
 	--SLTU mapping goes here
 
 	--Finally route through the mux
-    routeOutput: mux_8by32_1 port map (ctrl, addS, subS, andS, orS, sllS, sltS, sltuS, none, R);
+    routeOutput: mux_8by32_1 port map (ctrl, addS, subS, andS, orS, sllS, sltS, sltuS, none, alu_result);
     routeOverflowStuff: mux_8_1_single port map(ctrl,overflowResult(0),overflowResult(1),'0','0','0',overflowResult(5),overflowResult(6),'0',ovf);
     routeCoutStuff: mux_8_1_single port map(ctrl,coutResult(0),coutResult(1),'0','0','0','0','0','0',cout);
-    getZeros: nor_32 PORT MAP(A,tempZeroOr1);
-    getZeros2: nor_32 PORT MAP(B,tempZeroOr2);
-    zeroBitSet: and_gate PORT MAP(tempZeroOr1,tempZeroOr2,ze);
+    --getZeros: nor_32 PORT MAP(A,tempZeroOr1);
+    --getZeros2: nor_32 PORT MAP(B,tempZeroOr2);
+    --zeroBitSet: and_gate PORT MAP(tempZeroOr1,tempZeroOr2,ze);
+	zero_map: my_zero_32 PORT MAP (alu_result,ze);
+	R <= alu_result;
 END struct;
