@@ -50,7 +50,8 @@ ARCHITECTURE struct OF mips_single_cycle IS
 			Equal:	 	out std_logic;
 			busW:		out std_logic_vector(31 downto 0);
 			--clock
-			clk : 		in std_logic
+			clk : 		in std_logic;
+			reset:		in std_logic
 		);
 	END COMPONENT alu_segment;
 	
@@ -167,7 +168,8 @@ ARCHITECTURE struct OF mips_single_cycle IS
 		ALUSrc => ALUSrc,
 		Equal => Equal,
 		busW => busW,
-		clk=>clk
+		clk=>clk,
+		reset=>reset
 	);
 	
 END ARCHITECTURE struct;

@@ -33,7 +33,8 @@ ARCHITECTURE struct OF pc_logic IS
 			inData : in std_logic_vector(31 downto 0);
 			clk: in std_logic;
 			writeEnable: in std_logic;
-			outData : out std_logic_vector(31 downto 0)
+			outData : out std_logic_vector(31 downto 0);
+			reset:	in std_logic
 		);
 	END COMPONENT register32;
 	
@@ -130,7 +131,8 @@ ARCHITECTURE struct OF pc_logic IS
 			inData => pc_new1,
 			clk => clk,
 			writeEnable => '1',
-			outData => pcresult
+			outData => pcresult,
+			reset=>'0'
 		);
 		get_instruction: sram GENERIC MAP (
 		--get_instruction: syncram GENERIC MAP (

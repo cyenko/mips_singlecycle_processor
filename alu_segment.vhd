@@ -30,7 +30,9 @@ ENTITY alu_segment IS
 		Equal:	 	out std_logic;
 		busW:		out std_logic_vector(31 downto 0);
 		--clock
-		clk : 		in std_logic
+		clk : 		in std_logic;
+		--reset
+		reset:		in std_logic
 	);
 END ENTITY alu_segment;
 
@@ -93,7 +95,8 @@ ARCHITECTURE struct OF alu_segment IS
 		clk : in std_logic;
 		writeEnable : in std_logic;
 		busA: out std_logic_vector(31 downto 0);
-		busB : out std_logic_vector(31 downto 0)
+		busB : out std_logic_vector(31 downto 0);
+		reset: in std_logic
 		);
 	END COMPONENT registerfile32;
 	
@@ -136,12 +139,13 @@ ARCHITECTURE struct OF alu_segment IS
 		clk=>clk, 
 		writeEnable=>RegWr,
 		busA=>busA, 
-		busB=>busB
+		busB=>busB,
+		reset=>reset
 	);
 	
 	alu_map: alu PORT MAP (
 		A=>busA, 
-		B=>busB, 
+		B=>ALU_B, 
 		ctrl=>ALUctr,
 		R=>ALU_R, 
 		ze=>Equal,

@@ -13,7 +13,8 @@ ENTITY registerfile32 IS
 		writeEnable : in std_logic;
 
 		busA: out std_logic_vector(31 downto 0);
-		busB : out std_logic_vector(31 downto 0)
+		busB : out std_logic_vector(31 downto 0);
+		reset: in std_logic
 	);
 END registerfile32;
 
@@ -23,7 +24,8 @@ ARCHITECTURE struct OF registerfile32 IS
 			inData : in std_logic_vector(31 downto 0);
 			clk: in std_logic;
 			writeEnable: in std_logic;
-			outData : out std_logic_vector(31 downto 0)
+			outData : out std_logic_vector(31 downto 0);
+			reset: in std_logic
 		);
 	END COMPONENT register32;
 	COMPONENT mux_32_1 IS
@@ -72,7 +74,7 @@ ARCHITECTURE struct OF registerfile32 IS
 		writeEnable : out std_logic_vector(31 downto 0)
 		);
 	END COMPONENT regSelector;
-	SIGNAL regWE : std_logic_vector(31 downto 0);
+	SIGNAL regWE : std_logic_vector(31 downto 0):=x"ffffffff";
 	TYPE regFile is array (0 to 31) of std_logic_vector(31 downto 0);
 	SIGNAL regOutSignal : regFile;
 
@@ -83,7 +85,8 @@ ARCHITECTURE struct OF registerfile32 IS
 					inData=>busW,
 					clk=>clk,
 					writeEnable=>regWE(i),
-					outData=> regOutSignal(i)
+					outData=> regOutSignal(i),
+					reset=>reset
 				);
 		END GENERATE genRegister;
 
