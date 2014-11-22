@@ -9,7 +9,7 @@ z2
 cModel Technology
 dC:/Users/Jacob/Documents/Fall 2014/EECS 361/Projects/ALU
 Ealu
-Z0 w1416522306
+Z0 w1416618198
 Z1 DPx4 work 13 eecs361_gates 0 22 Y`H6JLa]eolRP`lSh`[1R3
 Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
@@ -18,13 +18,13 @@ Z5 8C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_proc
 Z6 FC:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/alu.vhd
 l0
 L5
-V^d>z@e20hQ1gfP29V5J8^0
-!s100 =LHWi2@MEI?4`:mH8?0eV2
+VnjShT3g6<j[h=_fhZ0gQB2
+!s100 <aU7NXbCzk71XD]?GTe4M2
 Z7 OP;C;10.3d;59
 32
-Z8 !s110 1416522308
+Z8 !s110 1416618285
 !i10b 1
-Z9 !s108 1416522308.436000
+Z9 !s108 1416618285.449000
 Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/alu.vhd|
 Z11 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/alu.vhd|
 !i113 1
@@ -34,11 +34,11 @@ Astruct
 R1
 R2
 R3
-DEx4 work 3 alu 0 22 ^d>z@e20hQ1gfP29V5J8^0
-l120
-L17
-VVdJE`7YFJ98Yn_>[O6OE23
-!s100 ^F71>Gi1AobJM_;ZShDlI3
+DEx4 work 3 alu 0 22 njShT3g6<j[h=_fhZ0gQB2
+l130
+L18
+VG>43^Q:>Mk]]Go=9bjaGA3
+!s100 kn5=a8J_EY`M2V5[`zG>b2
 R7
 32
 R8
@@ -64,9 +64,9 @@ V1ENZlR9hc4Cb^nTGZVT4o2
 !s100 =Y:LHkS;W0S4CGgDCD@j_1
 R7
 32
-Z18 !s110 1416521625
+Z18 !s110 1416618308
 !i10b 1
-Z19 !s108 1416521625.054000
+Z19 !s108 1416618308.804000
 Z20 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/alu_control.vhd|
 Z21 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/alu_control.vhd|
 !i113 1
@@ -105,11 +105,11 @@ VJ[5Ufoh<4cCCalG>cz2Gi3
 !s100 9R>Eo<MW:B6U:`U7I?SH83
 R7
 32
-R18
+Z25 !s110 1416618309
 !i10b 1
-Z25 !s108 1416521625.668000
-Z26 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/alu_control_tb.vhd|
-Z27 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/alu_control_tb.vhd|
+Z26 !s108 1416618309.661000
+Z27 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/alu_control_tb.vhd|
+Z28 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/alu_control_tb.vhd|
 !i113 1
 R12
 R13
@@ -123,16 +123,16 @@ VdG_S:ho@R=E1CmgeJ=UhT0
 !s100 Dc25m2PL5TAjcX[k`iSo20
 R7
 32
-R18
-!i10b 1
 R25
+!i10b 1
 R26
 R27
+R28
 !i113 1
 R12
 R13
 Ealu_segment
-Z28 w1416522371
+R0
 Z29 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
 Z30 DPx4 ieee 16 std_logic_textio 0 22 V5TSK`;aJKC<l]CEg1>mz1
 Z31 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
@@ -145,13 +145,13 @@ Z33 8C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_pro
 Z34 FC:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/alu_segment.vhd
 l0
 L11
-V0^z@M;<>f1VP9G?<H0fzY2
-!s100 Ym0Ja`EMd_8mGC__OKUP52
+V]aSQGLZCU`X;Xdnd2VMT41
+!s100 H3P73QKf;N1ENL5O@WNNc0
 R7
 32
-Z35 !s110 1416522383
+Z35 !s110 1416618310
 !i10b 1
-Z36 !s108 1416522383.283000
+Z36 !s108 1416618310.460000
 Z37 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/alu_segment.vhd|
 Z38 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/alu_segment.vhd|
 !i113 1
@@ -165,11 +165,11 @@ R32
 R1
 R2
 R3
-DEx4 work 11 alu_segment 0 22 0^z@M;<>f1VP9G?<H0fzY2
-l122
-L37
-V_AI3TAWN[bZ`9ZZA1efoR2
-!s100 D2jnd=H;]DefX@2co8[][1
+DEx4 work 11 alu_segment 0 22 ]aSQGLZCU`X;Xdnd2VMT41
+l127
+L40
+VeldP>FNJ:oiB4h85j2`MO1
+!s100 5kemS;mjlB<JU=3bQ12Si0
 R7
 32
 R35
@@ -193,9 +193,9 @@ VjSaBg<`gkeP>h4X]eZo_c3
 !s100 =0O:X@26:H3iKcc7EIVNz1
 R7
 32
-Z42 !s110 1416522910
+Z42 !s110 1416618317
 !i10b 1
-Z43 !s108 1416522910.923000
+Z43 !s108 1416618317.832000
 Z44 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/alu_tb.vhd|
 Z45 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/alu_tb.vhd|
 !i113 1
@@ -232,9 +232,9 @@ VU_Y]TlgZX3N<gl1:ZjH622
 !s100 9zM?`;meNomBE;big9UG12
 R7
 32
-Z49 !s110 1416521605
+Z49 !s110 1416618271
 !i10b 1
-Z50 !s108 1416521605.585000
+Z50 !s108 1416618270.792000
 Z51 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/and_gate.vhd|
 Z52 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/and_gate.vhd|
 !i113 1
@@ -271,9 +271,9 @@ Ve3_4FiC7KKo76^^ZW`RA;2
 !s100 KSRcRaLU>DVF[looI[MAB1
 R7
 32
-Z55 !s110 1416521606
+Z55 !s110 1416618273
 !i10b 1
-Z56 !s108 1416521606.281000
+Z56 !s108 1416618273.592000
 Z57 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/and_gate_32.vhd|
 Z58 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/and_gate_32.vhd|
 !i113 1
@@ -310,11 +310,11 @@ VZDz=h^?4N8=QG_lZb8Y^N3
 !s100 BgW1<b848=U4b0Fm5IB4V0
 R7
 32
-R55
+Z61 !s110 1416618275
 !i10b 1
-Z61 !s108 1416521606.941000
-Z62 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/and_gate_n.vhd|
-Z63 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/and_gate_n.vhd|
+Z62 !s108 1416618275.294000
+Z63 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/and_gate_n.vhd|
+Z64 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/and_gate_n.vhd|
 !i113 1
 R12
 R13
@@ -328,33 +328,33 @@ VcdaRWB<_e`=84b7fYYV0b0
 !s100 TlhKh<Ln2>7=AINQTiM_c3
 R7
 32
-R55
-!i10b 1
 R61
+!i10b 1
 R62
 R63
+R64
 !i113 1
 R12
 R13
 Ebitadder_1
-Z64 w1416420523
+Z65 w1416420523
 R1
 R2
 R3
 R4
-Z65 8C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/bitAdder_1.vhd
-Z66 FC:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/bitAdder_1.vhd
+Z66 8C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/bitAdder_1.vhd
+Z67 FC:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/bitAdder_1.vhd
 l0
 L5
 VhVL0UlD4M4DiL_A`0D[oc3
 !s100 U_m5Zl9I>9[M16kYbA=_>2
 R7
 32
-Z67 !s110 1416521611
+Z68 !s110 1416618287
 !i10b 1
-Z68 !s108 1416521611.648000
-Z69 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/bitAdder_1.vhd|
-Z70 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/bitAdder_1.vhd|
+Z69 !s108 1416618287.077000
+Z70 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/bitAdder_1.vhd|
+Z71 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/bitAdder_1.vhd|
 !i113 1
 R12
 R13
@@ -369,33 +369,33 @@ VGcF5`jD6^YkSA>dod>D<N0
 !s100 ^N@[hU3coJ6BWAE`^Ro5P0
 R7
 32
-R67
-!i10b 1
 R68
+!i10b 1
 R69
 R70
+R71
 !i113 1
 R12
 R13
 Ebitadder_32
-R64
+R65
 R1
 R2
 R3
 R4
-Z71 8C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/bitAdder_32.vhd
-Z72 FC:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/bitAdder_32.vhd
+Z72 8C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/bitAdder_32.vhd
+Z73 FC:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/bitAdder_32.vhd
 l0
 L5
 VEIi]hAdlBY^37h]N74SD20
 !s100 5iDR=]BWnHSbVf=NWOkXa3
 R7
 32
-Z73 !s110 1416521612
+Z74 !s110 1416618288
 !i10b 1
-Z74 !s108 1416521612.321000
-Z75 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/bitAdder_32.vhd|
-Z76 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/bitAdder_32.vhd|
+Z75 !s108 1416618288.679000
+Z76 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/bitAdder_32.vhd|
+Z77 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/bitAdder_32.vhd|
 !i113 1
 R12
 R13
@@ -410,33 +410,33 @@ V@B]EYLz_MaCh=?a_kRY<=3
 !s100 <a>74EzQGFJDFaY?LoDk23
 R7
 32
-R73
-!i10b 1
 R74
+!i10b 1
 R75
 R76
+R77
 !i113 1
 R12
 R13
 Ebitsubtractor_32
-R64
+R65
 R1
 R2
 R3
 R4
-Z77 8C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/bitSubtractor_32.vhd
-Z78 FC:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/bitSubtractor_32.vhd
+Z78 8C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/bitSubtractor_32.vhd
+Z79 FC:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/bitSubtractor_32.vhd
 l0
 L5
 V36jFT:A:?SBjEaSG2:V=13
 !s100 6Ql7=3fiQG>EZQ3_bS`6@3
 R7
 32
-R73
+Z80 !s110 1416618290
 !i10b 1
-Z79 !s108 1416521612.951000
-Z80 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/bitSubtractor_32.vhd|
-Z81 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/bitSubtractor_32.vhd|
+Z81 !s108 1416618290.334000
+Z82 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/bitSubtractor_32.vhd|
+Z83 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/bitSubtractor_32.vhd|
 !i113 1
 R12
 R13
@@ -451,11 +451,11 @@ VNIjQ1>2I[=HRfOD<`Li`B1
 !s100 TlBM7z0>JU7JiW4MAfb9^3
 R7
 32
-R73
-!i10b 1
-R79
 R80
+!i10b 1
 R81
+R82
+R83
 !i113 1
 R12
 R13
@@ -467,19 +467,19 @@ R29
 R2
 R3
 R4
-Z82 8C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/cache_test.vhd
-Z83 FC:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/cache_test.vhd
+Z84 8C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/cache_test.vhd
+Z85 FC:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/cache_test.vhd
 l0
 L7
 VCHDjezf5mPenFA@4OTMDc0
 !s100 g5=l_MS3VNVDM1kz6kNY=0
 R7
 32
-Z84 !s110 1416521607
+Z86 !s110 1416618276
 !i10b 1
-Z85 !s108 1416521607.592000
-Z86 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/cache_test.vhd|
-Z87 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/cache_test.vhd|
+Z87 !s108 1416618276.926000
+Z88 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/cache_test.vhd|
+Z89 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/cache_test.vhd|
 !i113 1
 R12
 R13
@@ -496,11 +496,11 @@ VIaYz<[=d4VDRdVM6Bil>j1
 !s100 RE30zc;jERnWUgcQW=Rbe0
 R7
 32
-R84
-!i10b 1
-R85
 R86
+!i10b 1
 R87
+R88
+R89
 !i113 1
 R12
 R13
@@ -510,19 +510,19 @@ R29
 R2
 R3
 R4
-Z88 8C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/cmp_n.vhd
-Z89 FC:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/cmp_n.vhd
+Z90 8C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/cmp_n.vhd
+Z91 FC:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/cmp_n.vhd
 l0
 L5
 V[>7ZP_42a4D:Fmd]7;Mei2
 !s100 Q@FG57Y^f`a49FFnA^8XA3
 R7
 32
-Z90 !s110 1416521608
+Z92 !s110 1416618278
 !i10b 1
-Z91 !s108 1416521608.273000
-Z92 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/cmp_n.vhd|
-Z93 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/cmp_n.vhd|
+Z93 !s108 1416618278.649000
+Z94 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/cmp_n.vhd|
+Z95 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/cmp_n.vhd|
 !i113 1
 R12
 R13
@@ -537,11 +537,11 @@ Vm4akQmO[iagF^;X2^[E];1
 !s100 k3J96n;G0?;fYl<Wkbnk=1
 R7
 32
-R90
-!i10b 1
-R91
 R92
+!i10b 1
 R93
+R94
+R95
 !i113 1
 R12
 R13
@@ -552,19 +552,19 @@ R1
 R2
 R3
 R4
-Z94 8C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/control_unit.vhd
-Z95 FC:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/control_unit.vhd
+Z96 8C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/control_unit.vhd
+Z97 FC:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/control_unit.vhd
 l0
 L6
 VVXQ8=3HM03l6aW2SKNN8K3
 !s100 ZlZe21WQA`bHgbB;HKoWg1
 R7
 32
-Z96 !s110 1416521626
+Z98 !s110 1416618311
 !i10b 1
-Z97 !s108 1416521626.954000
-Z98 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/control_unit.vhd|
-Z99 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/control_unit.vhd|
+Z99 !s108 1416618311.292000
+Z100 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/control_unit.vhd|
+Z101 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/control_unit.vhd|
 !i113 1
 R12
 R13
@@ -580,32 +580,32 @@ VVS<VGh=cg^AdA>f5UXjji2
 !s100 2VhdnMdiL0f<UG5Pkh7fX1
 R7
 32
-R96
-!i10b 1
-R97
 R98
+!i10b 1
 R99
+R100
+R101
 !i113 1
 R12
 R13
 Econtrol_unit_tb
-Z100 w1416473986
+Z102 w1416473986
 R2
 R3
 R4
-Z101 8C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/control_unit_tb.vhd
-Z102 FC:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/control_unit_tb.vhd
+Z103 8C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/control_unit_tb.vhd
+Z104 FC:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/control_unit_tb.vhd
 l0
 L4
 VHbBhcl`68_^@8d<3Q4T@_0
 !s100 PbY<SbaZUEE8dG4KISOM^0
 R7
 32
-Z103 !s110 1416521627
+Z105 !s110 1416618312
 !i10b 1
-Z104 !s108 1416521627.628000
-Z105 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/control_unit_tb.vhd|
-Z106 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/control_unit_tb.vhd|
+Z106 !s108 1416618312.106000
+Z107 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/control_unit_tb.vhd|
+Z108 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/control_unit_tb.vhd|
 !i113 1
 R12
 R13
@@ -619,11 +619,11 @@ V4dj2R7Jil:LG3Y[<CTSaM1
 !s100 ]RkY`9]jb19R41[Vc]0[e0
 R7
 32
-R103
-!i10b 1
-R104
 R105
+!i10b 1
 R106
+R107
+R108
 !i113 1
 R12
 R13
@@ -636,19 +636,19 @@ R32
 R2
 R3
 R4
-Z107 8C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/csram.vhd
-Z108 FC:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/csram.vhd
+Z109 8C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/csram.vhd
+Z110 FC:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/csram.vhd
 l0
 L12
 VccB:eUz6G[KU;5]K^_WMh0
 !s100 G3Pibi36FAWWliCKjYRFl3
 R7
 32
-Z109 !s110 1416521609
+Z111 !s110 1416618280
 !i10b 1
-Z110 !s108 1416521608.994000
-Z111 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/csram.vhd|
-Z112 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/csram.vhd|
+Z112 !s108 1416618280.302000
+Z113 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/csram.vhd|
+Z114 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/csram.vhd|
 !i113 1
 R12
 R13
@@ -666,11 +666,11 @@ VDhVd`XJ]KB3I=i>:E`f2h3
 !s100 D^5mU=C?a[K@12<8cz96E0
 R7
 32
-R109
-!i10b 1
-R110
 R111
+!i10b 1
 R112
+R113
+R114
 !i113 1
 R12
 R13
@@ -680,19 +680,19 @@ R29
 R2
 R3
 R4
-Z113 8C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/dec_n.vhd
-Z114 FC:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/dec_n.vhd
+Z115 8C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/dec_n.vhd
+Z116 FC:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/dec_n.vhd
 l0
 L5
 V7iJ?jPYN_emZ4:^;hN;]G2
 !s100 TFYiE@E?[zcS;UYZJZ]e]0
 R7
 32
-R109
+Z117 !s110 1416618281
 !i10b 1
-Z115 !s108 1416521609.709000
-Z116 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/dec_n.vhd|
-Z117 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/dec_n.vhd|
+Z118 !s108 1416618281.960000
+Z119 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/dec_n.vhd|
+Z120 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/dec_n.vhd|
 !i113 1
 R12
 R13
@@ -707,11 +707,11 @@ V@Fb=@53n>MNEImDCn?Ze>0
 !s100 55g?PRCWKJcmYh6jzUGZ80
 R7
 32
-R109
-!i10b 1
-R115
-R116
 R117
+!i10b 1
+R118
+R119
+R120
 !i113 1
 R12
 R13
@@ -720,19 +720,19 @@ R46
 R2
 R3
 R4
-Z118 8C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/dff.vhd
-Z119 FC:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/dff.vhd
+Z121 8C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/dff.vhd
+Z122 FC:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/dff.vhd
 l0
 L4
 VmKZ>[LGJ@mPeC8i@F[]]G1
 !s100 6RF6aKO;bLUdc^Uo1TlJA1
 R7
 32
-Z120 !s110 1416521586
+Z123 !s110 1416618254
 !i10b 1
-Z121 !s108 1416521586.129000
-Z122 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/dff.vhd|
-Z123 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/dff.vhd|
+Z124 !s108 1416618254.074000
+Z125 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/dff.vhd|
+Z126 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/dff.vhd|
 !i113 1
 R12
 R13
@@ -746,11 +746,11 @@ V?G=X8dlZ@2I_O[J]5HOIT1
 !s100 YQ?Mf61<mPk;FAfQWmbPe2
 R7
 32
-R120
-!i10b 1
-R121
-R122
 R123
+!i10b 1
+R124
+R125
+R126
 !i113 1
 R12
 R13
@@ -759,19 +759,19 @@ R46
 R2
 R3
 R4
-Z124 8C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/dffr.vhd
-Z125 FC:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/dffr.vhd
+Z127 8C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/dffr.vhd
+Z128 FC:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/dffr.vhd
 l0
 L4
 VJ64Bn0^0_^0mUSU<ZOo591
 !s100 8^h72ccPiicFMoll6;?B^1
 R7
 32
-R120
+R123
 !i10b 1
-Z126 !s108 1416521586.781000
-Z127 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/dffr.vhd|
-Z128 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/dffr.vhd|
+Z129 !s108 1416618254.683000
+Z130 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/dffr.vhd|
+Z131 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/dffr.vhd|
 !i113 1
 R12
 R13
@@ -785,11 +785,11 @@ V_Uhmck]XK8N?fUm1<]knZ2
 !s100 [jSDjV[;ooEXI1fbj<kQH2
 R7
 32
-R120
+R123
 !i10b 1
-R126
-R127
-R128
+R129
+R130
+R131
 !i113 1
 R12
 R13
@@ -798,19 +798,19 @@ R46
 R2
 R3
 R4
-Z129 8C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/dffr_a.vhd
-Z130 FC:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/dffr_a.vhd
+Z132 8C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/dffr_a.vhd
+Z133 FC:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/dffr_a.vhd
 l0
 L4
 VdP=DD7z<d9h=O[o6XL5N11
 !s100 Ae06@YlEN>^ZBC[J]R^j?2
 R7
 32
-Z131 !s110 1416521587
+Z134 !s110 1416618255
 !i10b 1
-Z132 !s108 1416521587.350000
-Z133 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/dffr_a.vhd|
-Z134 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/dffr_a.vhd|
+Z135 !s108 1416618255.236000
+Z136 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/dffr_a.vhd|
+Z137 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/dffr_a.vhd|
 !i113 1
 R12
 R13
@@ -824,11 +824,11 @@ VI62cMXNa9hMQ88?5;TBh:2
 !s100 18jIoW:5CWgj6bjeXK^2W3
 R7
 32
-R131
-!i10b 1
-R132
-R133
 R134
+!i10b 1
+R135
+R136
+R137
 !i113 1
 R12
 R13
@@ -846,9 +846,9 @@ V^^AF]TLfaMEJ7lm=DbD:[0
 !s100 J4oJc<k4i`WASEFke5kBI1
 R7
 32
-R131
+R134
 !i10b 1
-!s108 1416521587.938000
+!s108 1416618255.763000
 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/eecs361.vhd|
 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/eecs361.vhd|
 !i113 1
@@ -857,7 +857,7 @@ R13
 Peecs361_bruno
 R2
 R3
-R64
+R65
 R4
 8C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361_singecycle.vhd
 FC:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361_singecycle.vhd
@@ -867,9 +867,9 @@ V8RaRQaWlme]HbRzQ>g`;<1
 !s100 :7zH][lD@dL`]04W@bBK33
 R7
 32
-Z135 !s110 1416521613
+!s110 1416618291
 !i10b 1
-!s108 1416521613.616000
+!s108 1416618291.933000
 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361_singecycle.vhd|
 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361_singecycle.vhd|
 !i113 1
@@ -888,33 +888,33 @@ VY`H6JLa]eolRP`lSh`[1R3
 !s100 EFJF``Kkcd:<4LI@jVAPI3
 R7
 32
-Z136 !s110 1416521588
+R134
 !i10b 1
-!s108 1416521588.026000
+!s108 1416618255.828000
 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/eecs361_gates.vhd|
 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/eecs361_gates.vhd|
 !i113 1
 R12
 R13
 Eextender
-R64
+R65
 R1
 R2
 R3
 R4
-Z137 8C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/extender.vhd
-Z138 FC:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/extender.vhd
+Z138 8C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/extender.vhd
+Z139 FC:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/extender.vhd
 l0
 L5
 V]d:cHh=X1FI1T8<K]NMZ_2
 !s100 i?6UL7f8h1e3;YI;Yc2lB1
 R7
 32
-Z139 !s110 1416521622
+Z140 !s110 1416618306
 !i10b 1
-Z140 !s108 1416521622.947000
-Z141 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/extender.vhd|
-Z142 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/extender.vhd|
+Z141 !s108 1416618306.450000
+Z142 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/extender.vhd|
+Z143 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/extender.vhd|
 !i113 1
 R12
 R13
@@ -929,32 +929,32 @@ VK]ick44l[Y8cS5_9DRV=V1
 !s100 Ae4MTSVN8h<zK5:2ghcF01
 R7
 32
-R139
-!i10b 1
 R140
+!i10b 1
 R141
 R142
+R143
 !i113 1
 R12
 R13
 Eextender_tb
-R64
+R65
 R2
 R3
 R4
-Z143 8C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/extender_tb.vhd
-Z144 FC:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/extender_tb.vhd
+Z144 8C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/extender_tb.vhd
+Z145 FC:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/extender_tb.vhd
 l0
 L4
 VEWEEzbhfBKg>8k72>TG=G1
 !s100 EIZRkEaUJWzlH;kozRn373
 R7
 32
-Z145 !s110 1416521623
+Z146 !s110 1416618307
 !i10b 1
-Z146 !s108 1416521623.622000
-Z147 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/extender_tb.vhd|
-Z148 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/extender_tb.vhd|
+Z147 !s108 1416618307.255000
+Z148 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/extender_tb.vhd|
+Z149 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/extender_tb.vhd|
 !i113 1
 R12
 R13
@@ -968,11 +968,11 @@ V<bahhESFcTR7><?mc^Z_e3
 !s100 aA>fO1538`_WcEbj:>o_h2
 R7
 32
-R145
-!i10b 1
 R146
+!i10b 1
 R147
 R148
+R149
 !i113 1
 R12
 R13
@@ -981,19 +981,19 @@ R46
 R2
 R3
 R4
-Z149 8C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/fulladder_32.vhd
-Z150 FC:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/fulladder_32.vhd
+Z150 8C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/fulladder_32.vhd
+Z151 FC:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/fulladder_32.vhd
 l0
 L4
 V>ReaF7L@IkV:Lf5;c1iGi1
 !s100 VUBWe9FBJWK;X=mWOQneA3
 R7
 32
-R136
+R134
 !i10b 1
-Z151 !s108 1416521588.107000
-Z152 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/fulladder_32.vhd|
-Z153 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/fulladder_32.vhd|
+Z152 !s108 1416618255.902000
+Z153 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/fulladder_32.vhd|
+Z154 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/fulladder_32.vhd|
 !i113 1
 R12
 R13
@@ -1007,11 +1007,11 @@ VmD2XY;Jb84I[Z0Aj_bS?H2
 !s100 2_@4>b7=<lh>L?l_cAQk80
 R7
 32
-R136
+R134
 !i10b 1
-R151
 R152
 R153
+R154
 !i113 1
 R12
 R13
@@ -1021,19 +1021,19 @@ R29
 R2
 R3
 R4
-Z154 8C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/fulladder_n.vhd
-Z155 FC:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/fulladder_n.vhd
+Z155 8C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/fulladder_n.vhd
+Z156 FC:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/fulladder_n.vhd
 l0
 L5
 V=VzBTYNjL?;I=L[:Z@Am83
 !s100 V6IE>^`E7L]cZ]31OjmKO0
 R7
 32
-R136
+Z157 !s110 1416618256
 !i10b 1
-Z156 !s108 1416521588.701000
-Z157 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/fulladder_n.vhd|
-Z158 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/fulladder_n.vhd|
+Z158 !s108 1416618256.466000
+Z159 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/fulladder_n.vhd|
+Z160 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/fulladder_n.vhd|
 !i113 1
 R12
 R13
@@ -1048,16 +1048,16 @@ VQN:0h>GkjIIGbWkATMNnP2
 !s100 dO2Y]L5HUgBaSB^@IH`Tz1
 R7
 32
-R136
-!i10b 1
-R156
 R157
+!i10b 1
 R158
+R159
+R160
 !i113 1
 R12
 R13
 Emips_single_cycle
-Z159 w1416514393
+R0
 R15
 R29
 R30
@@ -1065,19 +1065,19 @@ R2
 R3
 R1
 R4
-Z160 8C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/mips_singlecycle.vhd
-Z161 FC:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/mips_singlecycle.vhd
+Z161 8C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/mips_singlecycle.vhd
+Z162 FC:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/mips_singlecycle.vhd
 l0
 L10
 V2AEORNFiP9A]^0UaY2XV<1
 !s100 HC1JkS18VB7gNJX[i_^ab0
 R7
 32
-Z162 !s110 1416521629
+Z163 !s110 1416618314
 !i10b 1
-Z163 !s108 1416521629.382000
-Z164 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/mips_singlecycle.vhd|
-Z165 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/mips_singlecycle.vhd|
+Z164 !s108 1416618314.591000
+Z165 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/mips_singlecycle.vhd|
+Z166 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/mips_singlecycle.vhd|
 !i113 1
 R12
 R13
@@ -1089,38 +1089,38 @@ R2
 R3
 R1
 DEx4 work 17 mips_single_cycle 0 22 2AEORNFiP9A]^0UaY2XV<1
-l112
+l121
 L22
-V7=80cf5DPHUij8SW6^^M]2
-!s100 a[F1zi=@Lkm>0B8ZI;;1l0
+VW>jCPe;6AV80bISWQ3gE81
+!s100 TEJ^cEoMWYL>aH:W?k>dz2
 R7
 32
-R162
-!i10b 1
 R163
+!i10b 1
 R164
 R165
+R166
 !i113 1
 R12
 R13
 Emips_singlecycle_tb
-Z166 w1416523725
+Z167 w1416620779
 R2
 R3
 R4
-Z167 8C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/mips_singlecycle_tb.vhd
-Z168 FC:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/mips_singlecycle_tb.vhd
+Z168 8C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/tb_sortCorrectedBranch.vhd
+Z169 FC:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/tb_sortCorrectedBranch.vhd
 l0
 L4
 VYMK`<2HGPJ2clS8IW`[]b3
 !s100 T^=89k0U8;Tn]Z[Lb8Kc73
 R7
 32
-Z169 !s110 1416523742
+Z170 !s110 1416620796
 !i10b 1
-Z170 !s108 1416523742.914000
-Z171 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/mips_singlecycle_tb.vhd|
-Z172 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/mips_singlecycle_tb.vhd|
+Z171 !s108 1416620796.744000
+Z172 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/tb_sortCorrectedBranch.vhd|
+Z173 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/tb_sortCorrectedBranch.vhd|
 !i113 1
 R12
 R13
@@ -1130,15 +1130,15 @@ R3
 DEx4 work 19 mips_singlecycle_tb 0 22 YMK`<2HGPJ2clS8IW`[]b3
 l26
 L8
-V[o1T>j;jL];d5EdZ>HeUb2
-!s100 FU9IYjjaNOfRQ>bRnb^j?1
+Vf6CgjPPNT@Sg4h3YaCCi]2
+!s100 ;GVhB7AXW>T>4>BEUP`Az1
 R7
 32
-R169
-!i10b 1
 R170
+!i10b 1
 R171
 R172
+R173
 !i113 1
 R12
 R13
@@ -1149,19 +1149,19 @@ R15
 R2
 R3
 R4
-Z173 8C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/mux.vhd
-Z174 FC:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/mux.vhd
+Z174 8C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/mux.vhd
+Z175 FC:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/mux.vhd
 l0
 L5
 VzB3mFn]^WO1Q5f;oa5<:i1
 !s100 R7SGh1UNzgRXkDgUzi0Dn0
 R7
 32
-Z175 !s110 1416521589
+Z176 !s110 1416618257
 !i10b 1
-Z176 !s108 1416521589.493000
-Z177 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/mux.vhd|
-Z178 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/mux.vhd|
+Z177 !s108 1416618257.089000
+Z178 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/mux.vhd|
+Z179 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/mux.vhd|
 !i113 1
 R12
 R13
@@ -1177,11 +1177,11 @@ V>1PeESFaHClS=zBGFdF772
 !s100 TMbaX=C3aUF9Pl?TK_bl20
 R7
 32
-R175
-!i10b 1
 R176
+!i10b 1
 R177
 R178
+R179
 !i113 1
 R12
 R13
@@ -1192,17 +1192,17 @@ R15
 R2
 R3
 R4
-Z179 8C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/mux_32.vhd
-Z180 FC:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/mux_32.vhd
+Z180 8C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/mux_32.vhd
+Z181 FC:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/mux_32.vhd
 l0
 L5
 VOlZhk[`?`GZQTV3Y4L@ZX0
 !s100 ciE_BzZP_7gaALUfNcf3V2
 R7
 32
-Z181 !s110 1416521590
+R176
 !i10b 1
-Z182 !s108 1416521590.177000
+Z182 !s108 1416618257.664000
 Z183 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/mux_32.vhd|
 Z184 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/mux_32.vhd|
 !i113 1
@@ -1220,7 +1220,7 @@ V7UHP=BdYn]NVWnMkCOB[F3
 !s100 iiT]gRaJ0BGA@1c7lKGZ;1
 R7
 32
-R181
+R176
 !i10b 1
 R182
 R183
@@ -1229,7 +1229,7 @@ R184
 R12
 R13
 Emux_32_1
-R64
+R65
 R1
 R2
 R3
@@ -1242,9 +1242,9 @@ VhP=HR>m:Z8PEQPX6XV@Bn0
 !s100 k^ab[VCJok29_Q[;XW9@13
 R7
 32
-Z187 !s110 1416521615
+Z187 !s110 1416618296
 !i10b 1
-Z188 !s108 1416521615.003000
+Z188 !s108 1416618296.352000
 Z189 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/mux_32_1.vhd|
 Z190 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/mux_32_1.vhd|
 !i113 1
@@ -1307,9 +1307,9 @@ V2TgFGDCL:JWbWNU]Ui0l;0
 !s100 SJ5<NbBjfcm6dTf7fCnU`3
 R7
 32
-Z196 !s110 1416521630
+Z196 !s110 1416618316
 !i10b 1
-Z197 !s108 1416521630.773000
+Z197 !s108 1416618316.227000
 R191
 R192
 !i113 1
@@ -1350,11 +1350,11 @@ V28f=nV0PG?<EU0J7YKP;A0
 !s100 fc4G48_HaTJ5]f`]Vln2E3
 R7
 32
-R135
+Z201 !s110 1416618293
 !i10b 1
-Z201 !s108 1416521613.690000
-Z202 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/mux_8_1.vhd|
-Z203 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/mux_8_1.vhd|
+Z202 !s108 1416618293.089000
+Z203 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/mux_8_1.vhd|
+Z204 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/mux_8_1.vhd|
 !i113 1
 R12
 R13
@@ -1370,32 +1370,32 @@ VQl]UBhX6E^H2CI`KY^k131
 !s100 9fa;?WW9:oN;D9E5`6GlO3
 R7
 32
-R135
-!i10b 1
 R201
+!i10b 1
 R202
 R203
+R204
 !i113 1
 R12
 R13
 Emux_8_1_single
-Z204 w1416521303
+Z205 w1416521303
 R1
 R15
 R2
 R3
 R4
-Z205 8C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/mux_8_1_single.vhd
-Z206 FC:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/mux_8_1_single.vhd
+Z206 8C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/mux_8_1_single.vhd
+Z207 FC:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/mux_8_1_single.vhd
 l0
 L6
 V_Tli>QCPhU]C8?3[QzAAN1
 !s100 D>1ZN48Tf]HoDi@JYV4k`1
 R7
 32
-Z207 !s110 1416521631
+R42
 !i10b 1
-Z208 !s108 1416521631.397000
+Z208 !s108 1416618317.028000
 Z209 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/mux_8_1_single.vhd|
 Z210 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/mux_8_1_single.vhd|
 !i113 1
@@ -1413,7 +1413,7 @@ V049OL>SFMQ@AW2DdWUXCW3
 !s100 U4WVXBh5U[?1S7]I?<7S;2
 R7
 32
-R207
+R42
 !i10b 1
 R208
 R209
@@ -1436,9 +1436,9 @@ V9LJDG?UG^C^kMjl9ngI;S3
 !s100 GfBCo?BU=Kzh4RkXkYf0g2
 R7
 32
-Z214 !s110 1416521614
+Z214 !s110 1416618294
 !i10b 1
-Z215 !s108 1416521614.365000
+Z215 !s108 1416618294.717000
 Z216 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/mux_8by32_1.vhd|
 Z217 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/mux_8by32_1.vhd|
 !i113 1
@@ -1477,11 +1477,11 @@ V?KK90]`1?K3cYmaZ@2ZiU2
 !s100 DhH_dWUkhZScmPX0PShL>1
 R7
 32
-R181
+Z220 !s110 1416618258
 !i10b 1
-Z220 !s108 1416521590.769000
-Z221 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/mux_n.vhd|
-Z222 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/mux_n.vhd|
+Z221 !s108 1416618258.311000
+Z222 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/mux_n.vhd|
+Z223 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/mux_n.vhd|
 !i113 1
 R12
 R13
@@ -1495,11 +1495,52 @@ Vc:nT1[O:OUd7C:kd0;RQm2
 !s100 VOPJAGmKhfQ>L9L:P_FXf0
 R7
 32
-R181
-!i10b 1
 R220
+!i10b 1
 R221
 R222
+R223
+!i113 1
+R12
+R13
+Emy_zero_32
+R0
+R1
+R2
+R3
+R4
+Z224 8C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/my_zero_32.vhd
+Z225 FC:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/my_zero_32.vhd
+l0
+L5
+VjMMIGFG3`Ta@J@;KOK@Z^1
+!s100 zd?@1aWY2bfVHW=^2J@NM1
+R7
+32
+Z226 !s110 1416618361
+!i10b 1
+Z227 !s108 1416618361.534000
+Z228 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/my_zero_32.vhd|
+Z229 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/my_zero_32.vhd|
+!i113 1
+R12
+R13
+Astructural
+R1
+R2
+R3
+DEx4 work 10 my_zero_32 0 22 jMMIGFG3`Ta@J@;KOK@Z^1
+l21
+L12
+V03AC7U6d_ASI=LZE`UFOU2
+!s100 L_ZjIGC?RB0@8=6;>z[AG0
+R7
+32
+R226
+!i10b 1
+R227
+R228
+R229
 !i113 1
 R12
 R13
@@ -1508,19 +1549,19 @@ R46
 R2
 R3
 R4
-Z223 8C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/nand_gate.vhd
-Z224 FC:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/nand_gate.vhd
+Z230 8C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/nand_gate.vhd
+Z231 FC:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/nand_gate.vhd
 l0
 L5
 VUJRIU4Oo2bb833MR;8eeK0
 !s100 `;YoNjg98=RO3KEUJb?JH2
 R7
 32
-Z225 !s110 1416521591
+R220
 !i10b 1
-Z226 !s108 1416521591.351000
-Z227 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/nand_gate.vhd|
-Z228 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/nand_gate.vhd|
+Z232 !s108 1416618258.932000
+Z233 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/nand_gate.vhd|
+Z234 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/nand_gate.vhd|
 !i113 1
 R12
 R13
@@ -1534,11 +1575,11 @@ Vmc;dGB9PFB8Va]cJiKPnA3
 !s100 DdgXSJTenGYMFNYGk^j2^2
 R7
 32
-R225
+R220
 !i10b 1
-R226
-R227
-R228
+R232
+R233
+R234
 !i113 1
 R12
 R13
@@ -1547,19 +1588,19 @@ R46
 R2
 R3
 R4
-Z229 8C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/nand_gate_32.vhd
-Z230 FC:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/nand_gate_32.vhd
+Z235 8C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/nand_gate_32.vhd
+Z236 FC:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/nand_gate_32.vhd
 l0
 L5
 VQ7HWC=HJVfdNKlmLIkMma2
 !s100 d7`oU3cRhD_iz]OR?aJbM0
 R7
 32
-Z231 !s110 1416521592
+Z237 !s110 1416618259
 !i10b 1
-Z232 !s108 1416521592.145000
-Z233 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/nand_gate_32.vhd|
-Z234 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/nand_gate_32.vhd|
+Z238 !s108 1416618259.485000
+Z239 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/nand_gate_32.vhd|
+Z240 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/nand_gate_32.vhd|
 !i113 1
 R12
 R13
@@ -1573,11 +1614,11 @@ VK]`eXcoP?:P;fL`IZDg_33
 !s100 5L7`cY6bRPYMYkmEYAg871
 R7
 32
-R231
+R237
 !i10b 1
-R232
-R233
-R234
+R238
+R239
+R240
 !i113 1
 R12
 R13
@@ -1586,19 +1627,19 @@ R46
 R2
 R3
 R4
-Z235 8C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/nand_gate_n.vhd
-Z236 FC:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/nand_gate_n.vhd
+Z241 8C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/nand_gate_n.vhd
+Z242 FC:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/nand_gate_n.vhd
 l0
 L5
 Vd^AhAU01S^7Y4JlPiBl:g3
 !s100 LMidV?0i^0NCQXjDDfE0j1
 R7
 32
-Z237 !s110 1416521593
+Z243 !s110 1416618260
 !i10b 1
-Z238 !s108 1416521593.068000
-Z239 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/nand_gate_n.vhd|
-Z240 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/nand_gate_n.vhd|
+Z244 !s108 1416618260.629000
+Z245 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/nand_gate_n.vhd|
+Z246 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/nand_gate_n.vhd|
 !i113 1
 R12
 R13
@@ -1612,33 +1653,33 @@ VhPSaT<<CzCS1C=bQ>Y:zY1
 !s100 5mzmEVJ8`Ol]kLAA1ADTS0
 R7
 32
-R237
+R243
 !i10b 1
-R238
-R239
-R240
+R244
+R245
+R246
 !i113 1
 R12
 R13
 Enor_32
-R64
+R65
 R1
 R2
 R3
 R4
-Z241 8C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/nor_32.vhd
-Z242 FC:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/nor_32.vhd
+Z247 8C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/nor_32.vhd
+Z248 FC:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/nor_32.vhd
 l0
 L6
 VA3jaGXFkYOGgR>41`0;Kh0
 !s100 =aD`TBcAJ7TQ<bLWcEHS71
 R7
 32
-R187
+Z249 !s110 1416618298
 !i10b 1
-Z243 !s108 1416521615.690000
-Z244 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/nor_32.vhd|
-Z245 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/nor_32.vhd|
+Z250 !s108 1416618298.028000
+Z251 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/nor_32.vhd|
+Z252 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/nor_32.vhd|
 !i113 1
 R12
 R13
@@ -1653,11 +1694,11 @@ Vn1KMR5_17n_3daEjTEVM13
 !s100 VTgeP7:L4iaD0Ka9EQV_H3
 R7
 32
-R187
+R249
 !i10b 1
-R243
-R244
-R245
+R250
+R251
+R252
 !i113 1
 R12
 R13
@@ -1666,19 +1707,19 @@ R46
 R2
 R3
 R4
-Z246 8C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/nor_gate.vhd
-Z247 FC:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/nor_gate.vhd
+Z253 8C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/nor_gate.vhd
+Z254 FC:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/nor_gate.vhd
 l0
 L5
 Vl4NcfXKNiThldYNcnP5;o2
 !s100 Uz[KW04m>JL2N=<Ae_26A3
 R7
 32
-R237
+Z255 !s110 1416618261
 !i10b 1
-Z248 !s108 1416521593.769000
-Z249 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/nor_gate.vhd|
-Z250 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/nor_gate.vhd|
+Z256 !s108 1416618261.219000
+Z257 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/nor_gate.vhd|
+Z258 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/nor_gate.vhd|
 !i113 1
 R12
 R13
@@ -1692,11 +1733,11 @@ VKa[[7jgRMIb1_iK<QKz2R3
 !s100 kE2E`N:jBl`5f7h@CAkLc3
 R7
 32
-R237
+R255
 !i10b 1
-R248
-R249
-R250
+R256
+R257
+R258
 !i113 1
 R12
 R13
@@ -1705,19 +1746,19 @@ R46
 R2
 R3
 R4
-Z251 8C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/nor_gate_32.vhd
-Z252 FC:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/nor_gate_32.vhd
+Z259 8C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/nor_gate_32.vhd
+Z260 FC:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/nor_gate_32.vhd
 l0
 L5
 V]Ta:lVnBf>1l]Wn18fddR1
 !s100 3mdJRKLJ_1Z1ih<o1WC>A3
 R7
 32
-Z253 !s110 1416521594
+R255
 !i10b 1
-Z254 !s108 1416521594.504000
-Z255 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/nor_gate_32.vhd|
-Z256 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/nor_gate_32.vhd|
+Z261 !s108 1416618261.767000
+Z262 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/nor_gate_32.vhd|
+Z263 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/nor_gate_32.vhd|
 !i113 1
 R12
 R13
@@ -1731,11 +1772,11 @@ VO2Pz=mOESO?_VkSnX;2[h1
 !s100 4C[N[o;dbNU?^;JAFz8P@0
 R7
 32
-R253
-!i10b 1
-R254
 R255
-R256
+!i10b 1
+R261
+R262
+R263
 !i113 1
 R12
 R13
@@ -1744,19 +1785,19 @@ R46
 R2
 R3
 R4
-Z257 8C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/nor_gate_n.vhd
-Z258 FC:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/nor_gate_n.vhd
+Z264 8C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/nor_gate_n.vhd
+Z265 FC:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/nor_gate_n.vhd
 l0
 L5
 V<g@BZYRAl27b0zBj]hAQA3
 !s100 WOgXHNaOaa3V@ZQR9[dBF2
 R7
 32
-Z259 !s110 1416521595
+Z266 !s110 1416618262
 !i10b 1
-Z260 !s108 1416521595.187000
-Z261 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/nor_gate_n.vhd|
-Z262 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/nor_gate_n.vhd|
+Z267 !s108 1416618262.326000
+Z268 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/nor_gate_n.vhd|
+Z269 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/nor_gate_n.vhd|
 !i113 1
 R12
 R13
@@ -1770,11 +1811,11 @@ VhDFW?hDGVTc>S8Vj5`kMU0
 !s100 LLY;[lESSHQFLXI0BM0Lk2
 R7
 32
-R259
+R266
 !i10b 1
-R260
-R261
-R262
+R267
+R268
+R269
 !i113 1
 R12
 R13
@@ -1783,19 +1824,19 @@ R46
 R2
 R3
 R4
-Z263 8C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/not_gate.vhd
-Z264 FC:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/not_gate.vhd
+Z270 8C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/not_gate.vhd
+Z271 FC:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/not_gate.vhd
 l0
 L5
 Va2jU0gU?ahMAOCzX>hcie3
 !s100 ZFL^eh?^CT8f=9?@;fY^P1
 R7
 32
-R259
+R266
 !i10b 1
-Z265 !s108 1416521595.771000
-Z266 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/not_gate.vhd|
-Z267 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/not_gate.vhd|
+Z272 !s108 1416618262.908000
+Z273 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/not_gate.vhd|
+Z274 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/not_gate.vhd|
 !i113 1
 R12
 R13
@@ -1809,11 +1850,11 @@ VSd>_hU>oSoTbK=><35n<J1
 !s100 0K4o_`::YhV<`CcAlY38V3
 R7
 32
-R259
-!i10b 1
-R265
 R266
-R267
+!i10b 1
+R272
+R273
+R274
 !i113 1
 R12
 R13
@@ -1822,19 +1863,19 @@ R46
 R2
 R3
 R4
-Z268 8C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/not_gate_32.vhd
-Z269 FC:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/not_gate_32.vhd
+Z275 8C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/not_gate_32.vhd
+Z276 FC:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/not_gate_32.vhd
 l0
 L5
 Vbc@1G6Pn;1QIPj9N?dX;R3
 !s100 MlQa>L3D?j3YTME?WDA^I3
 R7
 32
-Z270 !s110 1416521596
+Z277 !s110 1416618263
 !i10b 1
-Z271 !s108 1416521596.392000
-Z272 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/not_gate_32.vhd|
-Z273 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/not_gate_32.vhd|
+Z278 !s108 1416618263.451000
+Z279 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/not_gate_32.vhd|
+Z280 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/not_gate_32.vhd|
 !i113 1
 R12
 R13
@@ -1848,11 +1889,11 @@ Vi3iP4D6`igl`ehm^d4^co2
 !s100 SZ]KSd]7=<``cT7UO3c^32
 R7
 32
-R270
+R277
 !i10b 1
-R271
-R272
-R273
+R278
+R279
+R280
 !i113 1
 R12
 R13
@@ -1861,19 +1902,19 @@ R46
 R2
 R3
 R4
-Z274 8C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/not_gate_n.vhd
-Z275 FC:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/not_gate_n.vhd
+Z281 8C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/not_gate_n.vhd
+Z282 FC:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/not_gate_n.vhd
 l0
 L5
 VkY>E^h@zmf?^JH:]<>5jN0
 !s100 IMo29cac8Wo2jk<h1@>Y41
 R7
 32
-Z276 !s110 1416521597
+Z283 !s110 1416618264
 !i10b 1
-Z277 !s108 1416521597.177000
-Z278 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/not_gate_n.vhd|
-Z279 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/not_gate_n.vhd|
+Z284 !s108 1416618264.039000
+Z285 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/not_gate_n.vhd|
+Z286 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/not_gate_n.vhd|
 !i113 1
 R12
 R13
@@ -1887,11 +1928,11 @@ V[?@bjFlkW]?Eigeec4`<]1
 !s100 f1R?C4QOI1W16^[L00fF`1
 R7
 32
-R276
+R283
 !i10b 1
-R277
-R278
-R279
+R284
+R285
+R286
 !i113 1
 R12
 R13
@@ -1900,19 +1941,19 @@ R46
 R2
 R3
 R4
-Z280 8C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/or_gate.vhd
-Z281 FC:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/or_gate.vhd
+Z287 8C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/or_gate.vhd
+Z288 FC:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/or_gate.vhd
 l0
 L5
 VI0bn=1KP2N19:Qz72M5BR3
 !s100 P4NBKo^c]hz<z`LINQA5?3
 R7
 32
-R276
+R283
 !i10b 1
-Z282 !s108 1416521597.850000
-Z283 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/or_gate.vhd|
-Z284 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/or_gate.vhd|
+Z289 !s108 1416618264.593000
+Z290 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/or_gate.vhd|
+Z291 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/or_gate.vhd|
 !i113 1
 R12
 R13
@@ -1926,11 +1967,11 @@ VMWOz`KXoz4S7hV@cG3bY]1
 !s100 imjaYVkITBGK@1]KZ;:O?1
 R7
 32
-R276
-!i10b 1
-R282
 R283
-R284
+!i10b 1
+R289
+R290
+R291
 !i113 1
 R12
 R13
@@ -1939,19 +1980,19 @@ R46
 R2
 R3
 R4
-Z285 8C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/or_gate_32.vhd
-Z286 FC:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/or_gate_32.vhd
+Z292 8C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/or_gate_32.vhd
+Z293 FC:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/or_gate_32.vhd
 l0
 L5
 V62h?8Mlfl`WN<[W?cCkTI0
 !s100 XkkR6QF?Vl4ZJYEZjo;0l2
 R7
 32
-Z287 !s110 1416521598
+Z294 !s110 1416618265
 !i10b 1
-Z288 !s108 1416521598.507000
-Z289 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/or_gate_32.vhd|
-Z290 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/or_gate_32.vhd|
+Z295 !s108 1416618265.157000
+Z296 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/or_gate_32.vhd|
+Z297 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/or_gate_32.vhd|
 !i113 1
 R12
 R13
@@ -1965,11 +2006,11 @@ Vl1M<aAZJ1D^S3_3^W_^IR3
 !s100 K:BE?onG;^0[1Z5dkfcRR0
 R7
 32
-R287
+R294
 !i10b 1
-R288
-R289
-R290
+R295
+R296
+R297
 !i113 1
 R12
 R13
@@ -1978,19 +2019,19 @@ R46
 R2
 R3
 R4
-Z291 8C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/or_gate_n.vhd
-Z292 FC:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/or_gate_n.vhd
+Z298 8C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/or_gate_n.vhd
+Z299 FC:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/or_gate_n.vhd
 l0
 L5
 Vzn[6N]nRC@T4X2TN[5l?_0
 !s100 Y[01iFT>714d^L[KJ4VM82
 R7
 32
-Z293 !s110 1416521599
+R294
 !i10b 1
-Z294 !s108 1416521599.176000
-Z295 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/or_gate_n.vhd|
-Z296 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/or_gate_n.vhd|
+Z300 !s108 1416618265.716000
+Z301 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/or_gate_n.vhd|
+Z302 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/or_gate_n.vhd|
 !i113 1
 R12
 R13
@@ -2004,16 +2045,16 @@ V92IH<JT]B^;>eHZBo@=fg0
 !s100 X0T0eOJ7Mi7@HZjHoZO6:3
 R7
 32
-R293
-!i10b 1
 R294
-R295
-R296
+!i10b 1
+R300
+R301
+R302
 !i113 1
 R12
 R13
 Epc_logic
-Z297 w1416524386
+R0
 R29
 R30
 R31
@@ -2022,19 +2063,19 @@ R1
 R2
 R3
 R4
-Z298 8C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/pc_logic.vhd
-Z299 FC:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/pc_logic.vhd
+Z303 8C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/pc_logic.vhd
+Z304 FC:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/pc_logic.vhd
 l0
 L8
 V=fmnzCBLBLJ12g;8aZ:n]3
 !s100 >aGP8=Q6kd]B^TR20m^aj3
 R7
 32
-Z300 !s110 1416524405
+R105
 !i10b 1
-Z301 !s108 1416524405.163000
-Z302 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/pc_logic.vhd|
-Z303 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/pc_logic.vhd|
+Z305 !s108 1416618312.901000
+Z306 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/pc_logic.vhd|
+Z307 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/pc_logic.vhd|
 !i113 1
 R12
 R13
@@ -2046,39 +2087,39 @@ R32
 R1
 R2
 R3
-Z304 DEx4 work 8 pc_logic 0 22 =fmnzCBLBLJ12g;8aZ:n]3
-l94
+DEx4 work 8 pc_logic 0 22 =fmnzCBLBLJ12g;8aZ:n]3
+l104
 L21
-VQQ76]42O5@Wc<QXKgQMR;3
-!s100 ;kR<SofViJlPmkYafcFKZ0
+Vl=dASWZY3G]C?ZaCBcEli3
+!s100 Bo;^h0Le520g8zjAH^fHH3
 R7
 32
-R300
+R105
 !i10b 1
-R301
-R302
-R303
+R305
+R306
+R307
 !i113 1
 R12
 R13
 Epc_logic_tb
-R159
+Z308 w1416514393
 R2
 R3
 R4
-Z305 8C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/pc_logic_tb.vhd
-Z306 FC:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/pc_logic_tb.vhd
+Z309 8C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/pc_logic_tb.vhd
+Z310 FC:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/pc_logic_tb.vhd
 l0
 L4
 VcQRMRm9Pl=k8IP4d59;o81
 !s100 NKChQSoE9PfU[L>8Gm6TO0
 R7
 32
-Z307 !s110 1416521624
+R18
 !i10b 1
-Z308 !s108 1416521624.299000
-Z309 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/pc_logic_tb.vhd|
-Z310 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/pc_logic_tb.vhd|
+Z311 !s108 1416618308.043000
+Z312 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/pc_logic_tb.vhd|
+Z313 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/pc_logic_tb.vhd|
 !i113 1
 R12
 R13
@@ -2092,34 +2133,34 @@ VX53f=:HEl4I0SMW>R=G1h0
 !s100 2VUk:8l4VLDVH7M^bOYOK2
 R7
 32
-R307
+R18
 !i10b 1
-R308
-R309
-R310
+R311
+R312
+R313
 !i113 1
 R12
 R13
 Eregister1
-Z311 w1415484122
+Z314 w1415484122
 R15
 R1
 R2
 R3
 R4
-Z312 8C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/register1.vhd
-Z313 FC:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/register1.vhd
+Z315 8C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/register1.vhd
+Z316 FC:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/register1.vhd
 l0
 L5
 V8Pb5c1TX0G8_?SNmGEY?92
 !s100 B_4MI20OA@Fnf3=[ld4WQ0
 R7
 32
-Z314 !s110 1416521616
+Z317 !s110 1416618299
 !i10b 1
-Z315 !s108 1416521616.360000
-Z316 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/register1.vhd|
-Z317 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/register1.vhd|
+Z318 !s108 1416618299.732000
+Z319 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/register1.vhd|
+Z320 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/register1.vhd|
 !i113 1
 R12
 R13
@@ -2135,34 +2176,34 @@ VUMe0EAXSOgG40dJJH68Ri1
 !s100 m^Gh:[b1AmDbg2F_SLdCh0
 R7
 32
-R314
-!i10b 1
-R315
-R316
 R317
+!i10b 1
+R318
+R319
+R320
 !i113 1
 R12
 R13
 Eregister32
-R311
+Z321 w1416568237
 R15
 R2
 R3
 R1
 R4
-Z318 8C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/register32.vhd
-Z319 FC:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/register32.vhd
+Z322 8C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/register32.vhd
+Z323 FC:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/register32.vhd
 l0
 L6
-V6kizbPB8mh8j8>7X;ddg?1
-!s100 SSS[Cf^YeYKMl=cE86An_2
+V;I4R[aUlG:J59SeGZOV>92
+!s100 d]WlQaQfeZgBGl_k<25n40
 R7
 32
-R314
+Z324 !s110 1416618300
 !i10b 1
-Z320 !s108 1416521616.973000
-Z321 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/register32.vhd|
-Z322 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/register32.vhd|
+Z325 !s108 1416618300.291000
+Z326 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/register32.vhd|
+Z327 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/register32.vhd|
 !i113 1
 R12
 R13
@@ -2171,39 +2212,39 @@ R15
 R2
 R3
 R1
-DEx4 work 10 register32 0 22 6kizbPB8mh8j8>7X;ddg?1
-l27
-L15
-V8`_T5PCb5g`jglgA6bX<_1
-!s100 dW?jjRlNo]RgTMeLdQ@o?3
+DEx4 work 10 register32 0 22 ;I4R[aUlG:J59SeGZOV>92
+l31
+L16
+VR]YQDM528FVd`L<K6bBfJ3
+!s100 Y<D1]fhfQ_N=;F8@;`_LG2
 R7
 32
-Z323 !s110 1416521617
+R324
 !i10b 1
-R320
-R321
-R322
+R325
+R326
+R327
 !i113 1
 R12
 R13
 Eregister32_demo
-R311
+R314
 R2
 R3
 R4
-Z324 8C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/register32_demo.vhd
-Z325 FC:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/register32_demo.vhd
+Z328 8C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/register32_demo.vhd
+Z329 FC:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/register32_demo.vhd
 l0
 L4
 VElzNh`C[R?N2z6VPKVV4X2
 !s100 DDJDVJE56T1:e2:za8WY?2
 R7
 32
-R323
+R324
 !i10b 1
-Z326 !s108 1416521617.635000
-Z327 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/register32_demo.vhd|
-Z328 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/register32_demo.vhd|
+Z330 !s108 1416618300.926000
+Z331 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/register32_demo.vhd|
+Z332 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/register32_demo.vhd|
 !i113 1
 R12
 R13
@@ -2217,33 +2258,33 @@ V8Z3TObb1l5<LC>b5M_DXP0
 !s100 TRz3P=M6ROM1zZfJR1>6m1
 R7
 32
-R323
+R324
 !i10b 1
-R326
-R327
-R328
+R330
+R331
+R332
 !i113 1
 R12
 R13
 Eregisterfile32
-R64
+R321
 R2
 R3
 R1
 R4
-Z329 8C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/registerfile32.vhd
-Z330 FC:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/registerfile32.vhd
+Z333 8C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/registerfile32.vhd
+Z334 FC:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/registerfile32.vhd
 l0
 L6
-VUCHiXeJUQL9nYVQd?P78O2
-!s100 c4`dI]TU`6k]FV5hGfN4z3
+V]YM881emmm:`IY2A3fORC0
+!s100 al;1[1Y2<;fA::IFL]3?z1
 R7
 32
-Z331 !s110 1416521618
+Z335 !s110 1416618301
 !i10b 1
-Z332 !s108 1416521618.279000
-Z333 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/registerfile32.vhd|
-Z334 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/registerfile32.vhd|
+Z336 !s108 1416618301.555000
+Z337 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/registerfile32.vhd|
+Z338 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/registerfile32.vhd|
 !i113 1
 R12
 R13
@@ -2251,39 +2292,39 @@ Astruct
 R2
 R3
 R1
-DEx4 work 14 registerfile32 0 22 UCHiXeJUQL9nYVQd?P78O2
-l79
-L20
-Vm=[S0L@bLlCP`5za`djk90
-!s100 >K`k`g^?7?LMfe2LSBeZ;3
+DEx4 work 14 registerfile32 0 22 ]YM881emmm:`IY2A3fORC0
+l81
+L21
+VD<lDfJ46fmbOMcC=Xa6Nz2
+!s100 hO65@kdA=:>UMgQkhmZzR2
 R7
 32
-R331
+R335
 !i10b 1
-R332
-R333
-R334
+R336
+R337
+R338
 !i113 1
 R12
 R13
 Eregisterfile32_tb
-R64
+R65
 R2
 R3
 R4
-Z335 8C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/registerfile32_tb.vhd
-Z336 FC:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/registerfile32_tb.vhd
+Z339 8C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/registerfile32_tb.vhd
+Z340 FC:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/registerfile32_tb.vhd
 l0
 L4
 V5zWhF29bk4XeUKC>WPLJ@2
 !s100 mm=JKUH<W:]<z=AU]UElh1
 R7
 32
-R139
+Z341 !s110 1416618305
 !i10b 1
-Z337 !s108 1416521622.134000
-Z338 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/registerfile32_tb.vhd|
-Z339 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/registerfile32_tb.vhd|
+Z342 !s108 1416618305.657000
+Z343 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/registerfile32_tb.vhd|
+Z344 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/registerfile32_tb.vhd|
 !i113 1
 R12
 R13
@@ -2297,33 +2338,33 @@ V8J_NdjJ:IMk<j@:2]KEef3
 !s100 cMojYWfZS`35YbQz5i_^e2
 R7
 32
-R139
+R341
 !i10b 1
-R337
-R338
-R339
+R342
+R343
+R344
 !i113 1
 R12
 R13
 Eregselector
-R64
+R65
 R2
 R3
 R1
 R4
-Z340 8C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/regSelector.vhd
-Z341 FC:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/regSelector.vhd
+Z345 8C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/regSelector.vhd
+Z346 FC:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/regSelector.vhd
 l0
 L6
 VT8h]WMkWQE80k9f1NK43a3
 !s100 6j2=0k<=V9BOVLSzGghYD2
 R7
 32
-R331
+Z347 !s110 1416618302
 !i10b 1
-Z342 !s108 1416521618.956000
-Z343 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/regSelector.vhd|
-Z344 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/regSelector.vhd|
+Z348 !s108 1416618302.166000
+Z349 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/regSelector.vhd|
+Z350 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/regSelector.vhd|
 !i113 1
 R12
 R13
@@ -2338,34 +2379,34 @@ ViIkiE4d5PDJAem7m5JX4N2
 !s100 jHb29_gL<i_oM0<^cnc<e0
 R7
 32
-R331
+R347
 !i10b 1
-R342
-R343
-R344
+R348
+R349
+R350
 !i113 1
 R12
 R13
 Eshift_32
-R64
+R0
 R1
 R15
 R2
 R3
 R4
-Z345 8C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/shift_32.vhd
-Z346 FC:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/shift_32.vhd
+Z351 8C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/shift_32.vhd
+Z352 FC:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/shift_32.vhd
 l0
 L5
 Vm7=R9UmoiT_?SjNPQYOMZ1
 !s100 5>ao]Tz[6YI6;4n;GB`Fb2
 R7
 32
-Z347 !s110 1416521619
+R347
 !i10b 1
-Z348 !s108 1416521619.639000
-Z349 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/shift_32.vhd|
-Z350 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/shift_32.vhd|
+Z353 !s108 1416618302.757000
+Z354 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/shift_32.vhd|
+Z355 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/shift_32.vhd|
 !i113 1
 R12
 R13
@@ -2377,38 +2418,38 @@ R3
 DEx4 work 8 shift_32 0 22 m7=R9UmoiT_?SjNPQYOMZ1
 l21
 L17
-V6G:le[Zk2SFfb`DREJZhg0
-!s100 :O>l3XDh@Mg``ZaQ;ACHA0
+Vf;OA=RQjHTA^XQ<;f=U[U2
+!s100 58PZAUW7O9F>neRG>PUUd2
 R7
 32
 R347
 !i10b 1
-R348
-R349
-R350
+R353
+R354
+R355
 !i113 1
 R12
 R13
 Esll_32
-R64
+R0
 R1
 R15
 R2
 R3
 R4
-Z351 8C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/sll_32.vhd
-Z352 FC:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/sll_32.vhd
+Z356 8C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/sll_32.vhd
+Z357 FC:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/sll_32.vhd
 l0
 L5
-VWQkbUCUOz<X2]ndRYPg:T2
-!s100 QHEShF1MJ``0BnUzn8XDG0
+VYUZOdbTeDOV51`oWB6L9b1
+!s100 ZDmB@On6EN1CX6lWDCAlW0
 R7
 32
-Z353 !s110 1416521620
+Z358 !s110 1416618303
 !i10b 1
-Z354 !s108 1416521620.241000
-Z355 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/sll_32.vhd|
-Z356 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/sll_32.vhd|
+Z359 !s108 1416618303.325000
+Z360 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/sll_32.vhd|
+Z361 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/sll_32.vhd|
 !i113 1
 R12
 R13
@@ -2417,41 +2458,41 @@ R1
 R15
 R2
 R3
-DEx4 work 6 sll_32 0 22 WQkbUCUOz<X2]ndRYPg:T2
-l32
-L15
-Vgh^3_Bk3^[V4[=36anTBZ1
-!s100 Ei8onWe71jTmZ3Io63FFH1
+DEx4 work 6 sll_32 0 22 YUZOdbTeDOV51`oWB6L9b1
+l33
+L16
+V_jQ1l5zlXT7SUH7k@lQ2X1
+!s100 A4CG2CEX_7fo3PT<Ro<iC0
 R7
 32
-R353
+R358
 !i10b 1
-R354
-R355
-R356
+R359
+R360
+R361
 !i113 1
 R12
 R13
 Esll_32_alt
-Z357 w1416520962
+Z362 w1416520962
 R1
 R15
 R2
 R3
 R4
-Z358 8C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/sll_32_alt.vhd
-Z359 FC:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/sll_32_alt.vhd
+Z363 8C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/sll_32_alt.vhd
+Z364 FC:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/sll_32_alt.vhd
 l0
 L5
 V9a@j9WNdA0O[c]`Nmm7z00
 !s100 ?SU3NhzBm@dLG_zEo`2b<2
 R7
 32
-R353
+R358
 !i10b 1
-Z360 !s108 1416521620.889000
-Z361 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/sll_32_alt.vhd|
-Z362 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/sll_32_alt.vhd|
+Z365 !s108 1416618303.960000
+Z366 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/sll_32_alt.vhd|
+Z367 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/sll_32_alt.vhd|
 !i113 1
 R12
 R13
@@ -2467,33 +2508,33 @@ VlNd6^VRSlzC98KikC1N?G2
 !s100 cF;M`EA^3H850ZNjPnClL0
 R7
 32
-R353
+R358
 !i10b 1
-R360
-R361
-R362
+R365
+R366
+R367
 !i113 1
 R12
 R13
 Eslt_32
-R64
+R65
 R1
 R2
 R3
 R4
-Z363 8C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/slt_32.vhd
-Z364 FC:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/slt_32.vhd
+Z368 8C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/slt_32.vhd
+Z369 FC:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/slt_32.vhd
 l0
 L5
 VbX89hJ[[g`GADoVihBY>62
 !s100 8CPGRkT87^ZJNI]e;4N<b3
 R7
 32
-Z365 !s110 1416521621
+Z370 !s110 1416618304
 !i10b 1
-Z366 !s108 1416521621.551000
-Z367 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/slt_32.vhd|
-Z368 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/slt_32.vhd|
+Z371 !s108 1416618304.790000
+Z372 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/slt_32.vhd|
+Z373 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/slt_32.vhd|
 !i113 1
 R12
 R13
@@ -2508,33 +2549,33 @@ V4Xdj=FT>iMom`>F<Hj@M:2
 !s100 hWI_AB]4M`C=>T=b9a1oK1
 R7
 32
-R365
+R370
 !i10b 1
-R366
-R367
-R368
+R371
+R372
+R373
 !i113 1
 R12
 R13
 Esltu_32
-R64
+R65
 R1
 R2
 R3
 R4
-Z369 8C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/sltu_32.vhd
-Z370 FC:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/sltu_32.vhd
+Z374 8C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/sltu_32.vhd
+Z375 FC:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/sltu_32.vhd
 l0
 L5
 VMOd=[4?aO?eFd9c=VzTU^1
 !s100 a]50U4Rfez^5I_EZEgM=51
 R7
 32
-Z371 !s110 1416521610
+Z376 !s110 1416618283
 !i10b 1
-Z372 !s108 1416521610.324000
-Z373 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/sltu_32.vhd|
-Z374 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/sltu_32.vhd|
+Z377 !s108 1416618283.763000
+Z378 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/sltu_32.vhd|
+Z379 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/sltu_32.vhd|
 !i113 1
 R12
 R13
@@ -2549,11 +2590,11 @@ Vc[GZKAdji27EFS9IV_BGT1
 !s100 [gHRV:b`^e3KJ16e0Shee1
 R7
 32
-R371
+R376
 !i10b 1
-R372
-R373
-R374
+R377
+R378
+R379
 !i113 1
 R12
 R13
@@ -2566,19 +2607,19 @@ R32
 R2
 R3
 R4
-Z375 8C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/sram.vhd
-Z376 FC:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/sram.vhd
+Z380 8C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/sram.vhd
+Z381 FC:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/sram.vhd
 l0
 L12
 VjMAm^bfJIg7Ekk9RIXHeS0
 !s100 4U[]`8DWS[aYZMb6m^0<A1
 R7
 32
-R293
+Z382 !s110 1416618266
 !i10b 1
-Z377 !s108 1416521599.952000
-Z378 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/sram.vhd|
-Z379 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/sram.vhd|
+Z383 !s108 1416618266.270000
+Z384 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/sram.vhd|
+Z385 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/sram.vhd|
 !i113 1
 R12
 R13
@@ -2596,35 +2637,35 @@ V=TzGLV@Gzj]bf_83=R^l^3
 !s100 1UZ=:h7PhO2;@=]V1B[GV1
 R7
 32
-R293
+R382
 !i10b 1
-R377
-R378
-R379
+R383
+R384
+R385
 !i113 1
 R12
 R13
 Esram_demo
-Z380 w1416420534
+Z386 w1416420534
 R15
 R1
 R29
 R2
 R3
 R4
-Z381 8C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/sram_demo.vhd
-Z382 FC:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/sram_demo.vhd
+Z387 8C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/sram_demo.vhd
+Z388 FC:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/sram_demo.vhd
 l0
 L8
 ViPj]D@eJ<e=`2KLhaQjF12
 !s100 @mNUG=CM7[8E4:jA:^@SQ1
 R7
 32
-Z383 !s110 1416521628
+Z389 !s110 1416618313
 !i10b 1
-Z384 !s108 1416521628.737000
-Z385 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/sram_demo.vhd|
-Z386 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/sram_demo.vhd|
+Z390 !s108 1416618313.730000
+Z391 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/sram_demo.vhd|
+Z392 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/sram_demo.vhd|
 !i113 1
 R12
 R13
@@ -2641,11 +2682,11 @@ Vho:T3S7Qe]djDYifm=>of2
 !s100 N;IfL8zl>]SL?SEz3Z4Co3
 R7
 32
-R383
+R389
 !i10b 1
-R384
-R385
-R386
+R390
+R391
+R392
 !i113 1
 R12
 R13
@@ -2658,19 +2699,19 @@ R32
 R2
 R3
 R4
-Z387 8C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/syncram.vhd
-Z388 FC:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/syncram.vhd
+Z393 8C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/syncram.vhd
+Z394 FC:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/syncram.vhd
 l0
 L12
 V9SF6a]cFn[EkodD;4OT_h0
 !s100 aFnLlL1@m415d6em?MG^21
 R7
 32
-Z389 !s110 1416521600
+R382
 !i10b 1
-Z390 !s108 1416521600.664000
-Z391 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/syncram.vhd|
-Z392 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/syncram.vhd|
+Z395 !s108 1416618266.852000
+Z396 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/syncram.vhd|
+Z397 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/syncram.vhd|
 !i113 1
 R12
 R13
@@ -2688,11 +2729,50 @@ V`V1W?_S89^YMz7nNZIMVB1
 !s100 W:<cVUTVPgIfz60fOOgQ20
 R7
 32
-R389
+R382
 !i10b 1
-R390
-R391
-R392
+R395
+R396
+R397
+!i113 1
+R12
+R13
+Etb_sortcorrectedbranch
+Z398 w1416623390
+R2
+R3
+R4
+R168
+R169
+l0
+L4
+Vo]S>EdNQ1JnafoLTW5nem0
+!s100 g9BiAYTF?4L;lSO8F;Cd41
+R7
+32
+Z399 !s110 1416623402
+!i10b 1
+Z400 !s108 1416623402.153000
+R172
+R173
+!i113 1
+R12
+R13
+Astruct
+R2
+R3
+Z401 DEx4 work 22 tb_sortcorrectedbranch 0 22 o]S>EdNQ1JnafoLTW5nem0
+l26
+L8
+V4VbS>R6eX;0Z:6R0gGj<P3
+!s100 2D:ADAFa<W4oB_`^L>W?Y0
+R7
+32
+R399
+!i10b 1
+R400
+R172
+R173
 !i113 1
 R12
 R13
@@ -2701,19 +2781,19 @@ R46
 R2
 R3
 R4
-Z393 8C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/xnor_gate.vhd
-Z394 FC:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/xnor_gate.vhd
+Z402 8C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/xnor_gate.vhd
+Z403 FC:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/xnor_gate.vhd
 l0
 L5
 V64cWg<O7h^DkP_G;TSfFb3
 !s100 VMF9C>DP[5;VOiN5[aESd3
 R7
 32
-Z395 !s110 1416521601
+Z404 !s110 1416618267
 !i10b 1
-Z396 !s108 1416521601.385000
-Z397 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/xnor_gate.vhd|
-Z398 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/xnor_gate.vhd|
+Z405 !s108 1416618267.419000
+Z406 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/xnor_gate.vhd|
+Z407 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/xnor_gate.vhd|
 !i113 1
 R12
 R13
@@ -2727,11 +2807,11 @@ VQi:Iak;D@9C9]:NzK;74n0
 !s100 ]_>oDFZN:PJ[HJie3IcK81
 R7
 32
-R395
+R404
 !i10b 1
-R396
-R397
-R398
+R405
+R406
+R407
 !i113 1
 R12
 R13
@@ -2740,19 +2820,19 @@ R46
 R2
 R3
 R4
-Z399 8C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/xnor_gate_32.vhd
-Z400 FC:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/xnor_gate_32.vhd
+Z408 8C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/xnor_gate_32.vhd
+Z409 FC:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/xnor_gate_32.vhd
 l0
 L5
 Vb;[YHU0[33T3iW>0faTEM1
 !s100 7TK64^z14nVXPK]cWgS3=0
 R7
 32
-Z401 !s110 1416521602
+R404
 !i10b 1
-Z402 !s108 1416521602.087000
-Z403 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/xnor_gate_32.vhd|
-Z404 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/xnor_gate_32.vhd|
+Z410 !s108 1416618267.972000
+Z411 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/xnor_gate_32.vhd|
+Z412 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/xnor_gate_32.vhd|
 !i113 1
 R12
 R13
@@ -2766,11 +2846,11 @@ Vj6oobg=Md_S?TNUXnEgQS1
 !s100 l]IKGhY:hL2aDUPV;>SB?0
 R7
 32
-R401
-!i10b 1
-R402
-R403
 R404
+!i10b 1
+R410
+R411
+R412
 !i113 1
 R12
 R13
@@ -2779,19 +2859,19 @@ R46
 R2
 R3
 R4
-Z405 8C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/xnor_gate_n.vhd
-Z406 FC:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/xnor_gate_n.vhd
+Z413 8C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/xnor_gate_n.vhd
+Z414 FC:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/xnor_gate_n.vhd
 l0
 L5
 V4EA6^j0IRIDB16NETgY=Y2
 !s100 UCY45ZALOU6@I^4jz3eW33
 R7
 32
-R401
+Z415 !s110 1416618268
 !i10b 1
-Z407 !s108 1416521602.774000
-Z408 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/xnor_gate_n.vhd|
-Z409 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/xnor_gate_n.vhd|
+Z416 !s108 1416618268.570000
+Z417 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/xnor_gate_n.vhd|
+Z418 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/xnor_gate_n.vhd|
 !i113 1
 R12
 R13
@@ -2805,11 +2885,11 @@ VN80JhF1hQ^[dBKNd[M=fT3
 !s100 dDail5hL?0zna@N:=D@8b2
 R7
 32
-R401
+R415
 !i10b 1
-R407
-R408
-R409
+R416
+R417
+R418
 !i113 1
 R12
 R13
@@ -2818,19 +2898,19 @@ R46
 R2
 R3
 R4
-Z410 8C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/xor_gate.vhd
-Z411 FC:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/xor_gate.vhd
+Z419 8C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/xor_gate.vhd
+Z420 FC:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/xor_gate.vhd
 l0
 L5
 V>:0of;3?<Db:J2P]bLRRE1
 !s100 K_6H3f?zAK@4`dnkC2j[K2
 R7
 32
-Z412 !s110 1416521603
+Z421 !s110 1416618269
 !i10b 1
-Z413 !s108 1416521603.529000
-Z414 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/xor_gate.vhd|
-Z415 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/xor_gate.vhd|
+Z422 !s108 1416618269.093000
+Z423 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/xor_gate.vhd|
+Z424 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/xor_gate.vhd|
 !i113 1
 R12
 R13
@@ -2844,11 +2924,11 @@ V?CjQI0YRXW2fDDWch@MCZ2
 !s100 e;mL^F4ENl;O2f_Ae@3MU2
 R7
 32
-R412
+R421
 !i10b 1
-R413
-R414
-R415
+R422
+R423
+R424
 !i113 1
 R12
 R13
@@ -2857,19 +2937,19 @@ R46
 R2
 R3
 R4
-Z416 8C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/xor_gate_32.vhd
-Z417 FC:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/xor_gate_32.vhd
+Z425 8C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/xor_gate_32.vhd
+Z426 FC:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/xor_gate_32.vhd
 l0
 L5
 VGbk[]dcIS]^URh4W`1n2k2
 !s100 IY:zIdH0EdL@PUV4ISe5M0
 R7
 32
-Z418 !s110 1416521604
+R421
 !i10b 1
-Z419 !s108 1416521604.189000
-Z420 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/xor_gate_32.vhd|
-Z421 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/xor_gate_32.vhd|
+Z427 !s108 1416618269.661000
+Z428 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/xor_gate_32.vhd|
+Z429 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/xor_gate_32.vhd|
 !i113 1
 R12
 R13
@@ -2883,11 +2963,11 @@ VzI^J^MZ^38iCSSjiao;;]1
 !s100 [@^nmEj?djZ;8jS41JD]@3
 R7
 32
-R418
-!i10b 1
-R419
-R420
 R421
+!i10b 1
+R427
+R428
+R429
 !i113 1
 R12
 R13
@@ -2896,19 +2976,19 @@ R46
 R2
 R3
 R4
-Z422 8C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/xor_gate_n.vhd
-Z423 FC:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/xor_gate_n.vhd
+Z430 8C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/xor_gate_n.vhd
+Z431 FC:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/xor_gate_n.vhd
 l0
 L5
 VM9]8CicZMP;K]3l`m2zdS3
 !s100 LPoPXbzH8=CBB]^6S5Unf1
 R7
 32
-R418
+Z432 !s110 1416618270
 !i10b 1
-Z424 !s108 1416521604.887000
-Z425 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/xor_gate_n.vhd|
-Z426 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/xor_gate_n.vhd|
+Z433 !s108 1416618270.247000
+Z434 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/xor_gate_n.vhd|
+Z435 !s107 C:/Users/Chris/Dropbox/2014_2015_FALL/EECS361/PROJECT2/mips_singlecycle_processor/eecs361lib/lib/xor_gate_n.vhd|
 !i113 1
 R12
 R13
@@ -2922,11 +3002,11 @@ V_NK2YA8924hnGVNBI=DYK3
 !s100 29oXRe`]fm02Bce^Do[3m2
 R7
 32
-R418
+R432
 !i10b 1
-R424
-R425
-R426
+R433
+R434
+R435
 !i113 1
 R12
 R13
