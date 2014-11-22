@@ -27,6 +27,7 @@ ENTITY alu_segment IS
 		MemtoReg: 	in std_logic;
 		ExtOp:		in std_logic;
 		ALUSrc:		in std_logic;
+		MemRead:	in std_logic;
 		--output
 		Equal:	 	out std_logic;
 		busW:		out std_logic_vector(31 downto 0);
@@ -175,7 +176,7 @@ ARCHITECTURE struct OF alu_segment IS
 		PORT MAP (
 			--clk=>clk,
 			cs => '1',
-			oe=>'1',
+			oe=>MemRead,
 			we=>MemWr,
 			addr=>ALU_R, 
 			din=>busB, 

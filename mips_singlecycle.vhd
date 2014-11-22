@@ -47,6 +47,7 @@ ARCHITECTURE struct OF mips_single_cycle IS
 			MemtoReg: 	in std_logic;
 			ExtOp:		in std_logic;
 			ALUSrc:		in std_logic;
+			MemRead:	in std_logic;
 			--output
 			Equal:	 	out std_logic;
 			busW:		out std_logic_vector(31 downto 0);
@@ -196,6 +197,7 @@ ARCHITECTURE struct OF mips_single_cycle IS
 		ALUctr => ALUCtrl,
 		MemWr => MemWr,
 		MemtoReg => MemtoReg,
+		MemRead => MemRead,
 		ExtOp => ExtOp,
 		ALUSrc => ALUSrc,
 		Equal => Equal,
