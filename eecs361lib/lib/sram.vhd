@@ -190,6 +190,7 @@ begin
       end if;
       if cs = '1' then
         if we = '1' then
+          report "write " & integer'image(to_integer(unsigned(din))) & " to " & integer'image(to_integer(unsigned(addr)));
           setWord(head, addr, din);
         end if;
         if oe = '1' then
