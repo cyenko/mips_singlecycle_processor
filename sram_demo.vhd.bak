@@ -21,7 +21,7 @@ architecture structural of sram_demo is
 	
 	begin
 		sram_map: sram 
-			generic map (mem_file => "bills_branch.dat")
+			generic map (mem_file => "sort_corrected_branch.dat")
 			port map (cs => cs, oe => oe, we => we, addr => addr, din => din, dout => dout);
 		cs <= ctrl_bus(2);
 		oe <= ctrl_bus(1);

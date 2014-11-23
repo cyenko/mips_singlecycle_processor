@@ -93,8 +93,8 @@ ARCHITECTURE struct OF mips_single_cycle IS
 	SIGNAL RegWr:	std_logic;
 	SIGNAL ALUCtrl:	std_logic_vector(3 downto 0);
 	SIGNAL MemWr:	std_logic:='0';
-	SIGNAL MemRead: std_logic:='0';
-	SIGNAL MemtoReg:std_logic:='0';
+	SIGNAL MemRead: std_logic='0';
+	SIGNAL MemtoReg:std_logic='0';
 	SIGNAL ExtOp:	std_logic;
 	SIGNAL ALUSrc:	std_logic;
 	

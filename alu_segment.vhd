@@ -51,13 +51,13 @@ ARCHITECTURE struct OF alu_segment IS
 	SIGNAL busW_in:	std_logic_vector(31 downto 0);
 	SIGNAL bs_cout : std_logic;
 	SIGNAL bs_ovf : std_logic;
-	--COMPONENT syncram IS
-	COMPONENT sram is
+	COMPONENT syncram IS
+	--COMPONENT sram is
 	  generic (
 		mem_file : string
 	  );
 	  port (
-		--clk   : in  std_logic;
+		clk   : in  std_logic;
 		cs	  : in	std_logic;
 		oe	  :	in	std_logic;
 		we	  :	in	std_logic;
@@ -65,8 +65,8 @@ ARCHITECTURE struct OF alu_segment IS
 		din	  :	in	std_logic_vector(31 downto 0);
 		dout  :	out std_logic_vector(31 downto 0)
 	  );
-	end COMPONENT sram;
-	-- END COMPONENT syncram;
+	--end COMPONENT sram;
+	END COMPONENT syncram;
 	
 	COMPONENT alu is
 	  port (
@@ -170,11 +170,11 @@ ARCHITECTURE struct OF alu_segment IS
 		z=>ALU_B
 	);
 	
-	memory_map: sram
-	--memory_map: syncram 
+	--memory_map: sram
+	memory_map: syncram 
 		GENERIC MAP (mem_file => mem_file)
 		PORT MAP (
-			--clk=>clk,
+			clk=>clk,
 			cs => '1',
 			oe=>MemRead,
 			we=>MemWr,
